@@ -45,6 +45,11 @@ export function getGameRules(game: GameMeta): GameRules {
     archetypeDefaults.correctPointsMin = 500;
     archetypeDefaults.correctPointsMax = 500;
     archetypeDefaults.incorrectPoints = -200;
+    archetypeDefaults.resultsTimeMs = 15000;
+    archetypeDefaults.promptTimeMs = 5000;
+  } else if (game.archetype === 'trivia' || game.archetype === 'survival-trivia') {
+    archetypeDefaults.resultsTimeMs = 15000;
+    archetypeDefaults.promptTimeMs = 5000;
   }
   return { ...DEFAULT_RULES, ...archetypeDefaults, ...overrides };
 }

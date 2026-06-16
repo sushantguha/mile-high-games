@@ -14,6 +14,7 @@ import { GameThemeShell } from '../components/GameThemeShell';
 import { useGameMeta } from '../hooks/useGameMeta';
 import { getGameTheme } from '../data/gameThemes';
 import { ConfettiBurst } from '../components/ConfettiBurst';
+import { TriviaRoundResults } from '../components/TriviaRoundResults';
 
 const GameInput = lazy(() =>
   import('../components/GameInput').then((m) => ({ default: m.GameInput })),
@@ -24,10 +25,14 @@ const GameVote = lazy(() =>
 
 interface Props {
   room: RoomState | null;
+  connected: boolean;
+  reconnecting: boolean;
+  error: string | null;
+  onClearError: () => void;
   onSelectGame: (id: string) => void;
   onStart: () => void;
-  onSubmit: (value: unknown) => void;
-  onVote: (targetId: string) => void;
+  onSubmit: (value: unknown) => Promise<{ ok: boolean; error?: string } | undefined>;
+  onVote: (targetId: string) => Promise<{ ok: boolean; error?: string } | undefined>;
   onSkip: () => void;
   onBackToLobby: () => void;
   onLeaveRoom: () => void;
@@ -42,8 +47,56 @@ function PhaseFallback() {
   );
 }
 
+function ConnectionBanner({
+  connected,
+  reconnecting,
+  error,
+  onClearError,
+}: {
+  connected: boolean;
+  reconnecting: boolean;
+  error: string | null;
+  onClearError: () => void;
+}) {
+  if (!reconnecting && connected && !error) return null;
+
+  const message = error
+    ?? (reconnecting || !connected ? 'Connection lost — reconnecting…' : null);
+  if (!message) return null;
+
+  return (
+    <div
+      className="card"
+      style={{
+        marginBottom: 12,
+        padding: '10px 14px',
+        background: error ? 'rgba(239, 68, 68, 0.15)' : 'rgba(234, 179, 8, 0.15)',
+        border: `1px solid ${error ? 'var(--danger)' : 'rgba(234, 179, 8, 0.5)'}`,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: 12,
+      }}
+      data-testid={error ? 'room-error-banner' : 'room-reconnect-banner'}
+    >
+      <p style={{ margin: 0, fontSize: 13, fontWeight: 600, color: error ? 'var(--danger)' : 'var(--text)' }}>
+        {message}
+      </p>
+      {error && (
+        <button type="button" className="btn btn-secondary" style={{ padding: '4px 10px', fontSize: 12 }} onClick={onClearError}>
+          Dismiss
+        </button>
+      )}
+    </div>
+  );
+}
+
 export function RoomPage({
   room,
+  connected,
+  reconnecting,
+  error,
+  onClearError,
   onSelectGame,
   onStart,
   onSubmit,
@@ -77,6 +130,12 @@ export function RoomPage({
         onEndGame={onBackToLobby}
         onLeaveRoom={onLeaveRoom}
         onStopHosting={onStopHosting}
+      />
+      <ConnectionBanner
+        connected={connected}
+        reconnecting={reconnecting}
+        error={error}
+        onClearError={onClearError}
       />
       {showGameSelect ? (
         <>
@@ -115,8 +174,8 @@ function PlayerView({
   room: RoomState;
   game: GameMeta | null;
   ready: boolean;
-  onSubmit: (v: unknown) => void;
-  onVote: (targetId: string) => void;
+  onSubmit: (v: unknown) => Promise<{ ok: boolean; error?: string } | undefined>;
+  onVote: (targetId: string) => Promise<{ ok: boolean; error?: string } | undefined>;
 }) {
   if (room.phase === 'lobby') {
     const theme = getGameTheme(room.gameId);
@@ -233,11 +292,14 @@ function PlayerView({
 
       {room.phase === 'results' && (
         <AnimatedEntrance anim="pop-in">
-        <div className="card card-glow" style={{ textAlign: 'center', padding: 24 }}>
-          {room.revealData?.correctAnswer && (
-            <p style={{ marginBottom: 8 }}>It was <strong>{room.revealData.correctAnswer}</strong></p>
+        <div>
+          {room.revealData?.correctAnswer || room.revealData?.playerResults?.length ? (
+            <TriviaRoundResults revealData={room.revealData} compact />
+          ) : (
+            <div className="card card-glow" style={{ textAlign: 'center', padding: 24 }}>
+              <p style={{ color: 'var(--success)', fontWeight: 700 }}>Round {room.round} results on host screen!</p>
+            </div>
           )}
-          <p style={{ color: 'var(--success)', fontWeight: 700 }}>Round {room.round} results on host screen!</p>
         </div>
         </AnimatedEntrance>
       )}

@@ -88,10 +88,10 @@ npm install --include=dev && npm install --include=dev --prefix client && npm in
 **Start command:**
 
 ```bash
-npm run start --prefix server
+npm start
 ```
 
-(Equivalent: `npm start` from the repo root if your root `package.json` already delegates to the server.)
+Root `npm start` installs server production deps (`tsx`, `express`, etc.) then launches the server. Do **not** use bare `npm run start --prefix server` — Railway may skip installing `server/node_modules`.
 
 ### Step 3 — Generate a public URL
 
@@ -204,6 +204,14 @@ You still need to set the **same build and start commands** in the Railway dashb
 ### “Client not built” or blank page
 
 Build step failed or was skipped. Common error: `tsc: not found` — Railway omitted devDependencies. Use **`npm run railway:build`** or ensure installs use `--include=dev`. Check deploy logs for other errors.
+
+### Crash on start: `tsx: not found`
+
+Railway’s runtime install skipped `server/node_modules`. Fix:
+
+- **Start command** must be `npm start` (not `npm run start --prefix server` alone).
+- Ensure `tsx` is in `server/package.json` **dependencies** (not `devDependencies`).
+- Push latest code and redeploy.
 
 ### Cannot connect / socket errors
 

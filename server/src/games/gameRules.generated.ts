@@ -95,6 +95,8 @@ export const GENERATED_GAME_RULES = {
   'trivia-murder-party-2': {
     inputTimeMs: 20000,
     totalRounds: 5,
+    resultsTimeMs: 15000,
+    promptTimeMs: 5000,
   },
   'blather-round': {
     inputTimeMs: 30000,

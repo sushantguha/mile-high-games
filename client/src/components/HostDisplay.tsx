@@ -6,6 +6,7 @@ import { RoomCodeBanner } from './RoomCodeBanner';
 import { getTimerLabel, phaseHasTimer } from '../utils/timerLabel';
 import { AnimatedEntrance } from './AnimatedEntrance';
 import { ConfettiBurst } from './ConfettiBurst';
+import { TriviaRoundResults } from './TriviaRoundResults';
 
 interface Props {
   room: RoomState;
@@ -241,7 +242,6 @@ function RevealOnHost({ room }: { room: RoomState }) {
             ) : (
               <p style={{ fontWeight: 600 }}>{String(e.content)}</p>
             )}
-            <p style={{ fontSize: 11, color: 'var(--muted)', marginTop: 6, fontWeight: 700 }}>— {e.playerName}</p>
           </div>
         </AnimatedEntrance>
       ))}
@@ -253,16 +253,18 @@ function ResultsOnHost({ room }: { room: RoomState }) {
   const rd = room.revealData;
   const lb = rd?.leaderboard;
   if (!lb) return <p style={{ textAlign: 'center' }}>Scoring...</p>;
+  const hasTriviaResults = Boolean(rd?.correctAnswer || rd?.playerResults?.length);
   return (
-    <AnimatedEntrance anim="bounce-in">
-      <div>
-        {rd?.correctAnswer && (
-          <p style={{ textAlign: 'center', marginBottom: 8, fontSize: 16 }}>
-            Answer: <strong style={{ color: 'var(--success)' }}>{rd.correctAnswer}</strong>
+    <div>
+      {hasTriviaResults ? (
+        <TriviaRoundResults revealData={rd} />
+      ) : (
+        <AnimatedEntrance anim="bounce-in">
+          <p style={{ textAlign: 'center', color: 'var(--success)', marginBottom: 12, fontWeight: 800, fontSize: 18 }}>
+            Round complete!
           </p>
-        )}
-        <p style={{ textAlign: 'center', color: 'var(--success)', marginBottom: 12, fontWeight: 800, fontSize: 18 }}>Round complete!</p>
-      </div>
-    </AnimatedEntrance>
+        </AnimatedEntrance>
+      )}
+    </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState, useCallback } from 'react';
 
 interface Props {
-  onSubmit: (dataUrl: string) => void;
+  onSubmit: (dataUrl: string) => void | Promise<unknown>;
   disabled?: boolean;
 }
 

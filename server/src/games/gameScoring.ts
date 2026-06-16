@@ -13,6 +13,49 @@ function playingIds(room: RoomState): string[] {
   return connected.slice(0, cap).map((p) => p.id);
 }
 
+type TriviaPlayerResult = {
+  id: string;
+  name: string;
+  answer: string;
+  correct: boolean;
+  eliminated?: boolean;
+};
+
+function buildTriviaPlayerResults(
+  room: RoomState,
+  correct: string,
+  opts?: { markEliminated?: boolean },
+): TriviaPlayerResult[] {
+  return playingIds(room).map((pid) => {
+    const player = room.players.find((p) => p.id === pid);
+    const raw = room.submissions[pid];
+    const answer = raw !== undefined ? String(raw) : '(no answer)';
+    const isCorrect = raw === correct;
+    return {
+      id: pid,
+      name: player?.name ?? 'Unknown',
+      answer,
+      correct: isCorrect,
+      ...(opts?.markEliminated && !isCorrect ? { eliminated: true } : {}),
+    };
+  });
+}
+
+function setTriviaRevealData(
+  room: RoomState,
+  correct: string,
+  playerResults: TriviaPlayerResult[],
+  extra?: Record<string, unknown>,
+): void {
+  room.revealData = {
+    ...(room.revealData as object || {}),
+    correctAnswer: correct,
+    correctPlayers: playerResults.filter((r) => r.correct).map((r) => r.name),
+    playerResults,
+    ...extra,
+  };
+}
+
 function scoreTriviaBool(room: RoomState, rules: GameRules, award: AwardFn): void {
   const isTrue = getTrueOrLieAnswer(room.prompt);
   const correctAnswer = isTrue ? 'TRUE' : 'LIE';
@@ -43,12 +86,11 @@ function scoreTriviaBool(room: RoomState, rules: GameRules, award: AwardFn): voi
   }
 
   const correctLabel = isTrue ? 'TRUTH' : 'LIE';
-  room.revealData = {
-    ...(room.revealData as object || {}),
-    correctAnswer: correctLabel,
-    statement: room.prompt,
-    correctPlayers: correctIds.map((id) => room.players.find((p) => p.id === id)?.name).filter(Boolean),
-  };
+  const playerResults = buildTriviaPlayerResults(room, correctAnswer).map((r) => ({
+    ...r,
+    answer: r.answer === 'TRUE' ? 'TRUTH' : r.answer === 'LIE' ? 'LIE' : r.answer,
+  }));
+  setTriviaRevealData(room, correctLabel, playerResults, { statement: room.prompt });
 }
 
 function scoreFibbage(room: RoomState, game: GameMeta, award: AwardFn): void {
@@ -105,6 +147,7 @@ function scoreTrivia(room: RoomState, game: GameMeta, award: AwardFn): void {
       if (ans === correct) award(room, pid, 1000);
       else award(room, pid, 250);
     }
+    setTriviaRevealData(room, correct, buildTriviaPlayerResults(room, correct));
     return;
   }
 
@@ -113,6 +156,7 @@ function scoreTrivia(room: RoomState, game: GameMeta, award: AwardFn): void {
   for (const [pid, ans] of Object.entries(room.submissions)) {
     if (ans === correct) award(room, pid, pts);
   }
+  setTriviaRevealData(room, correct, buildTriviaPlayerResults(room, correct));
 }
 
 function scoreTeamwork(room: RoomState, game: GameMeta, award: AwardFn): void {
@@ -167,13 +211,8 @@ export function scoreGameRound(
     scoreTrivia(room, game, award);
     if (arch === 'survival-trivia') {
       const correct = getTriviaAnswer(room.prompt);
-      for (const [pid, ans] of Object.entries(room.submissions)) {
-        if (ans !== correct) {
-          const data = (room.revealData || {}) as Record<string, unknown>;
-          data[pid] = 'eliminated';
-          room.revealData = data;
-        }
-      }
+      const playerResults = buildTriviaPlayerResults(room, correct, { markEliminated: true });
+      setTriviaRevealData(room, correct, playerResults);
     }
   } else if (['write-vote', 'pitch', 'finish-sentence', 'text-transform', 'word-chain', 'bracket', 'debate'].includes(arch)) {
     scoreWriteVote(room, game, award);

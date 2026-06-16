@@ -1,0 +1,48 @@
+Chrome E2E: 46 games @ https://mile-high-games-production.up.railway.app
+PASS  Lie Swatter (1p)
+PASS  Word Spud (2p)
+PASS  Bidiots (3p)
+FAIL  Bomb Corp.: Stuck in phase ""
+PASS  Fakin' It! (3p)
+PASS  Guesspionage (2p)
+PASS  Bracketeering (3p)
+PASS  Civic Doodle (3p)
+FAIL  Monster Seeking Monster: Node is detached from document
+PASS  Survive the Internet (3p)
+PASS  Mad Verse City (3p)
+PASS  Patently Stupid (3p)
+PASS  Split the Room (3p)
+FAIL  You Don't Know Jack Full Stream: Node is detached from document
+PASS  Zeeple Dome (1p)
+PASS  Dictionarium (3p)
+PASS  Joke Boat (3p)
+PASS  Push the Button (4p)
+PASS  Role Models (3p)
+FAIL  Trivia Murder Party 2: Node is detached from document
+PASS  Blather 'Round (2p)
+PASS  Champ'd Up (3p)
+PASS  Quiplash 3 (3p)
+PASS  Talking Points (3p)
+FAIL  The Devils and the Details: Node is either not clickable or not an Element
+PASS  Drawful Animate (3p)
+PASS  Job Job (3p)
+PASS  The Poll Mine (2p)
+PASS  The Wheel of Enormous Proportions (2p)
+PASS  Weapons Drawn (4p)
+PASS  Fibbage 4 (2p)
+PASS  Junktopia (3p)
+PASS  Nonsensory (3p)
+PASS  Quixort (1p)
+PASS  Roomerang (4p)
+PASS  Fixy Text (3p)
+FAIL  Hypnotorious: Node is detached from document
+PASS  Tee K.O. 2 (3p)
+PASS  Time Jinx (1p)
+PASS  Doominate (3p)
+PASS  Cookie Haus (3p)
+PASS  Suspectives (4p)
+PASS  Legends of Trivia (1p)
+PASS  Fakin' It All Night Long (3p)
+PASS  Dirty Drawful (3p)
+PASS  Let Me Finish (3p)
+40/46 passed

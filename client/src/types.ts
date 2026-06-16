@@ -56,6 +56,14 @@ export interface RoomState {
   isHostView?: boolean;
 }
 
+export interface TriviaPlayerResult {
+  id: string;
+  name: string;
+  answer: string;
+  correct: boolean;
+  eliminated?: boolean;
+}
+
 export interface RevealData {
   entries?: { id: string; playerName: string; content: unknown }[];
   pairs?: { a: string; b: string; contentA: unknown; contentB: unknown }[];
@@ -64,6 +72,7 @@ export interface RevealData {
   correctAnswer?: string;
   statement?: string;
   correctPlayers?: string[];
+  playerResults?: TriviaPlayerResult[];
   leaderboard?: { name: string; score: number }[];
   winner?: string;
 }

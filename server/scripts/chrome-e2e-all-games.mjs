@@ -23,9 +23,20 @@ const LAUNCH = {
   args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
 };
 
+const MOBILE = process.env.MOBILE !== '0';
+const VIEWPORT = MOBILE
+  ? { width: 390, height: 844, deviceScaleFactor: 3, isMobile: true, hasTouch: true }
+  : { width: 1280, height: 800, deviceScaleFactor: 1, isMobile: false, hasTouch: false };
+
 async function newBrowserPage() {
   const browser = await puppeteer.launch(LAUNCH);
   const page = await browser.newPage();
+  await page.setViewport(VIEWPORT);
+  if (MOBILE) {
+    await page.setUserAgent(
+      'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
+    );
+  }
   page.setDefaultTimeout(STEP_MS);
   return { browser, page };
 }
@@ -102,7 +113,7 @@ async function playerVote(p) {
 }
 
 async function playGame(game) {
-  const n = Math.min(Math.max(game.minPlayers, 1), 7);
+  const n = Math.min(Math.max(game.minPlayers, 1), Number(process.env.PLAYER_COUNT || 7));
   const hostCtx = await newBrowserPage();
   const playerCtxs = [];
   for (let i = 0; i < n; i++) playerCtxs.push(await newBrowserPage());

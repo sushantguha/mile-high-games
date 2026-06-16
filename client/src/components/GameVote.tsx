@@ -29,7 +29,6 @@ export function GameVote({ room, onVote }: Props) {
             ) : (
               <span>{String(e.content)}</span>
             )}
-            <span style={{ fontSize: 11, color: 'var(--muted)', display: 'block', marginTop: 4 }}>— {e.playerName}</span>
           </button>
         ))}
       </div>

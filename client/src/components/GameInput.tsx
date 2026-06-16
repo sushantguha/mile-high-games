@@ -1,20 +1,34 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { GameMeta, RoomState } from '../types';
 import { DrawingCanvas } from './DrawingCanvas';
 
 interface Props {
   room: RoomState;
   game: GameMeta;
-  onSubmit: (value: unknown) => void;
+  onSubmit: (value: unknown) => Promise<{ ok: boolean; error?: string } | undefined>;
 }
 
 export function GameInput({ room, game, onSubmit }: Props) {
   const [text, setText] = useState('');
   const [selected, setSelected] = useState<string | null>(null);
+  const [submitting, setSubmitting] = useState(false);
   const submitted = room.submissions[room.playerId || ''] !== undefined;
+
+  useEffect(() => {
+    setText('');
+    setSelected(null);
+    setSubmitting(false);
+  }, [room.round, room.subRound, room.phase, room.prompt]);
 
   const archetype = game.archetype;
   const presentation = (room.revealData as { presentation?: { playerHint?: string } })?.presentation;
+
+  const submitAnswer = async (value: unknown) => {
+    if (submitting) return;
+    setSubmitting(true);
+    await onSubmit(value);
+    setSubmitting(false);
+  };
 
   if (submitted) {
     return (
@@ -27,7 +41,7 @@ export function GameInput({ room, game, onSubmit }: Props) {
   }
 
   if (archetype === 'draw-guess' || archetype === 'draw-bracket') {
-    return <DrawingCanvas onSubmit={onSubmit} />;
+    return <DrawingCanvas onSubmit={submitAnswer} />;
   }
 
   if (archetype === 'trivia-bool') {
@@ -40,7 +54,7 @@ export function GameInput({ room, game, onSubmit }: Props) {
           type="button"
           className="btn btn-truth-lie truth"
           data-testid="answer-TRUE"
-          onClick={() => onSubmit('TRUE')}
+          onClick={() => void submitAnswer('TRUE')}
         >
           TRUTH
         </button>
@@ -48,7 +62,7 @@ export function GameInput({ room, game, onSubmit }: Props) {
           type="button"
           className="btn btn-truth-lie lie"
           data-testid="answer-LIE"
-          onClick={() => onSubmit('LIE')}
+          onClick={() => void submitAnswer('LIE')}
         >
           LIE
         </button>
@@ -67,7 +81,7 @@ export function GameInput({ room, game, onSubmit }: Props) {
             data-testid={`answer-option-${opt.replace(/\s+/g, '-')}`}
             onClick={() => {
               setSelected(opt);
-              onSubmit(opt);
+              void submitAnswer(opt);
             }}
           >
             {opt}
@@ -80,7 +94,7 @@ export function GameInput({ room, game, onSubmit }: Props) {
   if (archetype === 'fibbage') {
     const lieForMe = () => {
       const lies = ['Something ridiculous', 'A made-up fact', 'Obviously wrong'];
-      onSubmit(`[LIE_FOR_ME]${lies[Math.floor(Math.random() * lies.length)]}`);
+      void submitAnswer(`[LIE_FOR_ME]${lies[Math.floor(Math.random() * lies.length)]}`);
     };
     return (
       <div>
@@ -108,9 +122,9 @@ export function GameInput({ room, game, onSubmit }: Props) {
           type="button"
           className="btn btn-primary"
           style={{ width: '100%', marginTop: 8 }}
-          disabled={!text.trim()}
+          disabled={!text.trim() || submitting}
           data-testid="submit-answer-btn"
-          onClick={() => onSubmit(text.trim())}
+          onClick={() => void submitAnswer(text.trim())}
         >
           Submit Lie
         </button>
@@ -139,9 +153,9 @@ export function GameInput({ room, game, onSubmit }: Props) {
           type="button"
           className="btn btn-primary"
           style={{ width: '100%', marginTop: 12 }}
-          disabled={!text.trim()}
+          disabled={!text.trim() || submitting}
           data-testid="submit-answer-btn"
-          onClick={() => onSubmit(text.trim())}
+          onClick={() => void submitAnswer(text.trim())}
         >
           Submit
         </button>
@@ -165,9 +179,9 @@ export function GameInput({ room, game, onSubmit }: Props) {
           type="button"
           className="btn btn-primary"
           style={{ width: '100%', marginTop: 12 }}
-          disabled={!text.trim()}
+          disabled={!text.trim() || submitting}
           data-testid="submit-answer-btn"
-          onClick={() => onSubmit(text.trim())}
+          onClick={() => void submitAnswer(text.trim())}
         >
           Submit Order
         </button>
@@ -189,11 +203,11 @@ export function GameInput({ room, game, onSubmit }: Props) {
         type="button"
         className="btn btn-primary"
         style={{ width: '100%', marginTop: 12 }}
-        disabled={!text.trim()}
+        disabled={!text.trim() || submitting}
         data-testid="submit-answer-btn"
-        onClick={() => onSubmit(text.trim())}
+        onClick={() => void submitAnswer(text.trim())}
       >
-        Submit
+        {submitting ? 'Submitting…' : 'Submit'}
       </button>
     </div>
   );

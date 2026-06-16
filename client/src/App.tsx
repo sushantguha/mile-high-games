@@ -45,6 +45,10 @@ function AppRoutes() {
         element={
           <RoomPage
             room={socket.room}
+            connected={socket.connected}
+            reconnecting={socket.reconnecting}
+            error={socket.error}
+            onClearError={() => socket.setError(null)}
             onSelectGame={socket.selectGame}
             onStart={socket.startGame}
             onSubmit={socket.submit}

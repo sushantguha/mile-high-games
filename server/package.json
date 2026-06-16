@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "start": "tsx src/index.ts",
+    "start": "node --import tsx src/index.ts",
     "test:games": "node scripts/test-all-games.mjs",
     "test:games:7p": "node scripts/test-all-games-7p.mjs",
     "test:chrome": "node scripts/chrome-e2e-all-games.mjs",

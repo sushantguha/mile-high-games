@@ -180,5 +180,16 @@ function maskRevealData(room: RoomState, viewerId?: string, isHost = false) {
     const mine = tasks[viewerId];
     return mine ? { tasks: { [viewerId]: mine } } : {};
   }
+  // Reveal/vote: answers are anonymous so players judge on merit, not who wrote them.
+  if ((room.phase === 'reveal' || room.phase === 'vote') && Array.isArray(data.entries)) {
+    const entries = (data.entries as { id: string; playerName?: string; content: unknown }[]).map(
+      (e) => ({
+        id: e.id,
+        content: e.content,
+        ...(e.playerName === 'The Truth' ? { playerName: 'The Truth' } : {}),
+      }),
+    );
+    return { ...data, entries };
+  }
   return room.revealData;
 }

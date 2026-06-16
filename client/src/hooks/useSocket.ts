@@ -12,11 +12,15 @@ function getServerUrl(): string {
 
 export function useSocket() {
   const socketRef = useRef<Socket | null>(null);
+  const roomRef = useRef<RoomState | null>(null);
+  const rejoiningRef = useRef(false);
   const [connected, setConnected] = useState(false);
+  const [reconnecting, setReconnecting] = useState(false);
   const [room, setRoom] = useState<RoomState | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [rejoinReady, setRejoinReady] = useState(false);
-  const rejoinAttempted = useRef(false);
+
+  roomRef.current = room;
 
   const emit = useCallback(<T,>(event: string, data?: unknown): Promise<T> => {
     return new Promise((resolve) => {
@@ -25,11 +29,17 @@ export function useSocket() {
   }, []);
 
   const attemptRejoin = useCallback(async () => {
+    if (rejoiningRef.current) return;
+    rejoiningRef.current = true;
+
     const saved = loadSession();
     if (!saved) {
       setRejoinReady(true);
+      setReconnecting(false);
+      rejoiningRef.current = false;
       return;
     }
+
     const res = await emit<{
       ok: boolean;
       code?: string;
@@ -42,7 +52,9 @@ export function useSocket() {
       playerName: saved.playerName,
       hostToken: saved.hostToken,
     });
+
     if (res.ok) {
+      setError(null);
       if (res.role === 'host' && res.hostToken) {
         saveSession({ role: 'host', code: res.code!, hostToken: res.hostToken });
       } else if (saved.playerName) {
@@ -50,10 +62,17 @@ export function useSocket() {
       }
     } else {
       clearSession();
+      setRoom(null);
       setError(res.error || 'Could not restore session');
     }
+
     setRejoinReady(true);
+    setReconnecting(false);
+    rejoiningRef.current = false;
   }, [emit]);
+
+  const attemptRejoinRef = useRef(attemptRejoin);
+  attemptRejoinRef.current = attemptRejoin;
 
   useEffect(() => {
     const socket = io(getServerUrl(), { transports: ['websocket', 'polling'] });
@@ -61,14 +80,22 @@ export function useSocket() {
 
     socket.on('connect', () => {
       setConnected(true);
-      if (!rejoinAttempted.current) {
-        rejoinAttempted.current = true;
-        attemptRejoin();
+      if (loadSession()) {
+        setReconnecting(roomRef.current !== null);
+        void attemptRejoinRef.current();
+      } else {
+        setRejoinReady(true);
       }
     });
-    socket.on('disconnect', () => setConnected(false));
+
+    socket.on('disconnect', () => {
+      setConnected(false);
+      if (roomRef.current) setReconnecting(true);
+    });
+
     socket.on('room:update', (state: RoomState) => {
       setRoom(state);
+      setReconnecting(false);
       if (state.isHostView && state.hostToken) {
         saveSession({ role: 'host', code: state.code, hostToken: state.hostToken });
       } else if (state.playerId) {
@@ -76,16 +103,26 @@ export function useSocket() {
         if (me) saveSession({ role: 'player', code: state.code, playerName: me.name });
       }
     });
+
     socket.on('room:closed', () => {
       setRoom(null);
       clearSession();
+      setReconnecting(false);
       setError('Room closed — the host disconnected.');
     });
 
+    const onVisible = () => {
+      if (document.visibilityState !== 'visible') return;
+      if (!socket.connected || !loadSession()) return;
+      if (roomRef.current) void attemptRejoinRef.current();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+
     return () => {
+      document.removeEventListener('visibilitychange', onVisible);
       socket.disconnect();
     };
-  }, [attemptRejoin]);
+  }, []);
 
   const createRoom = useCallback(async () => {
     setError(null);
@@ -113,13 +150,21 @@ export function useSocket() {
     socketRef.current?.emit('game:start');
   }, []);
 
-  const submit = useCallback((value: unknown) => {
-    socketRef.current?.emit('game:submit', { value });
-  }, []);
+  const submit = useCallback(async (value: unknown) => {
+    const res = await emit<{ ok: boolean; error?: string }>('game:submit', { value });
+    if (!res?.ok) {
+      setError(res?.error || 'Could not submit answer — try again');
+    }
+    return res;
+  }, [emit]);
 
-  const vote = useCallback((targetId: string) => {
-    socketRef.current?.emit('game:vote', { targetId });
-  }, []);
+  const vote = useCallback(async (targetId: string) => {
+    const res = await emit<{ ok: boolean; error?: string }>('game:vote', { targetId });
+    if (!res?.ok) {
+      setError(res?.error || 'Could not cast vote — try again');
+    }
+    return res;
+  }, [emit]);
 
   const skipPhase = useCallback(() => {
     socketRef.current?.emit('game:skip');
@@ -149,6 +194,7 @@ export function useSocket() {
 
   return {
     connected,
+    reconnecting,
     room,
     error,
     setError,

@@ -199,18 +199,38 @@ io.on('connection', (socket) => {
     emitRoom(room);
   });
 
-  socket.on('game:submit', ({ value }: { value: unknown }) => {
+  socket.on('game:submit', ({ value }: { value: unknown }, cb) => {
     const room = currentRoom ? rooms.get(currentRoom) : null;
-    if (!room || room.hostId === playerId) return;
-    handleSubmit(room, playerId, value);
+    if (!room) return cb?.({ ok: false, error: 'Not in a room — refresh or rejoin' });
+    if (room.hostId === playerId) return cb?.({ ok: false, error: 'Host cannot submit answers' });
+    if (!room.players.some((p) => p.id === playerId)) {
+      return cb?.({ ok: false, error: 'Session expired — refresh the page' });
+    }
+    if (room.phase !== 'input') {
+      return cb?.({ ok: false, error: 'Not accepting answers right now' });
+    }
+    if (!handleSubmit(room, playerId, value)) {
+      return cb?.({ ok: false, error: 'Could not submit answer' });
+    }
     emitRoom(room);
+    cb?.({ ok: true });
   });
 
-  socket.on('game:vote', ({ targetId }: { targetId: string }) => {
+  socket.on('game:vote', ({ targetId }: { targetId: string }, cb) => {
     const room = currentRoom ? rooms.get(currentRoom) : null;
-    if (!room || room.hostId === playerId) return;
-    handleVote(room, playerId, targetId);
+    if (!room) return cb?.({ ok: false, error: 'Not in a room — refresh or rejoin' });
+    if (room.hostId === playerId) return cb?.({ ok: false, error: 'Host cannot vote' });
+    if (!room.players.some((p) => p.id === playerId)) {
+      return cb?.({ ok: false, error: 'Session expired — refresh the page' });
+    }
+    if (room.phase !== 'vote') {
+      return cb?.({ ok: false, error: 'Not accepting votes right now' });
+    }
+    if (!handleVote(room, playerId, targetId)) {
+      return cb?.({ ok: false, error: 'Could not cast vote' });
+    }
     emitRoom(room);
+    cb?.({ ok: true });
   });
 
   socket.on('game:skip', () => {
