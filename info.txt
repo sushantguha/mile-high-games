@@ -1,0 +1,93 @@
+# Jackbox Party Games - Detailed Table
+Updated June 2026
+
+**Source:** User-provided reference table (Packs 1-10) + official Jackbox sources, Wikipedia, fandom, and recent announcements for completeness (Pack 11, specials).
+- All main packs except the Naughty Pack are ESRB T for Teen and include an optional Family-Friendly filter (makes them closer to E10+).
+- "Audience" column indicates support for large streaming audience participation (up to ~10,000 in modern titles).
+- Lengths are typical/average; actual time varies.
+- Pack 12 (Fall 2026) has been announced with 5 new games — specific details and player counts not yet public.
+
+## Tabular Data (Markdown - recommended for viewing/editing)
+
+| Game Pack | Game Title | Min. Players | Max. Players | Length | Audience | Family Friendly? | Game Type | Secondary Type |
+|-----------|------------|--------------|--------------|--------|----------|------------------|-----------|----------------|
+| Jackbox Party Pack 1 | Drawful | 3 | 8 | 15 minutes | No | No | Drawing | |
+| Jackbox Party Pack 1 | Fibbage XL | 2 | 8 | 15 minutes | No | No | Fill-In-The-Blank | Trivia |
+| Jackbox Party Pack 1 | Lie Swatter | 1 | 100 | 15 minutes | No | No | Trivia | |
+| Jackbox Party Pack 1 | Word Spud | 2 | 8 | 10 minutes | No | No | Writing | |
+| Jackbox Party Pack 1 | You Don't Know Jack 2015 | 1 | 4 | 20 minutes | No | No | Trivia | |
+| Jackbox Party Pack 2 | Bidiots | 3 | 6 | 15 minutes | No | Yes | Drawing | |
+| Jackbox Party Pack 2 | Bomb Corp. | 1 | 4 | 15 minutes | No | Yes | Teamwork | |
+| Jackbox Party Pack 2 | Earwax | 3 | 8 | 15 minutes | Yes | Yes | Audio | |
+| Jackbox Party Pack 2 | Fibbage 2 | 2 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | Trivia |
+| Jackbox Party Pack 2 | Quiplash XL | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 3 | Fakin' It! | 3 | 6 | 15 minutes | Yes | Yes | Hidden Identity | Other |
+| Jackbox Party Pack 3 | Guesspionage | 2 | 8 | 15 minutes | Yes | Yes | Trivia | |
+| Jackbox Party Pack 3 | Quiplash 2 | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 3 | Tee K.O. T-Shirt Knock Out | 3 | 8 | 30 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 3 | Trivia Murder Party | 1 | 8 | 15 minutes | Yes | No | Trivia | |
+| Jackbox Party Pack 4 | Bracketeering | 3 | 16 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 4 | Civic Doodle | 3 | 8 | 20 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 4 | Fibbage 3 | 2 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | Trivia |
+| Jackbox Party Pack 4 | Monster Seeking Monster | 3 | 7 | 15 minutes | Yes | No | Roleplay | Hidden Identity |
+| Jackbox Party Pack 4 | Survive the Internet | 3 | 8 | 20 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 5 | Mad Verse City | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 5 | Patently Stupid | 3 | 8 | 20 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 5 | Split the Room | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 5 | You Don't Know Jack Full Stream | 1 | 8 | 15 minutes | Yes | No | Trivia | |
+| Jackbox Party Pack 5 | Zeeple Dome | 1 | 6 | 10 minutes | No | Yes | Teamwork | |
+| Jackbox Party Pack 6 | Dictionarium | 3 | 8 | 10 minutes | Yes | Yes | Writing | Fill-In-The-Blank |
+| Jackbox Party Pack 6 | Joke Boat | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 6 | Push the Button | 4 | 10 | 20 minutes | No | Yes | Hidden Identity | Teamwork |
+| Jackbox Party Pack 6 | Role Models | 3 | 6 | 15 minutes | Yes | Yes | Other | |
+| Jackbox Party Pack 6 | Trivia Murder Party 2 | 1 | 8 | 15 minutes | Yes | No | Trivia | |
+| Jackbox Party Pack 7 | Blather 'Round | 2 | 6 | 15 minutes | Yes | Yes | Fill-In-The-Blank | Other |
+| Jackbox Party Pack 7 | Champ'd Up | 3 | 8 | 20 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 7 | Quiplash 3 | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 7 | Talking Points | 3 | 8 | 20 minutes | Yes | Yes | Other | |
+| Jackbox Party Pack 7 | The Devils and the Details | 3 | 8 | 15 minutes | Yes | No | Teamwork | |
+| Jackbox Party Pack 8 | Drawful Animate | 3 | 10 | 15 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 8 | Job Job | 3 | 10 | 20 minutes | Yes | Yes | Fill-In-The-Blank | |
+| Jackbox Party Pack 8 | The Poll Mine | 2 | 10 | 15 minutes | Yes | Yes | Teamwork | Out Loud Play |
+| Jackbox Party Pack 8 | The Wheel of Enormous Proportions | 2 | 8 | 15 minutes | Yes | Yes | Trivia | |
+| Jackbox Party Pack 8 | Weapons Drawn | 4 | 8 | 20 minutes | Yes | No | Drawing | Hidden Identity |
+| Jackbox Party Pack 9 | Fibbage 4 | 2 | 8 | 20 minutes | Yes | Yes | Fill-In-The-Blank | Trivia |
+| Jackbox Party Pack 9 | Junktopia | 3 | 8 | 20 minutes | Yes | Yes | Writing | Out Loud Play |
+| Jackbox Party Pack 9 | Nonsensory | 3 | 8 | 25 minutes | Yes | Yes | Writing | Drawing |
+| Jackbox Party Pack 9 | Quixort | 1 | 10 | 20 minutes | Yes | Yes | Trivia | Teamwork |
+| Jackbox Party Pack 9 | Roomerang | 4 | 9 | 30 minutes | Yes | Yes | Fill-In-The-Blank | Out Loud Play |
+| Jackbox Party Pack 10 | Dodo Re Mi | 1 | 9 | 5 minutes | Yes | Yes | Music | Teamwork |
+| Jackbox Party Pack 10 | Fixy Text | 3 | 8 | 15 minutes | Yes | Yes | Writing | Teamwork |
+| Jackbox Party Pack 10 | Hypnotorious | 4 | 8 | 20 minutes | Yes | Yes | Hidden Identity | Roleplay |
+| Jackbox Party Pack 10 | Tee K.O. 2 | 3 | 8 | 20 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 10 | Time Jinx | 1 | 8 | 20 minutes | Yes | Yes | Trivia | |
+| Jackbox Party Pack 11 | Doominate | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | Other |
+| Jackbox Party Pack 11 | Hear Say | 2 | 8 | 15 minutes | Yes | Yes | Audio | |
+| Jackbox Party Pack 11 | Cookie Haus | 3 | 8 | 20 minutes | Yes | Yes | Drawing | |
+| Jackbox Party Pack 11 | Suspectives | 4 | 8 | 20 minutes | Yes | Yes | Hidden Identity | |
+| Jackbox Party Pack 11 | Legends of Trivia | 1 | 6 | 20 minutes | Yes | Yes | Trivia | |
+| The Jackbox Party Starter | Quiplash 3 | 3 | 8 | 15 minutes | Yes | Yes | Fill-In-The-Blank | |
+| The Jackbox Party Starter | Tee K.O. T-Shirt Knock Out | 3 | 8 | 30 minutes | Yes | Yes | Drawing | |
+| The Jackbox Party Starter | Trivia Murder Party 2 | 1 | 8 | 15 minutes | Yes | No | Trivia | |
+| The Jackbox Naughty Pack | Fakin' It All Night Long | 3 | 8 | 15 minutes | Yes | No | Hidden Identity | Other |
+| The Jackbox Naughty Pack | Dirty Drawful | 3 | 8 | 15 minutes | Yes | No | Drawing | |
+| The Jackbox Naughty Pack | Let Me Finish | 3 | 8 | 15 minutes | Yes | No | Other | Drawing |
+
+## TSV / Copy-paste friendly (for spreadsheets)
+(Use the block below; fields are tab-separated. Copy from the raw file if tabs don't paste well here.)
+
+Game Pack	Game Title	Min. Players	Max. Players	Length	Audience	Family Friendly?	Game Type	Secondary Type
+Jackbox Party Pack 1	Drawful	3	8	15 minutes	No	No	Drawing	
+... (see full raw table lines in this file or above Markdown)
+
+## Additional Notes
+- **Pack 12**: Announced (May 2026) for release Fall 2026. Five brand-new games. Specific titles, player counts, and types TBA. Expected to follow the standard 5-game pack format with audience support.
+- **Standalones** (not part of numbered packs):
+  - Drawful 2 (2016): 3-8 players, Drawing, Audience: Yes, Family Friendly: Yes.
+  - The Jackbox Survey Scramble (2024): Survey-based modes (HILO, BOUNCE, etc.). Uses real player-submitted one-word answers. Variable player counts (typically small groups + audience).
+- **The Jackbox Megapicker**: Free Steam-only launcher / library organizer for your owned Jackbox titles. Not a game.
+- **Game Type / Secondary Type**: Loose categories to help with filtering and recommendations (Drawing, Trivia, Fill-In-The-Blank / Writing, Hidden Identity / Roleplay, Teamwork, Audio, Music, Other, etc.).
+- Some games (e.g. Bracketeering up to 16, certain audience-heavy titles) have higher max active or total participants.
+- For the absolute latest or exact current specs, check the official Jackbox Games website or in-game settings, as patches can tweak player counts or add features.
+
+(Previous simple list from earlier task is superseded by this detailed table.)

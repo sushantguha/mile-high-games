@@ -1,0 +1,113 @@
+WRITE-VOTE & CREATIVE PROMPTS — WHERE TO GET BETTER CONTENT
+===========================================================
+
+Current file: prompts.json
+  quiplash[]       — open-ended funny answer prompts
+  fibbage[]        — { prompt, truth } fill-in-the-blank lies
+  finishSentence[] — mad-libs style
+  pitch[]          — Roomerang / Junktopia style pitches
+  textTransform[]  — Survive the Internet style rewrites
+  + wordChain, debate, rank, sort, bracket, roleLabel, teamwork, hiddenTask
+
+
+QUIPLASH-STYLE PROMPTS (write-vote / quiplash[])
+------------------------------------------------
+
+1. Reddit r/AskReddit (inspiration, not copying)
+   URL: https://www.reddit.com/r/AskReddit/
+   - Sort by top → "week" — turn questions into Quiplash prompts
+   - Example thread: "What's the worst name for a ___?" → your format
+   - Rewrite everything; don't paste verbatim from posts
+
+2. Quiplash / Cards Against Humanity fan prompt generators
+   - Search: "quiplash prompt generator" — several web tools exist
+   - https://www.jokeindex.com/ (clean humor database)
+
+3. AI bulk generation (recommended)
+   Prompt template:
+   "Write 100 Jackbox Quiplash-style prompts. Each asks players to write
+    a funny short answer. Family-friendly. Format: JSON string array."
+   - Manually remove duplicates and anything too niche
+
+4. "Bad dates" / "worst idea" listicles
+   - Buzzfeed-style lists are good STRUCTURE inspiration
+   - Example pattern: "The worst thing to say during ___"
+
+
+FIBBAGE-STYLE (fibbage[] with prompt + truth)
+----------------------------------------------
+
+5. Useless Facts / WTF Fun Fact sites (verify then write truth)
+   URL: https://www.thefactsite.com/random-facts/
+   URL: https://en.wikipedia.org/wiki/List_of_common_misconceptions
+   - Format: bizarre true fact → rewrite as fill-in-blank + hide the answer
+   - Example fact: "Honey never spoils" → "Honey never _____."
+
+6. Open Trivia DB (reverse use)
+   - Take a surprising correct answer, blank it out, write a fibbage prompt
+   - truth field = the real answer players must spot
+
+7. Reddit r/todayilearned
+   URL: https://www.reddit.com/r/todayilearned/
+   - Daily source of weird true facts → fibbage entries
+
+
+FINISH SENTENCE / MAD LIBS (finishSentence[])
+-----------------------------------------------
+
+8. Mad Libs word lists
+   - Search "mad libs online word lists" — many educational sites publish templates
+   - Pattern: partial sentence ending with _____
+
+9. Cards Against Humanity "fill in the blank" black cards (structure only)
+   - Write original family-friendly variants
+
+
+DEBATE / SPLIT THE ROOM (debate[])
+-----------------------------------
+
+10. r/changemyview controversial but safe topics
+    - "Is a hot dog a sandwich?" style debates
+    - Keep road-trip safe: food takes, harmless preferences, silly hypotheticals
+
+
+RANK / SORT (rank[], sort[])
+----------------------------
+
+11. Tier list culture
+    - Know Your Meme tier list templates
+    - Generate: "Rank these pizza toppings: ..." with 4 comparable items
+    - Wikipedia lists (countries by population, tallest buildings) for sort prompts
+
+
+PITCH GAMES (pitch[])
+---------------------
+
+12. Product Hunt / Kickstarter parody
+    - AI: "Generate 50 ridiculous startup pitches in one sentence"
+    - Shark Tank parody products (original wording)
+
+
+HIDDEN TASK / TEAMWORK (hiddenTask[], teamwork[])
+--------------------------------------------------
+These are game-mechanic prompts more than creative content.
+Write 30-50 variants yourself or generate with AI.
+Keep tasks doable on a phone without physical props.
+
+
+LEGAL NOTE
+----------
+- Jackbox game prompts are copyrighted — never copy from gameplay videos or dumps
+- Fan recreation for private friends use: always write original prompts
+- For public deployment: use CC0, self-written, or properly licensed APIs only
+
+
+SUGGESTED FOLDER EXPANSION
+---------------------------
+  content/write-vote/prompts.json       (current — split when large)
+  content/write-vote/quiplash.json
+  content/write-vote/fibbage.json
+  content/write-vote/family-friendly.json
+  content/write-vote/mature.json        (Naughty pack — optional)
+
+Target: 500+ quiplash prompts, 200+ fibbage entries for a long road trip.

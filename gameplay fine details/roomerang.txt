@@ -1,0 +1,66 @@
+Here's the full turn-by-turn of Roomerang (latest version in The Jackbox Party Pack 9), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Roomerang on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 4–9. Audience can answer separate polls when Audience mode is on. Session length is roughly 30 minutes.
+
+Character creation (before Round 1)
+**Main screen:** Lobby fills with "roomie" avatars as players join.
+**Player phones:** Confirm your display name. Choose a character detail from three preset roles or type a custom one (e.g. "Likes Smoothies"). Pick one of twelve monochromatic "roomie" avatars. Your name, avatar, and a matching voice sound appear in the lobby.
+
+Game start
+**Main screen:** Host Rue Meringue (voiced by Dezi Bing) explains the rules, then introduces each roomie and their role in a reality-TV-style house.
+**Player phones:** Each player starts with **5 points** in a private bank. No one sees anyone else's score until after the final round — only your own total is visible on your device throughout play.
+
+Five rounds — shared loop (Rounds 1–4)
+Each of the first four rounds follows the same challenge → vote → elimination → Roomerang cycle, with round-specific prompt types:
+
+| Round | Name | Prompt type |
+|-------|------|-------------|
+| 1 | Introductions | Generic self-intro prompt |
+| 2 | Connections | Prompt pairs you with a randomly selected other player |
+| 3 | Quickie | Generic prompt, but identities stay hidden until after voting |
+| 4 | Firestarter | Pick another player and blame them for something |
+
+Challenge phase
+**Main screen:** Rue presents the round prompt. In Round 3 (Quickie), answers appear anonymously on-screen.
+**Player phones:** Answer the prompt in character (text entry). Audience members answer a separate poll if Audience is enabled.
+
+Reveal and vote phase
+**Main screen:** Submitted answers are revealed one by one. Vote tallies appear after voting closes.
+**Player phones:** After all answers are shown, you (and the audience) vote for the best answer. Each vote a player receives = **1 point** added to their private bank. The challenge winner earns a special advantage (see below).
+
+Challenge winner advantages (varies by round)
+- Safety from elimination
+- Safety + give another player safety
+- Safety + audience picks who to eliminate (Audience mode only)
+- Safety + mentioned player gets safety (Rounds 2 and 4)
+- Swap points with another player (Rounds 3 and 4)
+- Winner chooses who to eliminate (their vote counts double)
+- Winner chooses who to eliminate among those who voted for the winning answer (vote doubled)
+- Winner's vote counts as two
+- Winner can cancel another player's vote
+
+Elimination phase
+**Main screen:** Players (except the winner with safety) vote on who should leave the house and why. Rue reveals the eliminated player by pulling a card from an envelope — the reveal animation gets slightly faster each round. The eliminated player's door slams shut after parting words.
+**Player phones:** Vote for who to eliminate and type a reason. The eliminated player gets a few seconds for goodbye text or speech. Throughout the game, an **inbox** on the bottom-left of the controller shows who tried to eliminate you or who won challenges — useful for deciding your next elimination vote.
+
+Roomerang (after elimination)
+The eliminated player immediately returns with:
+- A new accessory (hat, glasses, mustache, etc.)
+- A new name (family-friendly off: first vowel swapped — e.g. BROOKE → BReOKE; family-friendly on: affix added to existing name)
+- A new character description (e.g. "Has Never Worn Shoes")
+
+Round 5 — Finale
+**Main screen:** Rue asks for a final prompt, usually involving a lesson, moral, or learning experience.
+**Player phones:** Submit your answer. Then vote **who should win** — points doubled per vote received. Then vote **who should NOT win** — each vote deducts a point from that player. Final scores are revealed in ascending order until the top two appear side by side.
+
+End of game and tie-breakers
+The player with the most points wins and gives a victory speech before the door closes on them. Tie-break order:
+1. Most "who should win" votes
+2. Fewest "who shouldn't win" votes
+3. Audience pick (if still tied)
+4. Random selection
+
+After credits, the VIP can replay with the same players and identities (scores reset by default; November Party Pack 9 update added option to keep scores).
+
+To be straight about the limits: round types, scoring privacy, elimination flow, Roomerang name/role changes, and advantage list are well-documented. Exact timer seconds per writing/voting phase are not published on the wikis.

@@ -1,0 +1,59 @@
+============================================================
+LIE SWATTER
+============================================================
+
+Pack:          Jackbox Party Pack 1
+Players:       1 - 100
+Length:        15 minutes
+Game Type:     Trivia
+Family Safe:   No
+Audience Mode: No
+
+IMAGE: images/lie-swatter.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Fast-paced trivia where players swat lies and avoid truths.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Each round presents a statement. Players must quickly decide if it's TRUE or a LIE and swat the correct side.
+Points go to players who swat lies correctly. Swatting a truth costs you points.
+The player with the most points at the end wins.
+Great for large groups — supports up to 100 players.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Displays statements, tracks scores, shows who swatted correctly.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Tap LIE or TRUTH as fast as possible on your phone.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Several rounds of rapid-fire statements.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Correct lie swats earn points; swatting truths loses points.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Read carefully — trick questions are common. Speed matters on ties.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: lie-swatter
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

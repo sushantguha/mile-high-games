@@ -1,0 +1,42 @@
+Here's the full turn-by-turn of Job Job (the version in The Jackbox Party Pack 8), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis.
+
+Setup and lobby
+The host launches Job Job on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–10, plus audience (who act as the "board of directors"). Session length is roughly 20 minutes. Manager M. Bubbles (voiced by Gloria Imseih Petrelli) welcomes everyone to a revolutionary group hiring process—only one job, and you'll be judged by each other.
+
+Round 1 — Icebreaker then Interview
+
+Icebreaker phase
+Main screen: M. Bubbles introduces the icebreaker. Background animations play (M. Bubbles knitting yarn, vomiting into a flower pot, a table eating a computer mouse, etc.).
+Phone: You're asked three icebreaker questions. Answer each as simply as possible with at least 5 words. During writing, audience members can create motivational posters (pick an image + fill in a pre-written sentence blank) that appear in the game background.
+
+Interview phase
+Main screen: M. Bubbles transitions to the interview portion.
+Phone: Two difficult interview questions appear on your device. You cannot type freeform answers—you must construct responses by clicking words dissected from three other players' icebreaker answers (plus words from the question itself). Tap a word to add it; tap again to remove. Hold and drag to rearrange. Stuck? Use Shuffle, Sort, or "Start for me" (game picks random starter words).
+
+Reveal and vote
+Main screen: One prompt is shown with two submitted answers side by side (Quiplash-style head-to-head).
+Phone: All players and audience vote for their favorite answer.
+
+Scoring per matchup
+Main screen: Vote results and points awarded.
+Phone: Score updates.
+- Winner earns the bigger share of points based on vote percentage.
+- Players whose words appeared in the winning answer get 50 points per word used.
+- Rainbow Bonus: if the winning answer used words from all three source players' icebreakers, the arranger gets an extra 50 points.
+- Synergy: if one answer sweeps all votes, M. Bubbles' arms turn golden, water sprays out, "Synergy" appears, and the winner gets all the points.
+- If you win using words from only one player's icebreaker, M. Bubbles calls you out for being unoriginal.
+- No submission? Replaced with an explicit "didn't submit" answer.
+
+Round 2 — same structure, office-themed
+Main screen: M. Bubbles holds a phone during Round 2's icebreaker (always answers a miscellaneous employee call).
+Phone: Two icebreakers (one fewer than Round 1), then two office-life hypothetical questions built from word fragments the same way. Haggling, voting, and scoring work identically.
+
+Round 3 — Final personal statements
+Main screen: Final round intro plays.
+Phone: Two personal statement prompts (e.g., "I am [blank]" and "My goal is [blank]") that you complete using word fragments from icebreaker answers, same construction mechanic.
+
+End of game
+Main screen: Final scoreboard. The player with the most votes/points officially joins the team. M. Bubbles fires someone (e.g., "Allard") right after. During credits, the most-used words across all answers appear bottom-left with usage counts.
+Phone: Final placement shown. Post-game, shirts containing players' in-game answers can be purchased.
+
+To be straight about the limits: icebreaker 5-word minimum, word-fragment construction mechanic (tap/hold/shuffle/sort/start-for-me), Quiplash-style voting, 50 points per word in winning answer, Rainbow Bonus (+50), Synergy (sweep all votes), audience motivational posters, and the three-round structure are all documented. What isn't published is the exact writing timer per phase.

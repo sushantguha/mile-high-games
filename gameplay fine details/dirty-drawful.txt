@@ -1,0 +1,41 @@
+Here's the full turn-by-turn of Dirty Drawful (latest version in The Jackbox Naughty Pack), tracking the main screen and each player's phone separately. Dirty Drawful is the mature Drawful variant — core flow follows the Drawful series rules with Naughty Pack additions. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Dirty Drawful on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Sexy Owl (long-legged variant) hosts. Mature prompts cover sexual themes, alcohol, drug use, and other adult content. Session length is roughly 15 minutes. Content filters and emote-disable options added in November 2024 update.
+
+Round count
+Depends on player count (Drawful series rule): **6 or fewer players → 2 drawing rounds**; more players → 1 round. No dedicated "final round" — after all drawings are guessed, highest score wins.
+
+Per-drawing loop
+
+**Draw phase**
+- **Main screen:** Timer and prompt (often adult-oriented).
+- **Player phones:** Draw the prompt on canvas. **4 colors** available (vs. 2 in Drawful 2). **Undo button** added — reverses your previous line (toggle off via "Drawful Purist" setting). No full eraser (series running joke). Audience can change Sexy Owl's look while players draw.
+
+**Title / lie phase**
+- **Main screen:** A random player's drawing appears.
+- **Player phones:** Everyone except the artist types a fake title for the drawing. If you miss the timer, your slot becomes a **decoy answer** (Drawful 1 rule: decoys can cost the artist 500 pts per person fooled — verify in Naughty build; later Drawful games handle decoys differently).
+
+**Guess phase**
+- **Main screen:** All fake titles plus the real title display around the drawing.
+- **Player phones:** Pick which title you think is the real prompt. After choosing, react with one of **8 emojis**: laugh, vomit, scream, question, fire, skull/crossbones, "No!", "nice." (Emotes can be disabled in settings.) Optionally **like** a favorite fake title (Drawful series thumbs-up system — likes don't add points in base Drawful).
+
+**Reveal phase**
+- **Main screen:** Who picked which answer; truth revealed.
+- **Scoring (Drawful base rules from jackbox.wiki):**
+  - **+1,000** to each player who guessed the real title
+  - **+1,000 per player** to the original artist for each correct guess
+  - **+500 per player fooled** to whoever wrote a fake title that others picked
+  - Decoy penalty (original Drawful): **−500 per player** who picked a timed-out/decoy slot
+
+Between drawings and end of game
+Next drawing cycles through the same draw → lie → guess → reveal flow until the round quota is met. Scoreboard updates. Highest total wins. Post-game sharing available (Drawful 2 tradition).
+
+Dirty Drawful-specific vs. other Drawful versions
+- Adult prompt pool
+- 4-color palette
+- Undo button (Purist mode disables)
+- Audience owl customization during drawing
+- Emoji reactions during write/vote phases
+
+To be straight about the limits: Dirty Drawful innovations are on Fandom; scoring numbers come from base Drawful jackbox.wiki page applied to this variant. Whether Naughty Pack decoys still deduct 500 points exactly as Drawful 1 should be verified in play — wikis document it for original Drawful only.

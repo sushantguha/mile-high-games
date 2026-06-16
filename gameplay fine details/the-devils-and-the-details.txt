@@ -1,0 +1,43 @@
+Here's the full turn-by-turn of The Devils and the Details (the version in The Jackbox Party Pack 7), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. This is a co-op task game with competitive individual scoring; exact task timers aren't published on the wikis.
+
+Setup and lobby
+The host launches the game on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8, plus audience. Session length is roughly 15 minutes. The Demon Relocation Specialist (voiced by Tim Sniffen) welcomes your devil family to the Demon/Human Relations Program. A VIP player can choose one of 30 Challenge Weeks (thematic scenarios like "A Demon for Dinner," "Devils in Space," "Cry Uncle," etc.) that flavor the week's narrative and final evaluation letter.
+
+Role assignment
+Main screen: The Specialist explains the premise—you're devils trying to blend in with humans by completing household chores.
+Phone: Each player is assigned one of three family roles: Parent, Teen, or Child. Your role determines which tasks you can perform during the game.
+
+The 3-day structure
+The family has 3 days to complete tasks and raise the Family Score above a threshold. Every day except the Final Day can be retried if the Family Score is too low. The game also ends early if all Challenge Tasks (star-marked) are completed before the week is up.
+
+Task types
+Phone: Tasks appear on your device and must be completed in different ways.
+
+Standard tasks: Everyday chores (mowing the lawn, doing laundry, etc.). Give variable individual points and Family Score.
+
+Challenge tasks (star icon): Required to finish the game with a perfect grade. Give high individual points and Family Score. All are required for a perfect grade.
+
+Selfish tasks (pitchfork icon): Devilish misbehavior. Give high individual points (666 or 999) but no Family Score boost. Too many trigger a Family Emergency.
+
+Some tasks involve giving directions to another player so they can navigate to a location on a map.
+
+Family Score and Selfish Meter
+Main screen: Family Score is tracked prominently. A Selfish Meter sits beside it.
+Phone: Completing Selfish Tasks fills the Selfish Meter. It drains over time only if no new Selfish Tasks are completed. When the meter fills completely, a Family Emergency triggers.
+
+Family Emergency
+Main screen: Everyone (including whoever caused it) is forced into an emergency task while their score ticks down.
+Phone: Solve the emergency by continuously tapping/clicking until a progress bar fills. Emergencies include: breaking down a locked door, bailing flooded basement water, fumigating termites, dousing a kitchen fire, or cranking a generator during a power outage. After the emergency, Family Score stops dropping and regular tasks resume.
+
+Audience play
+If more players than the set maximum join, the family cat "consumes the souls of the Audience." Audience members receive random Cat Tasks at intervals (vomiting on bedsheets, scratching the couch, rolling over for belly rubs, etc.). When the audience completes them, those tasks get intermingled with the devils' task lists and can be completed for points.
+
+Finishing the game
+Main screen: If Family Score passes the threshold, the family earns a satisfactory grade. The first-place devil wins the coveted "World's Bestest Devil" mug. If Family Score is too low, the game ends in failure (retryable on non-Final days). Final evaluation letter text depends on the chosen Challenge Week and whether you succeeded or failed.
+
+End of game
+Main screen: Winner announced with full point standings.
+Phone: Individual score, Family Score result, and placement shown.
+A full game runs roughly 15 minutes. Family Friendly filter: No.
+
+To be straight about the limits: role types, task categories (standard/challenge/selfish), Family Score threshold, 3-day retry structure, Selfish Meter mechanics, all five Family Emergency types, audience Cat Tasks, and the 30 Challenge Weeks are documented. What isn't published is the exact seconds per individual task or the precise Family Score threshold number.

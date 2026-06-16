@@ -1,0 +1,43 @@
+Here's the full turn-by-turn of Trivia Murder Party 2 (latest versions in The Jackbox Party Pack 6 and The Jackbox Party Starter), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches TMP2 on the shared/main screen. One to eight players join at jackbox.tv, plus audience. [REDACTED] (Spencer Ham) hosts at the Just Inn murder hotel. Party Pack 6 ships English only; Party Starter adds French, Italian, German, Spanish (Latin American and Castilian), and Brazilian Portuguese. Game length is roughly 15–20 minutes. Doll avatars (Sheriff, Jester, Believer, Nerd, Screamer, Alpha, Red Herring, Lovers) represent players.
+
+Latest version notes (Party Pack 6 / Party Starter)
+Sequel to Trivia Murder Party — higher stakes, more minigames, family-heirloom ending variants. Money ($) only matters for tie-breaking if everyone dies before the final round (richest ghost/player gets revived). Idle players get an hourglass and are treated like audience (game no longer waits for them). Audience score is hidden until just before the final round, then the audience physically runs for the exit and can win outright.
+
+Main loop — each of nine trivia questions
+
+Trivia question
+Main screen: Multiple-choice question with horror-hotel presentation.
+Phone: Four answers. Correct → +$1,000 and you stay safe (audience earns a proportional share of a $1,000 pool by correctness percentage). Wrong → you go to the Killing Room.
+
+Special trivia beats (not every game)
+All living players answer correctly two in a row (three in a row for 1–3 player games) → everyone sent to the Killing Room so [REDACTED] can "teach you a lesson."
+Occasionally one player is called to the stage alone — correct answer puts others at risk; wrong answer sends only that player to the Killing Room.
+
+Killing Room (wrong players)
+Main screen: Random minigame intro — 22 types including Chalices, Dictation, Donations, Dumb Waiters, Escape Room (once per game — host must PAUSE then RESUME the game via Escape key), Gifts, Greed, High Rollers, Lock & Key (forced at Q9), Loser Wheel, Math, Mind Meld, Mirror, Password, Pegs, Phones, Quiplash, Rules, Scratch Off, Skewers, Skull Dice, Tattoos, and more. Asterisk-marked minigames carry over from TMP1.
+Phone: Minigame-specific inputs. Safe players (and sometimes ghosts) often play along when only one or two players are in danger — safe players can earn $500 kill bonuses for eliminating at-risk players in competitive minigames. Writing/drawing minigames: fewest votes dies. Survive → return alive. Fail → die and become a ghost (ghosts still answer trivia and can win the finale).
+
+Death safety net
+If everyone dies before question 5 (question 4 in smaller games), [REDACTED] rewinds that Killing Room round once for a redo. If everyone dies again after a rewind, the game ends with no winner.
+
+After question 9 — forced Lock & Key
+If multiple players are still alive at checkout time, all living players enter Lock & Key sudden death: pick a key; internally a random roll decides who escapes (10% / 50% / 100% odds per key slot documented on jackbox.wiki). One survivor reaches the final round; others die.
+
+Final round — race to the exit
+Main screen: Side-scrolling chase toward the hotel exit. Living player starts 14 spaces from exit (18 in solo). Top three money-earning ghosts start 3, 2, and 1 spaces ahead of the pack; other ghosts start 21 spaces back. Audience starts ~2 spaces up based on pre-finale score.
+Phone: Each category offers three answers; living leader in multiplayer can only play the first two choices until the exit barrier appears. Tap answers that fit the category, then Submit. Unselected wrong answers and selected correct answers each move you one space. Timer is 12 seconds (even if Extended Timers is on). Not pressing Submit scores whatever is selected when time expires.
+
+Final-round advanced rules
+Audience moves up to three spaces per question based on correctness percentage.
+A ghost catching the living player steals their life force and can win as a living runner.
+After 3–4 categories, shadows advance from the left (4 spaces initially, then +2 per turn) — trapped players are eliminated.
+Within 2 spaces of escape (3 solo), an exit barrier requires all three answers correct — living player must now use the third choice too. Audience can break the barrier if ≥75% of their picks are correct and no player has broken through.
+First player (or audience) out wins. If everyone is consumed by shadows, nobody wins.
+
+Endings
+Normal endings (seven variations) if you escape clean. Family-heirloom endings if you escape holding Uncle Clive's Time Bomb, Father's Hat, Mother's Wig, Grandpappy Jack's Glasses, Auntie Vale's Hand Mirror, or Grandma's Despair Knife — each triggers a special finale cutscene.
+
+To be straight about the limits: nine-question structure, $1,000 payouts, Killing Room catalog, ghost participation, Lock & Key forced cull, final-round spacing, 12-second timer, barrier rule, shadow elimination, and audience-as-competitor are documented. Exact minigame selection weights and the precise final-round question count before shadows appear (3 vs 4) vary by run — the wikis describe the range but not a fixed schedule per lobby size.

@@ -1,0 +1,40 @@
+Here's the full turn-by-turn of Time Jinx (stylized "Time JINX"; latest version in The Jackbox Party Pack 10), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki (Fandom page; jackbox.wiki had no dedicated page at fetch time).
+
+Setup and lobby
+The host launches Time Jinx on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 1–8 (+ Audience). Host Jerri Rig (voiced by Leila Gorstein) gathers her time-traveler friends for trivia night. Pick an avatar (robot cowboy, plague doctor, disco dancer, hippie, flapper, anime fan, etc. — name easter eggs include "Gene" for Gene from Survive the Internet and "Jerri" for Jerri herself). Session length is roughly 20 minutes.
+
+Core scoring rule (unusual)
+**Lower score wins.** You gain **1 point for each year your guess differs** from the correct answer. Speed matters less than proximity.
+
+Standard question loop
+**Main screen:** Jerri states a historical event and a **15–60 year range** in which it occurred.
+**Player phones:** Enter a year guess to "travel to" that year on your timeline.
+
+Reveal
+**Main screen:** Correct year revealed; players' guesses shown. "Jinx!" is called out when two or more players pick the same year — cosmetic only, no gameplay effect.
+**Player phones:** See how many points you gained (distance from truth) and your running total.
+
+Special rounds (after every 3 standard questions)
+One of three types plays; **10% of your current points are deducted for each correct answer** in the special round (rewards accuracy while you're ahead):
+
+**TimeHop** — Travel to three parties in different decades. A stranger mentions something popular at the time; pick the response that lets you blend in (e.g. when E. Honda is mentioned, choose the Street Fighter II answer).
+
+**TimeLoop** — Two related history questions. After both are asked, the timeline loops: you may change answers. On the second pass, one option is highlighted with commentary like "This was the most selected option" or "This can't be right, can it?"
+
+**TimeFix** — Two timeline disturbances to correct. Given a year and a real event with one ridiculous alteration (e.g. D-Day named after Tenacious D's formation), pick the correct meaning.
+
+Mid-game events (Round 2 or 3)
+Jerri alerts one of two one-off events; **20% point deduction** for correct answers:
+
+**Impostor event** — A historical figure and their impostor state the same fact with one difference. Pick the **real** version (controller may say "Spot the impostor" but Jerri says pick the real one). Example: Napoleon barely 4 feet vs. barely 5 feet tall — 5 feet is correct.
+
+**Altered landmark event** — An image shows a famous location but the landmark is replaced. Identify the **location** of the image, not the wrong landmark. Example: Big Ben replaced by another tower; choose London over Rome.
+
+Final round
+**Main screen:** Jerri asks you to travel to a **future** year — either 100 or 1,000 years after a different historical event.
+**Player phones:** Guess the future year. Instead of gaining points, you receive a **score deduction** based on how close you got (still lower total wins).
+
+End of game
+Lowest total score wins — the most accurate time traveler. Full game ~20 minutes.
+
+To be straight about the limits: point-per-year-off rule, special round types, 10%/20% deductions, Jinx callout, and final future round are documented on Fandom. Exact number of standard questions per round and per-question timer seconds are not published.

@@ -1,0 +1,31 @@
+Here's the full turn-by-turn of Drawful Animate (the version in The Jackbox Party Pack 8), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis.
+
+Setup and lobby
+The host launches Drawful Animate on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–10, plus audience. Session length is roughly 15 minutes. The Drawful Owl hostess (voiced by Katie Rich) introduces the game. Optional modes from the lobby: Friend Mode (prompts personalized to your group), Featured Content (timely/thematic custom games with Jackbox-made prompts), and Infinity Timers (removes the drawing timer entirely). There is no separate "Final Round"—after all drawings are seen, highest score wins.
+
+Each drawing cycle — animate phase
+Main screen: A strange prompt is shown. The hostess reminds you there's still no eraser.
+Phone: You receive a prompt and must draw a two-frame animation (not a single still image) within the allotted time. You have 3 colors to draw with (up from Drawful 2's two). Draw frame one, then draw frame two—your animation plays as a loop when revealed. Audience members can mess around with extras while players are drawing and writing.
+
+Title-writing phase (lie phase)
+Main screen: A random player's animation is shown playing on screen.
+Phone (non-artist): Everyone except the artist types a fake title—a lie they think could fool others into thinking it's the real prompt. Similar to Fibbage: you're writing a decoy answer for someone else's drawing. If you don't submit a lie in time, a game-provided decoy is used (unlike original Drawful, decoy lies in later Drawful games don't deduct points from anyone).
+
+Guess phase
+Main screen: All submitted titles (lies plus the truth) appear on screen around the animation.
+Phone: Pick which title you think is the real prompt. You can also "double down" on your guess to boost your score—if correct, you earn extra; if wrong, the player whose lie you picked gets twice the points they'd normally earn. After choosing, you can thumbs-up your favorite responses (likes are tallied but don't give extra points in Drawful Animate).
+
+Reveal and scoring
+Main screen: The truth is revealed. Points are awarded.
+Phone: Personal score updates.
+- Artist and guessers who picked the truth each earn 1,000 points per correct guess.
+- A player whose lie fooled someone earns 500 points per player fooled.
+- Double-down wrong guess: the liar gets double points from your mistake.
+- Depending on player count, the number of drawing rounds changes (6 or fewer players get an extra round).
+
+Between rounds and end of game
+Main screen: Scoreboard after each round of drawings. No final-round multiplier exists.
+Phone: Running score visible.
+At the end, the player with the highest total score wins. A full game runs roughly 15 minutes.
+
+To be straight about the limits: two-frame animation (not single drawing), 3-color palette, Fibbage-style lie-and-guess structure, double-down mechanic, Friend Mode, Featured Content, Infinity Timers, audience interaction during drawing/writing, and variable round count by player count are all documented. What isn't pinned down is the exact drawing timer in seconds (unless Infinity Timers is on) or the precise TV-to-phone sync delay.

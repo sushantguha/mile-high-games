@@ -1,0 +1,44 @@
+Here's the full turn-by-turn of Split the Room (the version in The Jackbox Party Pack 5), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Split the Room on the shared/main screen. Players join at jackbox.tv with the room code and a name; chess-piece avatars fill the lobby. Player count is 3–8 plus an audience that collectively controls a ninth "fishbowl" player. Mayonnaise the omniscient cat (voiced by Tim Sniffen) hosts. Game length is roughly 15–20 minutes.
+
+Latest version notes (Party Pack 5)
+This is the only shipped version. The core twist versus Quiplash: you are not trying to get everyone to agree — you want to split the room as evenly as possible on YES vs NO. The audience fishbowl votes on three pre-written answer options when filling blanks; its YES/NO vote counts toward splits and can enable a "Super Split." Likes and dislikes on scenarios are cosmetic only and do not affect score. The player with the most dislikes gets thrown into Mayonnaise's litter box during the credits.
+
+How many rounds you play (player-count dependent)
+3–5 players: two full chapters of yes/no scenarios, then the Decisive Dimension final round (10 chapters at 5 players, 8 at 4, 6 at 3).
+6–8 players: one chapter of yes/no scenarios (6–8 prompts matching player count), then the final round.
+With audience at 8 players, you get 9 chapters in the main round and Super Split becomes possible.
+
+Each yes/no scenario — step by step (Rounds 1 and/or 2)
+
+Writing the scenario
+Main screen: Mayonnaise monologues; Twilight Zone-inspired visuals; his head morphs through gag art styles while people write.
+Phone: You receive a hypothetical yes-or-no situation with a fill-in-the-blank. Example from the wiki: "Ads before online videos have been banished. In their place are 15-second videos of [THIS]. They are not skippable. Is life better?" You type the blank and submit. Audience members pick among three game-written answer triplets; majority vote fills their blank.
+
+Voting YES or NO
+Main screen: Scenarios appear one-by-one showing the completed prompt. The room votes YES or NO.
+Phone: Same scenario text plus big YES and NO buttons. You can also like or dislike the scenario (no score effect). Audience fishbowl votes too.
+
+Scoring each scenario
+Points reward an even split, not unanimity. A 3–4 split in a 7-player room earns more than a 1–6 blowout. The more evenly divided the YES/NO ratio (including the audience), the more points the author earns. The author also gets a Time Bonus based on how long players took to answer — slower deliberation pays the writer, but audience votes and AFK players are excluded from that timer. If YES and NO counts are perfectly equal (including the audience), the author earns a Super Split — the best possible outcome where the table allows it (possible at 5, 7, or 8+audience player counts per the Tunable Traits table).
+
+Between scenarios
+Main screen: Leaderboard after each chapter batch.
+
+Final round — The Decisive Dimension
+
+Setup per scenario
+Main screen: Mayonnaise announces "We've reached the Decisive Dimension!" New scenario type: two-door would-you-rather instead of yes/no.
+Phone: You see a scenario where one answer is already written by the game. You write a competing second option. You are also assigned a random other player and must predict which door that player will pick.
+
+Voting
+Main screen: Two doors appear labeled with the two answers.
+Phone: Everyone picks the answer they prefer. Split scoring works like the main rounds, but there is no Time Bonus in this round. If you correctly predicted your assigned player's choice, you earn a Psychic Bonus of 50 extra points (audience cannot receive this bonus).
+
+End of game
+Main screen: Final scoreboard; winner declared; most-liked player highlighted; most-disliked player sent to the litter box in credits.
+Phone: Your final point total. Highest points across all rounds wins.
+
+To be straight about the limits: the split-as-goal design, chapter counts by player number, Super Split eligibility, Time Bonus (main rounds only), Psychic Bonus (+50), and audience fishbowl behavior are all documented. No public wiki publishes the exact point formula per split ratio (e.g., how many points a 4/4 earns versus 3/5) — only that closer to 50/50 is better. Frame-count or log a game if you need those numbers to the point.

@@ -1,0 +1,49 @@
+Here's the full turn-by-turn of Fakin' It! (the version in The Jackbox Party Pack 3 — meta: 3–6 players plus audience, ~15 minutes, Hidden Identity, family-friendly), tracking the main screen and each player's phone separately. Cookie Masterson hosts (voiced by Tom Gottlieb). This game requires seeing other players in person — it is very hard to stream or screenshare (Fandom). Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Fakin' It on the shared/main screen. A four-letter room code appears; players join on phones. Three to six players plus optional audience. Cookie stresses on the main screen that it is important to be able to see each other (jackbox.wiki gallery). Players can change their name on their device before start (jackbox.wiki).
+
+Roles
+One player per round is secretly the Faker and does not receive the real task prompt. Everyone else receives the same secret scenario on their phone. Non-Fakers must deduce who lacked instructions; the Faker must blend in physically. Two goals: players catch the Faker; the Faker evades detection (Fandom; jackbox.wiki).
+
+A standard round (Hands of Truth, You Gotta Point, Number Pressure, or Face Value), step by step
+Category pick
+Main screen: A randomly selected player chooses the round's category on their phone — Hands of Truth, You Gotta Point, Face Value, or Number Pressure (jackbox.wiki). Hands of Truth is auto-selected if the tutorial is watched (Fandom).
+Phone (non-Faker): Receives the secret task prompt for that category — e.g. raise your hand or not (Hands of Truth), point at another player (You Gotta Point), hold up a finger count 1–10 (Number Pressure), or make a specific weird face (Face Value) (Fandom; jackbox.wiki).
+Phone (Faker): Sees a Faker-specific screen without the real task — must guess how to act. Fandom notes ~50% catch odds on Hands of Truth if the Faker guesses randomly.
+Physical perform phase
+Main screen: Category branding and host patter; the task itself is secret on phones until reveal.
+In the room: On a countdown ("3, 2, 1, Fake It!" per the physical card-game adaptation notes on jackbox.wiki), everyone physically performs — hand up/down, point, fingers, or face — while the Faker improvises.
+Vote phase
+Main screen: After performances, voting UI appears.
+Phone (all players + audience): Everyone votes for who they think is the Faker. Votes must be unanimous to catch the Faker — the Faker is exempt from voting for themselves so they need not self-incriminate (jackbox.wiki; Fandom Text You Up section applies same unanimity rule).
+Outcomes
+- No unanimous consensus → Faker escapes this check (jackbox.wiki).
+- Unanimous on a non-Faker → Faker escapes (jackbox.wiki).
+- Unanimous on the actual Faker → Faker is caught; round ends immediately (jackbox.wiki).
+- If the Faker survives every check in the round → Faker identity is revealed at round end (jackbox.wiki).
+
+Round scoring (after catch or full escape)
+Main screen: Round overview with who voted whom.
+Scoring: Faker earns a Faker Bonus of 100+ points, scaling with how many rounds/tasks they have evaded (jackbox.wiki). Non-Fakers earn nothing for the round unless they voted for the Faker when caught — then they earn a Sleuth Bonus of 100+ points, scaling with consecutive correct Faker votes (jackbox.wiki). Fandom's main Gameplay section only details the final round in depth; jackbox.wiki supplies the general-round scoring above.
+
+Final round — Text You Up (always last)
+Main screen: Text You Up round branding.
+Phone (non-Faker): Three separate text prompts, all identical across non-Fakers. Players type answers on-device (Fandom; jackbox.wiki).
+Phone (Faker): Three prompts that are only slightly related or adjacent/unrelated to the real ones — must strategize without knowing exact overlap (Fandom; jackbox.wiki).
+Reveal and vote (three chances)
+Like earlier rounds, players get three chances to catch the Faker (Fandom): each chance reveals another question and everyone's respective answers on the main screen, then voting commences. Unanimity is still required (Fandom; jackbox.wiki). Same Faker/Sleuth bonus logic applies per jackbox.wiki.
+
+End of game
+Main screen: Final scores, winner reveal, plus honorary Best Sleuth and Best Faker titles (jackbox.wiki). Full game runs roughly 15–20 minutes (Fandom).
+
+Task category reference
+- Hands of Truth: raise hand or not per secret prompt
+- You Gotta Point: point at another player
+- Number Pressure: hold up finger count (usually 1–10)
+- Face Value: make a task-specific facial expression
+- Text You Up: type three answers on phone; final round only
+- Noises Off: cut/unused category (jackbox.wiki trivia) — not in shipped game
+
+Limits
+Exact number of standard rounds before Text You Up is not explicitly numbered on the wikis — only that Text You Up is always final. Physical-action timing and per-round check count for non-final categories are not published to the second. Fandom's general Gameplay section is thin; jackbox.wiki carries most round-flow detail.

@@ -1,0 +1,59 @@
+============================================================
+TRIVIA MURDER PARTY 2
+============================================================
+
+Pack:          Jackbox Party Pack 6
+Players:       1 - 8
+Length:        15 minutes
+Game Type:     Trivia
+Family Safe:   No
+Audience Mode: Yes
+
+IMAGE: images/trivia-murder-party-2.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Horror-themed trivia where wrong answers get you 'killed' — last alive wins.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Answer trivia questions correctly to stay alive. Wrong answers put you in danger.
+'Killed' players become ghosts who can still win by haunting survivors.
+Mini-games between rounds: death lottery, final death, etc.
+The last living (or ghost) player wins.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Shows questions, dramatic deaths, mini-games, and final standings.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Answer trivia, participate in death mini-games as alive or ghost.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Multiple trivia rounds with escalating danger.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Survival-based; ghosts compete for a comeback win.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Ghosts can still earn a victory — stay engaged after dying.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: trivia-murder-party-2
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

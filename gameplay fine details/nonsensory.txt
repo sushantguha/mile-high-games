@@ -1,0 +1,44 @@
+Here's the full turn-by-turn of Nonsensory (the version in The Jackbox Party Pack 9), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis.
+
+Setup and lobby
+The host launches Nonsensory on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8, plus audience. Session length is roughly 25 minutes. Professor Nanners (voiced by Sarah Kempton), a chimpanzee psychologist, welcomes you to test your NSP (Nonsensory Perception). Games with fewer than 5 players run four rounds instead of three. Optional lobby settings: Writing Only or Drawing Only override the normal round types. A sign outside each test room tracks tests completed without a "fart incident"—it resets to zero if any player uses the word "fart" in any answer.
+
+Optional tutorial (VIP choice)
+Main screen: Professor Nanners runs a pregame exercise.
+Phone: You're given a secret number and must name something matching it. Other players guess 1–10. The answer is revealed after everyone guesses.
+
+Round 1 — Writing
+Main screen: A scale (1–10 or percentage) is shown with a prompt describing what to write (e.g., "a text that's passive-aggressive, but only sort of").
+Phone: Write an answer designed so others can guess where it lands on the secret scale. During writing, audience members do a "sync-up"—shown four cards with shapes/symbols and asked a question like "Which card is the most extroverted?" The more players who match on a card, the more audience points earned.
+
+Guessing phase
+Main screen: One player's answer is shown.
+Phone: All other players (and audience) guess which number/percentage on the scale the answer matches. Tap a box on the scale. Optionally tap-and-hold the Confidence Button to double earnings—or lose 500 if you're outside the acceptable range. Three emotes (laughing, heart, questioning-with-exclamation) can be pressed to share feedback.
+
+Scoring
+Main screen: All guesses shown, then the secret number lights up on the scale.
+Phone: Score updates.
+- Spot on: 1,000 points.
+- One away from correct: 500 points.
+- Further off: 350 down to 0.
+- Writer earns points if guessers land on the secret number or adjacent numbers (e.g., secret is 6 → 5 and 7 also award writer points).
+- Confidence within range: double your points.
+- Confidence outside range: lose 500.
+
+Round 2 — Drawing
+Main screen: Same scale mechanic, but the prompt asks you to draw something (e.g., "a bug that's 60% in love").
+Phone: Draw on your canvas instead of writing. Audience sync-ups continue. Guessing, Confidence, and scoring work identically to Round 1.
+
+Round 3 (or Round 4 in sub-5-player games) — Final
+Main screen: Scale changes to a two-sided board—orange top half, purple bottom half. Range is 60–100% between two completely separate subjects (e.g., DRAGON on one end, SOFA on the other). Points are doubled.
+Phone: Draw a prompt landing on the secret position between the two subjects. Guess as before.
+- Correct: 2,000 points.
+- One away: 1,000 points.
+- Confidence bonus/penalty also doubled in effect.
+
+End of game
+Main screen: Final scores. Winner declared. Audience receives a performance rank sentence.
+Phone: Final score, placement, and whether you triggered a fart incident.
+A full game runs roughly 25 minutes.
+
+To be straight about the limits: NSP scale guessing (1–10 or percentage), writing vs drawing rounds, Confidence Button (+double or -500), writer adjacent-number scoring, audience sync-up cards, doubled final-round points (2000/1000), two-sided 60–100% scale in the final, sub-5-player four-round structure, Writing Only/Drawing Only overrides, and the fart-incident counter are all documented. What isn't published is the exact writing/drawing timer per prompt.

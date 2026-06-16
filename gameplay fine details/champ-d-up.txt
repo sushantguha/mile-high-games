@@ -1,0 +1,37 @@
+Here's the full turn-by-turn of Champ'd Up (the version in The Jackbox Party Pack 7), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Champ'd Up on the shared/main screen. Three to eight players join at jackbox.tv, plus audience. Tom Gottlieb hosts the Scrawliseum (often described as Cookie Masterson-adjacent in tone). Trainer mascots (Rue, Sloane, Rosie, Raph, Corey, Brice, River, Treena, Toni, Shelley) represent players. Game length is roughly 20 minutes across two rounds. Empty or censored drawings are replaced by Gene and automatically lose.
+
+Latest version notes (Party Pack 7)
+Later updates added Champ'd Up: Slamdown — a physical/trading-card side game where you can buy printed cards of your drawn champions (trainer names revealed on those cards). Fighters can be tagged back in across successive games. Underdog (Challenger) always gets a 10% cash bonus on fight winnings, letting a 48% vote share beat a 52% Champion after bonus math.
+
+Round 1 — Champions and Challengers
+
+Drawing phase (everyone)
+Main screen: Title reveal for Champion matchups; trainer hype.
+Phone: You create two fighters this round:
+Champion: you see the full title (e.g., "Champion of Cowards") and draw the character.
+Challenger / Underdog: you only know who you are facing — not the title — and draw your counter-fighter.
+
+Head-to-head voting (each Champion title)
+Main screen: Both drawings battle under the revealed title; vote percentages shown.
+Phone: Vote which drawing better fits the title (audience votes too). Each fighter earns cash equal to their vote percentage × $10,000 (i.e., 60% = $6,000). The Underdog adds 10% of their own earnings as bonus — so 48% vs 52% can still crown the Underdog ($4,800 + $480 bonus = $5,280 vs $5,200). The bout winner also earns additional winner money (on top of the percentage split). Cycle repeats until every Champion title has been fought.
+
+Between Round 1 and Round 2
+Main screen: Halftime standings.
+
+Round 2 — higher stakes plus Surprise Contest
+
+First pass
+Same draw-and-vote loop as Round 1 with new titles.
+
+Surprise Contest (after initial Round 2 voting)
+Main screen: A brand-new title appears without a full redraw phase for everyone.
+Phone: You may tag in a previous fighter from this game (or a carried-over fighter from an earlier session) or stick with your new creation. Players who do not tag in earn more money if they win the bout. Votes from the first fight and the Surprise Contest are cumulative for that pairing — highest combined vote share wins the match.
+
+End of game
+Main screen: Final cash totals; champion crowned in the Scrawliseum.
+Phone: Your bankroll. Most money wins.
+
+To be straight about the limits: two-round structure, Champion-vs-Challenger blind-draw twist, percentage-based payouts, 10% Underdog bonus (48%-beats-52% math), Surprise Contest tag-in, cumulative Round 2 scoring, and Gene replacement on bad drawings are documented. The exact "additional winner money" per bout and the untagged-in winner bonus multiplier are referenced on the wikis but not spelled out as fixed dollar amounts — run a bout and read the post-vote breakdown if you need those to the dollar.

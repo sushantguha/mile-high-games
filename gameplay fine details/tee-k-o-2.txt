@@ -1,0 +1,34 @@
+Here's the full turn-by-turn of Tee K.O. 2 (latest version in The Jackbox Party Pack 10), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Tee K.O. 2 on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Tournament Mistress (voiced by Judy Rossignuolo-Rice) hosts shirt combat on Tee Shirt Island. Players pick from beloved Jackbox franchise characters (Mayonnaise, Sexy Owl, Gene, Rue Meringue, The Faker, Gyokuto, and others). Session length is roughly 20 minutes.
+
+Round 1 — draw, write, assemble, bracket
+**Drawing phase**
+- **Main screen:** Timer countdown while players sketch; Wheel of Enormous Proportions may appear in the background.
+- **Player phones:** Draw **three** separate designs. Tools: color palette, pen, marker, eraser, and base canvas color. Unlike the original Tee K.O., finishing a drawing early immediately advances you to the next one while the timer still runs.
+
+**Slogan phase**
+- **Main screen:** Writing timer and progress.
+- **Player phones:** Write at least **four** slogans/phrases.
+
+**Make-a-shirt phase**
+- **Main screen:** Shirt previews assemble.
+- **Player phones:** Pair random drawings with random slogans onto a garment. Change the slogan font. Choose garment type: default t-shirt, hoodie, or tank top.
+
+**Bracket tournament**
+- **Main screen:** Shirt matchups display head-to-head; winners advance bracket-style.
+- **Player phones:** Vote for the winning design in each matchup. Audience votes count when present. Cannot vote for your own shirt where standard rules apply.
+
+Round 2 — same flow, one extra drawing
+Identical to Round 1 except players draw **one additional** design (four total this round). Players may **edit a drawing from Round 1** or create an entirely new one. In make-a-shirt, drawings and slogans from **both** Round 1 and Round 2 are available. Another bracket runs; winners from each round advance.
+
+Final round — button-mashing championship
+No new drawing, writing, or shirt-making.
+- **Main screen:** The two winning shirts from Rounds 1 and 2 face off. A power meter fills for the favored design. The dragon burns the losing shirt, then wears the winner.
+- **Player phones:** Vote/tap repeatedly for your favorite design until that shirt's power meter is completely full.
+
+End of game
+The surviving shirt's owner wins. Credits roll. Full session ~20 minutes.
+
+To be straight about the limits: three-phase creation, bracket voting, Round 2 remix rules, and final button-mash finale are well-documented. Exact drawing timer seconds and tap-rate for the final meter are not published to the second.

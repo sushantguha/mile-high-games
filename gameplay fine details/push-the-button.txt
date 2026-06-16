@@ -1,0 +1,54 @@
+Here's the full turn-by-turn of Push the Button (the version in The Jackbox Party Pack 6), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Push the Button on the shared/main screen. Four to ten players join at jackbox.tv. No audience. D.O.D.E. — Digital Officer During Emergencies (Surena Marie) — hosts aboard a spaceship invaded by shapeshifting aliens. Humans must identify and eject all aliens before the ship timer hits zero; aliens win if even one alien remains at the end or if a wrongful ejection succeeds. Game length scales with player count (12–20 minutes). Voice chat with your group is strongly recommended on both wikis.
+
+Latest version notes (Party Pack 6)
+Originally pitched for Party Pack 4; ~two years of playtesting. Alien-vs-human prompt differences grow larger as the game progresses. Timer pauses during tutorials and in the Extraction Room. Each alien gets exactly two hacks (twice the alien count total hacks shown on screen; the displayed total never decreases as hacks are spent). Bioscanner unlocks deeper into a run, has a five-minute cooldown, and always requires exactly two testees plus the captain describing glyphs.
+
+Role assignment
+Main screen: D.O.D.E. briefings; role-reveal animation.
+Phone: You are secretly told Human or Alien. With five or more players, aliens also learn who their fellow aliens are. Confirm your role to begin.
+
+Each cycle — captain, test, probe, maybe eject
+
+Captain selection
+Main screen: Random captain highlighted.
+Phone: If you are captain, you pick a testing room and select which players to test (count limits scale with lobby size — 2 testees at 4–5 players, up to 4 at 9–10).
+
+Testing rooms (captain picks one)
+Drawing Quarters: everyone draws the same prompt; aliens get a slightly different or unrelated prompt.
+Writing Pod: fill-in-the-blank or question; aliens get a skewed prompt.
+Opinion Hold: agree/disagree on a statement; aliens may see the opposite or unrelated statement.
+Deliberation Deck: humans see a scenario with three choices; aliens see only the three choices blind.
+Bioscanner (late-game): two testees see eleven glyphs; captain describes three; if both pick correctly, captain privately scans one player (Human or Alien revealed only to captain). Aliens can sabotage glyph picks.
+
+During tests
+Main screen: Prompts revealed after submission; suspicious-vote phase.
+Phone: Complete your test. Non-captains can press "Hurry Up!" — more presses accelerate the timer.
+
+Suspicion vote (most tests)
+Main screen: All answers shown; group votes most suspicious response.
+Phone: Tap the answer you find most alien. Bioscanner failure shows highlighted glyphs and proceeds to suspicion vote; Bioscanner success skips straight to captain's private scan result.
+
+Alien hacks (available after tutorial, or immediately if tutorials off)
+Phone (aliens only): Two hacks each. Hack a human → they receive alien prompts next test. Hack an alien (or yourself) → they receive human prompts. An alien can hack two people in one round but then exhausts all their hacks.
+
+Probe screen
+Phone: Review history of prior test responses. Aliens initiate hacks from here.
+
+Extraction Room — pushing the button
+Main screen: Timer freezes. Extraction chamber sequence.
+Phone: Any player may push the button once per game. Select who you think are aliens. Everyone votes Yes or No on ejection. Unanimous Yes → selected players jettisoned and roles revealed. Any No → vote fails, everyone returns, new captain dealt. If all players have already pushed the button and no ejection passed, aliens win automatically.
+
+Win conditions
+Humans win: unanimous ejection removes only aliens (all aliens ejected across the game).
+Aliens win: at least one alien survives to the end, OR a vote ejects any human, OR humans run out of button pushes without a successful alien ejection, OR aliens win the clock.
+
+Tunable mechanics by player count (from fandom wiki)
+4 players: 1 alien, 2 hacks, 2 testees max, 12-min timer.
+5: 2 aliens, 4 hacks, 2 testees, 15 min.
+6–7: 2 aliens, 4 hacks, 3 testees, 15–18 min.
+8–10: 3 aliens, 6 hacks, 3–4 testees, 18–20 min.
+
+To be straight about the limits: win/loss conditions, test room behaviors, hack counts, Bioscanner rules, Hurry Up, extraction voting, and player-count tuning table are documented. Exact seconds on the global ship timer tick-down and the precise number of test cycles before Bioscanner unlocks are not published — play a round to map those.

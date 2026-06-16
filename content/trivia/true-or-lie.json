@@ -1,0 +1,1060 @@
+{
+  "statements": [
+    {
+      "text": "Goldfish have a three-second memory.",
+      "isTrue": false
+    },
+    {
+      "text": "Lightning never strikes the same place twice.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans only use 10% of their brains.",
+      "isTrue": false
+    },
+    {
+      "text": "The Great Wall of China is visible from space with the naked eye.",
+      "isTrue": false
+    },
+    {
+      "text": "Bats are blind.",
+      "isTrue": false
+    },
+    {
+      "text": "Chameleons change color primarily to match their background.",
+      "isTrue": false
+    },
+    {
+      "text": "Napoleon Bonaparte was unusually short for his era.",
+      "isTrue": false
+    },
+    {
+      "text": "Albert Einstein failed mathematics in school.",
+      "isTrue": false
+    },
+    {
+      "text": "Vikings wore horned helmets in battle.",
+      "isTrue": false
+    },
+    {
+      "text": "Shaving makes hair grow back thicker and darker.",
+      "isTrue": false
+    },
+    {
+      "text": "Cracking your knuckles causes arthritis.",
+      "isTrue": false
+    },
+    {
+      "text": "Sugar makes children hyperactive.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans swallow eight spiders per year while sleeping.",
+      "isTrue": false
+    },
+    {
+      "text": "The forbidden fruit in the Bible was an apple.",
+      "isTrue": false
+    },
+    {
+      "text": "Christopher Columbus proved the Earth was round.",
+      "isTrue": false
+    },
+    {
+      "text": "Medieval scholars widely believed the Earth was flat.",
+      "isTrue": false
+    },
+    {
+      "text": "George Washington had wooden teeth.",
+      "isTrue": false
+    },
+    {
+      "text": "Thomas Edison invented the light bulb from scratch.",
+      "isTrue": false
+    },
+    {
+      "text": "Marie Antoinette said 'Let them eat cake.'",
+      "isTrue": false
+    },
+    {
+      "text": "Blood in veins is blue before it is oxygenated.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans have exactly five senses.",
+      "isTrue": false
+    },
+    {
+      "text": "Your tongue has fixed taste zones for sweet, salty, sour, and bitter.",
+      "isTrue": false
+    },
+    {
+      "text": "Dogs age seven years for every human year at all life stages.",
+      "isTrue": false
+    },
+    {
+      "text": "Bulls hate the color red.",
+      "isTrue": false
+    },
+    {
+      "text": "Ostriches bury their heads in sand when scared.",
+      "isTrue": false
+    },
+    {
+      "text": "Lemmings commit mass suicide by jumping off cliffs.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans and dinosaurs lived at the same time.",
+      "isTrue": false
+    },
+    {
+      "text": "The Sahara is the world's largest desert.",
+      "isTrue": false
+    },
+    {
+      "text": "Seasons are caused by Earth's distance from the Sun.",
+      "isTrue": false
+    },
+    {
+      "text": "The Moon has a dark side that never receives sunlight.",
+      "isTrue": false
+    },
+    {
+      "text": "A penny dropped from the Empire State Building can kill someone.",
+      "isTrue": false
+    },
+    {
+      "text": "Hair and nails keep growing after death.",
+      "isTrue": false
+    },
+    {
+      "text": "You lose most body heat through your head.",
+      "isTrue": false
+    },
+    {
+      "text": "Microwave radiation makes food radioactive.",
+      "isTrue": false
+    },
+    {
+      "text": "Vaccines cause autism.",
+      "isTrue": false
+    },
+    {
+      "text": "Antibiotics work against viral infections like the common cold.",
+      "isTrue": false
+    },
+    {
+      "text": "Swallowed gum stays in your stomach for seven years.",
+      "isTrue": false
+    },
+    {
+      "text": "Fortune cookies originated in China.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans evolved from modern chimpanzees.",
+      "isTrue": false
+    },
+    {
+      "text": "Black holes are cosmic vacuum cleaners that suck in everything nearby.",
+      "isTrue": false
+    },
+    {
+      "text": "Astronauts are weightless in orbit because they are far from Earth's gravity.",
+      "isTrue": false
+    },
+    {
+      "text": "Glass is a very slow-moving liquid at room temperature.",
+      "isTrue": false
+    },
+    {
+      "text": "Diamonds are formed from compressed coal.",
+      "isTrue": false
+    },
+    {
+      "text": "Cold weather causes the common cold.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans have the same number of neck vertebrae as giraffes.",
+      "isTrue": true
+    },
+    {
+      "text": "Venus is the hottest planet in our solar system.",
+      "isTrue": true
+    },
+    {
+      "text": "Octopuses have three hearts.",
+      "isTrue": true
+    },
+    {
+      "text": "Cleopatra lived closer in time to the Moon landing than to the Great Pyramid.",
+      "isTrue": true
+    },
+    {
+      "text": "Oxford University is older than the Aztec Empire.",
+      "isTrue": true
+    },
+    {
+      "text": "Mammoths were still alive when the Great Pyramid was built.",
+      "isTrue": true
+    },
+    {
+      "text": "Honey never spoils under normal sealed storage.",
+      "isTrue": true
+    },
+    {
+      "text": "Bananas are berries but strawberries are not.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans share roughly 50% of their DNA with bananas.",
+      "isTrue": true
+    },
+    {
+      "text": "Sharks are older than trees.",
+      "isTrue": true
+    },
+    {
+      "text": "A day on Venus is longer than a year on Venus.",
+      "isTrue": true
+    },
+    {
+      "text": "Wombat poop is cube-shaped.",
+      "isTrue": true
+    },
+    {
+      "text": "Scotland's national animal is the unicorn.",
+      "isTrue": true
+    },
+    {
+      "text": "A shrimp's heart is located in its head.",
+      "isTrue": true
+    },
+    {
+      "text": "Russia has a larger surface area than Pluto.",
+      "isTrue": true
+    },
+    {
+      "text": "Cows have best friends and get stressed when separated.",
+      "isTrue": true
+    },
+    {
+      "text": "The average cloud weighs about 1.1 million pounds.",
+      "isTrue": true
+    },
+    {
+      "text": "A single strand of spaghetti is called a spaghetto.",
+      "isTrue": true
+    },
+    {
+      "text": "The first computer mouse was made of wood.",
+      "isTrue": true
+    },
+    {
+      "text": "The first email ever sent said QWERTYUIOP.",
+      "isTrue": true
+    },
+    {
+      "text": "The first item sold on eBay was a broken laser pointer.",
+      "isTrue": true
+    },
+    {
+      "text": "The first computer bug was an actual moth.",
+      "isTrue": true
+    },
+    {
+      "text": "Ada Lovelace is considered the first computer programmer.",
+      "isTrue": true
+    },
+    {
+      "text": "A group of flamingos is called a flamboyance.",
+      "isTrue": true
+    },
+    {
+      "text": "A group of owls is called a parliament.",
+      "isTrue": true
+    },
+    {
+      "text": "A group of porcupines is called a prickle.",
+      "isTrue": true
+    },
+    {
+      "text": "The Anglo-Zanzibar War lasted under 45 minutes.",
+      "isTrue": true
+    },
+    {
+      "text": "The Great Emu War was a real Australian military operation.",
+      "isTrue": true
+    },
+    {
+      "text": "Pong was not the first video game ever created.",
+      "isTrue": true
+    },
+    {
+      "text": "The Magnavox Odyssey was an early home video game console.",
+      "isTrue": true
+    },
+    {
+      "text": "Peaches and nectarines are the same species.",
+      "isTrue": true
+    },
+    {
+      "text": "Tomatoes are botanically fruits.",
+      "isTrue": true
+    },
+    {
+      "text": "Peanuts are legumes, not true nuts.",
+      "isTrue": true
+    },
+    {
+      "text": "Carrots were originally purple or white, not orange.",
+      "isTrue": true
+    },
+    {
+      "text": "Maine is the closest U.S. state to Africa.",
+      "isTrue": true
+    },
+    {
+      "text": "Reno, Nevada is farther west than Los Angeles.",
+      "isTrue": true
+    },
+    {
+      "text": "Iceland has no mosquitoes.",
+      "isTrue": true
+    },
+    {
+      "text": "Koalas have fingerprints nearly indistinguishable from humans.",
+      "isTrue": true
+    },
+    {
+      "text": "Male seahorses carry the pregnancy.",
+      "isTrue": true
+    },
+    {
+      "text": "Ketchup was once sold as medicine.",
+      "isTrue": true
+    },
+    {
+      "text": "The Hawaiian pizza was invented in Canada.",
+      "isTrue": true
+    },
+    {
+      "text": "German chocolate cake is named after a person, not the country Germany.",
+      "isTrue": true
+    },
+    {
+      "text": "The Caesar salad was invented in Mexico.",
+      "isTrue": true
+    },
+    {
+      "text": "Buffalo wings are named after Buffalo, New York.",
+      "isTrue": true
+    },
+    {
+      "text": "Champagne can only be called Champagne if from that French region.",
+      "isTrue": true
+    },
+    {
+      "text": "White chocolate contains no cocoa solids.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans are the only animals that blush.",
+      "isTrue": true
+    },
+    {
+      "text": "Identical twins have different fingerprints.",
+      "isTrue": true
+    },
+    {
+      "text": "The human liver can regenerate much of itself after damage.",
+      "isTrue": true
+    },
+    {
+      "text": "A blue whale's heart is roughly the size of a small car.",
+      "isTrue": true
+    },
+    {
+      "text": "Tardigrades can survive the vacuum of space temporarily.",
+      "isTrue": true
+    },
+    {
+      "text": "Sea otters hold hands while sleeping to avoid drifting apart.",
+      "isTrue": true
+    },
+    {
+      "text": "Lobsters were once considered poor people's food.",
+      "isTrue": true
+    },
+    {
+      "text": "The sandwich is named after the Earl of Sandwich.",
+      "isTrue": true
+    },
+    {
+      "text": "The word nerd first appeared in a Dr. Seuss book.",
+      "isTrue": true
+    },
+    {
+      "text": "The QWERTY layout was designed partly to slow typists down.",
+      "isTrue": true
+    },
+    {
+      "text": "French was the official language of England for about 300 years after 1066.",
+      "isTrue": true
+    },
+    {
+      "text": "The War of Jenkins' Ear was a real historical conflict.",
+      "isTrue": true
+    },
+    {
+      "text": "There was once a war between Honduras and El Salvador partly sparked by a soccer match.",
+      "isTrue": true
+    },
+    {
+      "text": "The Eiffel Tower can grow about 15 cm taller in summer heat.",
+      "isTrue": true
+    },
+    {
+      "text": "Oxford English Dictionary editors once included a fake word as a copyright trap.",
+      "isTrue": true
+    },
+    {
+      "text": "The word 'set' has more dictionary definitions than any other English word.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body produces about a liter of saliva per day.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body has a unique tongue print.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body has unique ear shapes usable in biometrics.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body has unique iris patterns.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body has unique DNA except identical twins.",
+      "isTrue": true
+    },
+    {
+      "text": "A person can be born with heterochromia (two different eye colors).",
+      "isTrue": true
+    },
+    {
+      "text": "A person can survive with only one kidney.",
+      "isTrue": true
+    },
+    {
+      "text": "A person can survive with only one lung.",
+      "isTrue": true
+    },
+    {
+      "text": "Blood type is inherited, not chosen.",
+      "isTrue": true
+    },
+    {
+      "text": "Lactose tolerance in adults is a genetic adaptation in some populations.",
+      "isTrue": true
+    },
+    {
+      "text": "Coffee is the world's second-most traded commodity by some common claims.",
+      "isTrue": false
+    },
+    {
+      "text": "Canada has more lakes than the rest of the world combined.",
+      "isTrue": false
+    },
+    {
+      "text": "The Bloody Mary cocktail is definitively named after Queen Mary I.",
+      "isTrue": false
+    },
+    {
+      "text": "Polaris is the brightest star in the night sky.",
+      "isTrue": false
+    },
+    {
+      "text": "The Milky Way is the only galaxy in the universe.",
+      "isTrue": false
+    },
+    {
+      "text": "Mount Everest is the tallest mountain from base to peak.",
+      "isTrue": false
+    },
+    {
+      "text": "Water drains clockwise in the Northern Hemisphere due to Coriolis.",
+      "isTrue": false
+    },
+    {
+      "text": "Organic food is always more nutritious than conventional food.",
+      "isTrue": false
+    },
+    {
+      "text": "MSG is inherently harmful to most people.",
+      "isTrue": false
+    },
+    {
+      "text": "The five-second rule is backed by peer-reviewed food safety research.",
+      "isTrue": false
+    },
+    {
+      "text": "Sound travels in the vacuum of space if loud enough.",
+      "isTrue": false
+    },
+    {
+      "text": "The Northern Lights are caused by sunlight reflecting off ice crystals.",
+      "isTrue": false
+    },
+    {
+      "text": "Helium changes your voice only because it is lighter than air.",
+      "isTrue": false
+    },
+    {
+      "text": "Reading in dim light permanently damages your eyes.",
+      "isTrue": false
+    },
+    {
+      "text": "Sitting too close to a TV permanently ruins your vision.",
+      "isTrue": false
+    },
+    {
+      "text": "Carrots give you night vision.",
+      "isTrue": false
+    },
+    {
+      "text": "Twinkies have no expiration date and last forever.",
+      "isTrue": false
+    },
+    {
+      "text": "Police must wait 48 hours before investigating missing adults.",
+      "isTrue": false
+    },
+    {
+      "text": "You must wait 24 hours before filing a missing person report.",
+      "isTrue": false
+    },
+    {
+      "text": "Touching a baby bird makes its mother abandon it.",
+      "isTrue": false
+    },
+    {
+      "text": "Wait an hour after eating before swimming or you will cramp and drown.",
+      "isTrue": false
+    },
+    {
+      "text": "Detox diets remove toxins science cannot otherwise detect.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans need eight glasses of water per day regardless of context.",
+      "isTrue": false
+    },
+    {
+      "text": "We only use one hemisphere of the brain at a time.",
+      "isTrue": false
+    },
+    {
+      "text": "Dropping food on the floor is safe if picked up within five seconds.",
+      "isTrue": false
+    },
+    {
+      "text": "SOS originally meant 'save our ship.'",
+      "isTrue": false
+    },
+    {
+      "text": "Nero fiddled while Rome burned.",
+      "isTrue": false
+    },
+    {
+      "text": "Eating turkey alone causes Thanksgiving sleepiness.",
+      "isTrue": false
+    },
+    {
+      "text": "Evolution is unproven because it is called a theory.",
+      "isTrue": false
+    },
+    {
+      "text": "The Big Bang was an explosion in existing space.",
+      "isTrue": false
+    },
+    {
+      "text": "The Sun is yellow when viewed from space.",
+      "isTrue": false
+    },
+    {
+      "text": "Meteors are hot because of friction with air alone.",
+      "isTrue": false
+    },
+    {
+      "text": "Water is always a poor conductor of electricity.",
+      "isTrue": false
+    },
+    {
+      "text": "Feed a cold, starve a fever is medically sound advice.",
+      "isTrue": false
+    },
+    {
+      "text": "Sharks do not have bones; their skeletons are cartilage.",
+      "isTrue": true
+    },
+    {
+      "text": "Bananas are slightly radioactive due to potassium-40.",
+      "isTrue": true
+    },
+    {
+      "text": "The speed of light is about 299,792 kilometers per second.",
+      "isTrue": true
+    },
+    {
+      "text": "Sound travels faster in water than in air.",
+      "isTrue": true
+    },
+    {
+      "text": "The Pacific Ocean is larger than all land area combined.",
+      "isTrue": true
+    },
+    {
+      "text": "Antarctica is the driest continent on Earth.",
+      "isTrue": true
+    },
+    {
+      "text": "The human heart has four chambers.",
+      "isTrue": true
+    },
+    {
+      "text": "Spiders are arachnids, not insects.",
+      "isTrue": true
+    },
+    {
+      "text": "Whales are mammals, not fish.",
+      "isTrue": true
+    },
+    {
+      "text": "The Statue of Liberty was a gift from France.",
+      "isTrue": true
+    },
+    {
+      "text": "The Amazon River carries more water than any other river.",
+      "isTrue": true
+    },
+    {
+      "text": "Diamonds are made of carbon atoms.",
+      "isTrue": true
+    },
+    {
+      "text": "The speed of sound is faster at sea level than at high altitude.",
+      "isTrue": true
+    },
+    {
+      "text": "Jupiter has dozens of moons.",
+      "isTrue": true
+    },
+    {
+      "text": "Saturn is less dense than water.",
+      "isTrue": true
+    },
+    {
+      "text": "Neptune was discovered through mathematics before observation.",
+      "isTrue": true
+    },
+    {
+      "text": "The human skeleton renews itself over about a decade.",
+      "isTrue": true
+    },
+    {
+      "text": "Your brain uses about 20% of your body's energy.",
+      "isTrue": true
+    },
+    {
+      "text": "Camels store fat in their humps, not water.",
+      "isTrue": true
+    },
+    {
+      "text": "Bats are the only mammals capable of sustained flight.",
+      "isTrue": true
+    },
+    {
+      "text": "The Great Barrier Reef is the largest coral reef system.",
+      "isTrue": true
+    },
+    {
+      "text": "The Nile is often cited as the longest river.",
+      "isTrue": true
+    },
+    {
+      "text": "Mount Everest is the highest point above sea level.",
+      "isTrue": true
+    },
+    {
+      "text": "The Dead Sea is one of the saltiest bodies of water.",
+      "isTrue": true
+    },
+    {
+      "text": "The human small intestine is about 20 feet long.",
+      "isTrue": true
+    },
+    {
+      "text": "The liver is the largest internal organ.",
+      "isTrue": true
+    },
+    {
+      "text": "Penguins live primarily in the Southern Hemisphere.",
+      "isTrue": true
+    },
+    {
+      "text": "The cheetah is the fastest land animal over short distances.",
+      "isTrue": true
+    },
+    {
+      "text": "The blue whale is the largest animal ever known.",
+      "isTrue": true
+    },
+    {
+      "text": "The Earth is about 4.5 billion years old.",
+      "isTrue": true
+    },
+    {
+      "text": "The Moon causes ocean tides.",
+      "isTrue": true
+    },
+    {
+      "text": "Photosynthesis converts light into chemical energy.",
+      "isTrue": true
+    },
+    {
+      "text": "DNA stands for deoxyribonucleic acid.",
+      "isTrue": true
+    },
+    {
+      "text": "The Roman Empire fell in the west in 476 CE.",
+      "isTrue": true
+    },
+    {
+      "text": "The printing press was popularized by Johannes Gutenberg.",
+      "isTrue": true
+    },
+    {
+      "text": "The Wright brothers achieved powered flight in 1903.",
+      "isTrue": true
+    },
+    {
+      "text": "Penicillin was discovered by Alexander Fleming.",
+      "isTrue": true
+    },
+    {
+      "text": "The United Nations was founded in 1945.",
+      "isTrue": true
+    },
+    {
+      "text": "The Internet originated from ARPANET research.",
+      "isTrue": true
+    },
+    {
+      "text": "The first successful vaccine was for smallpox.",
+      "isTrue": true
+    },
+    {
+      "text": "The human appendix is not vestigial in all scientific views.",
+      "isTrue": true
+    },
+    {
+      "text": "Pluto was reclassified as a dwarf planet in 2006.",
+      "isTrue": true
+    },
+    {
+      "text": "The human eye can detect a candle flame from miles away in darkness.",
+      "isTrue": true
+    },
+    {
+      "text": "The Eiffel Tower was built for the 1889 World's Fair.",
+      "isTrue": true
+    },
+    {
+      "text": "The Mona Lisa is housed in the Louvre.",
+      "isTrue": true
+    },
+    {
+      "text": "The Colosseum is located in Rome.",
+      "isTrue": true
+    },
+    {
+      "text": "The Taj Mahal is in India.",
+      "isTrue": true
+    },
+    {
+      "text": "The Sydney Opera House is in Australia.",
+      "isTrue": true
+    },
+    {
+      "text": "The human immune system can remember past infections.",
+      "isTrue": true
+    },
+    {
+      "text": "Vaccines train the immune system without causing full disease.",
+      "isTrue": true
+    },
+    {
+      "text": "Antibiotics kill bacteria, not viruses.",
+      "isTrue": true
+    },
+    {
+      "text": "The boiling point of water lowers at higher altitude.",
+      "isTrue": true
+    },
+    {
+      "text": "Lightning is hotter than the surface of the Sun.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body is about 60% water.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans have fewer genes than some grasses.",
+      "isTrue": true
+    },
+    {
+      "text": "A day on Mercury is longer than its year.",
+      "isTrue": true
+    },
+    {
+      "text": "There are more trees on Earth than stars in the Milky Way.",
+      "isTrue": true
+    },
+    {
+      "text": "The Amazon produces about 20% of the world's oxygen.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans can see millions of distinct colors.",
+      "isTrue": true
+    },
+    {
+      "text": "The human nose can detect over a trillion scents.",
+      "isTrue": true
+    },
+    {
+      "text": "Crows can recognize human faces.",
+      "isTrue": true
+    },
+    {
+      "text": "Elephants mourn their dead.",
+      "isTrue": true
+    },
+    {
+      "text": "Dogs can smell some diseases.",
+      "isTrue": true
+    },
+    {
+      "text": "Cats cannot taste sweetness.",
+      "isTrue": true
+    },
+    {
+      "text": "A flamingo eats with its head upside down.",
+      "isTrue": true
+    },
+    {
+      "text": "A snail can sleep for three years.",
+      "isTrue": true
+    },
+    {
+      "text": "Horses cannot vomit.",
+      "isTrue": true
+    },
+    {
+      "text": "Kangaroos cannot walk backward easily.",
+      "isTrue": true
+    },
+    {
+      "text": "Owls cannot move their eyeballs.",
+      "isTrue": true
+    },
+    {
+      "text": "Butterflies taste with their feet.",
+      "isTrue": true
+    },
+    {
+      "text": "Starfish can regrow lost arms.",
+      "isTrue": true
+    },
+    {
+      "text": "Jellyfish have no brain.",
+      "isTrue": true
+    },
+    {
+      "text": "Crocodiles cannot stick out their tongues.",
+      "isTrue": true
+    },
+    {
+      "text": "A shrimp's heart is in its head.",
+      "isTrue": true
+    },
+    {
+      "text": "Mosquitoes are the deadliest animals to humans.",
+      "isTrue": true
+    },
+    {
+      "text": "The mantis shrimp punches with bullet-like force.",
+      "isTrue": true
+    },
+    {
+      "text": "The pistol shrimp creates a cavitation bubble hotter than the sun briefly.",
+      "isTrue": true
+    },
+    {
+      "text": "The tongue is the strongest muscle by endurance.",
+      "isTrue": false
+    },
+    {
+      "text": "Humans are born with blue eyes that may change color.",
+      "isTrue": true
+    },
+    {
+      "text": "Your stomach gets a new lining every few days.",
+      "isTrue": true
+    },
+    {
+      "text": "Fingernails grow faster in summer.",
+      "isTrue": true
+    },
+    {
+      "text": "The hardest substance in the body is tooth enamel.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans are taller in the morning than at night.",
+      "isTrue": true
+    },
+    {
+      "text": "Stress can turn hair gray faster.",
+      "isTrue": true
+    },
+    {
+      "text": "The human brain weighs about three pounds.",
+      "isTrue": true
+    },
+    {
+      "text": "Yawning cools the brain.",
+      "isTrue": true
+    },
+    {
+      "text": "Laughing burns calories.",
+      "isTrue": true
+    },
+    {
+      "text": "Crying produces different tears than cutting onions.",
+      "isTrue": true
+    },
+    {
+      "text": "The heart can beat outside the body briefly with oxygen.",
+      "isTrue": true
+    },
+    {
+      "text": "Blood makes up about 8% of body weight.",
+      "isTrue": true
+    },
+    {
+      "text": "The small intestine is longer than the large intestine.",
+      "isTrue": true
+    },
+    {
+      "text": "The appendix may help gut bacteria recover.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans shed about 1.5 pounds of skin yearly.",
+      "isTrue": true
+    },
+    {
+      "text": "Dust in homes is mostly dead skin.",
+      "isTrue": true
+    },
+    {
+      "text": "The strongest bone is the femur.",
+      "isTrue": true
+    },
+    {
+      "text": "Babies are born without kneecaps.",
+      "isTrue": true
+    },
+    {
+      "text": "The cornea gets oxygen from air, not blood.",
+      "isTrue": true
+    },
+    {
+      "text": "Your left lung is smaller to make room for the heart.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body glows faintly.",
+      "isTrue": true
+    },
+    {
+      "text": "Humans are bioluminescent but too weak to see.",
+      "isTrue": true
+    },
+    {
+      "text": "The human body has more bacterial cells than human cells.",
+      "isTrue": true
+    },
+    {
+      "text": "The average person walks about 70,000 miles in a lifetime.",
+      "isTrue": true
+    },
+    {
+      "text": "The microwave oven was invented in 1945.",
+      "isTrue": true
+    },
+    {
+      "text": "Bubble wrap was invented in 1957.",
+      "isTrue": true
+    },
+    {
+      "text": "Velcro was invented in 1941.",
+      "isTrue": true
+    },
+    {
+      "text": "Post-it notes was invented in 1974.",
+      "isTrue": true
+    },
+    {
+      "text": "The frisbee was invented in 1948.",
+      "isTrue": true
+    },
+    {
+      "text": "Silly Putty was invented in 1943.",
+      "isTrue": true
+    },
+    {
+      "text": "The microwave oven was discovered by 1945.",
+      "isTrue": true
+    },
+    {
+      "text": "Bubble wrap was discovered by 1957.",
+      "isTrue": true
+    },
+    {
+      "text": "Velcro was discovered by 1941.",
+      "isTrue": true
+    },
+    {
+      "text": "Post-it notes was discovered by 1974.",
+      "isTrue": true
+    },
+    {
+      "text": "The frisbee was discovered by 1948.",
+      "isTrue": true
+    },
+    {
+      "text": "Silly Putty was discovered by 1943.",
+      "isTrue": true
+    }
+  ]
+}

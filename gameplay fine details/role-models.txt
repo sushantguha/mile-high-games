@@ -1,0 +1,42 @@
+Here's the full turn-by-turn of Role Models (the version in The Jackbox Party Pack 6), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Role Models on the shared/main screen. Three to six players join at jackbox.tv, plus audience. A disembodied pair of eyes and gloved hands called The Assistant (voiced by Leila Gorstein) hosts the "lab." Game length is roughly 15–20 minutes across three rounds. This is the first Jackbox game where you can photograph yourself as an avatar (Take a Picture) or draw one (Draw Yourself). You can also change your name after joining.
+
+Latest version notes (Party Pack 6)
+Science pellets (internally called "biscuits") are the score currency. At end credits, players can feed pellets to The Assistant in her fishbowl; feeding enough triggers a vomit Easter egg. Only one player can hold each role per round — ties trigger experiments.
+
+Each of three rounds — step by step
+
+Category vote
+Main screen: Five category options displayed (e.g., "The Heist").
+Phone: Vote for the category you want. Plurality wins.
+
+Role assignment
+Main screen: One role slot per player from the chosen category appears (six roles in a six-player heist, for example: Brains, Muscle, Driver, Distraction, Traitor, Law).
+Phone: Drag each player's name onto the role you think fits them. Next to each name is a "99%" button — if you press it and correctly predict the majority assignment for that player, you earn double science pellets when results resolve. You assign everyone including yourself.
+
+Reveal and scoring
+Main screen: Roles resolve one-by-one with vote tallies shown.
+Phone: If a majority assigned a player to a role, that player and everyone who voted that way each earn one science pellet. The assigned player always earns at least one pellet for receiving a role. Audience can award +1 pellet to the player who earned that role. A correct 99% prediction doubles your pellet(s) from that assignment; a wrong 99% earns nothing extra. Split votes (two or three players tied on a role) skip straight to a tiebreaker experiment.
+
+Tiebreaker experiments (when roles tie)
+Peer assessment: others vote who best fits a prompt (e.g., "Who would eat all the food in the fridge?").
+Interpretive writing: tied players write an answer; others vote best response.
+Spontaneous performance: do an impression (e.g., "Do your best gorilla scream"); others vote. Winner takes the role and earns three science pellets (four with audience). Another tie → random player gets the role. Doubling down on a split vote does not earn extra points — only the tiebreaker winner scores.
+
+Unassigned player consolation
+If someone ends the round roleless, the group votes between the leftover role and a new themed alternative. That player receives only one pellet as compensation.
+
+Data analysis (between rounds 2 and 3)
+Triggered when the game detects matching or opposing traits among assigned roles:
+Common traits: two players share a trait; group writes/votes who embodies it better — winner gets bonus pellets.
+Opposing traits (two players): same prompt, head-to-head writing vote.
+Opposing traits (one player): player writes; group votes which characteristic fits them.
+Unique trait: one player gets a special ability (e.g., steal pellets).
+
+End of game
+Main screen: Each player gets a generated personality title from their collected traits; pellet standings shown.
+Phone: Your pellet count. Most science pellets wins. Post-game: feed pellets to The Assistant.
+
+To be straight about the limits: three-round structure, category vote, drag-to-assign flow, 99% double-pellet mechanic, tiebreaker types, consolation role, data-analysis triggers, and audience +1 are documented. Exact pellet amounts for data-analysis bonuses beyond tiebreakers (3–4 pellets) are listed as "and more" on the fandom wiki without a full table — a logged playthrough is needed for every edge-case payout.

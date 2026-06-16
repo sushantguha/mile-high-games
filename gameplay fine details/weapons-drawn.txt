@@ -1,0 +1,49 @@
+Here's the full turn-by-turn of Weapons Drawn (the version in The Jackbox Party Pack 8), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis. Family Friendly filter: No.
+
+Setup and lobby
+The host launches Weapons Drawn on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 4–8, plus audience. Session length is roughly 20 minutes. Lord Tippet (voiced by Scott Tunnix) and the Narrator (voiced by Sarah Kempton) welcome you to a murder-mystery dinner party. Every player is simultaneously a detective and a murderer.
+
+Calling card assignment
+Phone: Each player is assigned a letter from their display name as a secret "calling card" (e.g., "Annie" → A, N, I, or E). Names with no letters get a prefix appended (e.g., "Sir 80008"). This letter must be hidden inside your weapon drawings to conceal your identity.
+
+Rounds 1 and 2 — same structure, different letter rules
+Weapons Drawn always plays exactly 3 rounds; rounds 1 and 2 share the same phase structure.
+
+Drawing phase
+Main screen: Round intro. Lord Tippet's party setting is shown.
+Phone: Draw two weapons on your canvas. Hide your calling card inside each drawing.
+- Round 1: hide an uppercase version of your letter. Your first drawing is shown publicly as a "gift" dropped as evidence.
+- Round 2: hide a lowercase cursive version of your letter.
+Audience can spam a lightning button during drawing to strike the screen with sound effects.
+
+Accomplice naming
+Main screen: Waiting for all accomplice names.
+Phone: Name a guest (accomplice) who will attend the party. Make the name distinctive but not so obvious that others can link it to you—you earn Accomplice Points when other players attempt to murder your accomplice. With only 4 players, Lord Tippet brings his own guest.
+
+Murder phase
+Main screen: Lights turn off. Murders play out.
+Phone: Select an accomplice, then try to identify which player brought them. Correct match: you kill the guest, leaving your murder weapon behind as evidence (choose which weapon if you have two). Wrong match: you receive a clue hinting at the real bringer based on the incorrectly guessed player's name, then wait a few seconds before retrying.
+- Round 1: one murder phase.
+- Round 2: two murder phases.
+Phase ends once enough accomplices are killed.
+
+Investigation phase
+Main screen: All murders from the murder phase are shown, then batched into pairs. Players vote on which case to investigate first.
+Phone: For the chosen case, the player who brought the murdered accomplice becomes lead detective and controls a magnifying glass on their device to zoom into the weapon drawing. All players vote on who they believe the killer is.
+- Plurality vote for a player: that player is accused.
+- Correct accusation: murderer caught. Voters who picked the killer earn Investigation Points; the first correct voter gets an extra point.
+- Incorrect accusation: murderer escapes until Cold Cases, but voters who picked the correct killer still earn Investigation Points.
+- Tie vote: hung jury—no one accused.
+
+Round 3 — Cold Cases
+Main screen: Clock strikes midnight. All unsolved murders return.
+Phone: Vote on who committed each remaining murder. No lead detective or magnifying glass this round—even if it was your accomplice who died.
+- Same verdict rules as Investigation, except: if the murderer isn't caught, they're still revealed and earn 1 Murderer Point per player they fooled.
+- Regardless of verdict, the killer's calling card is highlighted in red when revealed.
+
+End of game
+Main screen: Top scorer in each category shown: Detective Points, Murderer Points, and Accomplice Points. Then the overall winner (highest combined total) is revealed with their rank in each category. Screen goes black. Before credits, every other player's ranking is revealed.
+Phone: Your category ranks and final placement.
+A full game runs roughly 20 minutes.
+
+To be straight about the limits: calling card mechanics (uppercase R1, lowercase cursive R2), two-weapon drawing, accomplice naming, murder-match-with-clue-on-failure, evidence weapon drop, investigation voting with magnifying glass, hung jury on ties, Cold Cases reveal-even-on-miss, and the three point categories are all documented. What isn't published is the exact seconds for drawing, naming, or murder-attempt cooldowns.

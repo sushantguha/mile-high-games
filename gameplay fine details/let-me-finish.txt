@@ -1,0 +1,45 @@
+Here's the full turn-by-turn of Let Me Finish (latest version in The Jackbox Naughty Pack), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki (jackbox.wiki only — Fandom page was empty at fetch time).
+
+Setup and lobby
+The host launches Let Me Finish on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Tyler Meredith hosts. Mature content. Two modes: **Debate Mode** (original) and **Quick Mode** (added November 2024 update). Session length is roughly 15 minutes.
+
+Debate Mode (primary before update; still available)
+
+Per round — two presenters selected
+**Drawing phase**
+- **Main screen:** Image prompt displayed; timer runs.
+- **Player phones:** Everyone draws what comes to mind for the prompt (pen on canvas). Non-selected players also draw — they may "Jump In" later.
+
+**Presentation phase**
+- **Main screen:** Left-side presenter pitches first (30 seconds default; **45 seconds with Extended Timers**), then right-side presenter. Drawings show alongside speech.
+- **Player phones:** If you're a main presenter, your allotted time runs on-device. Other players watch; non-presenters can tap **"Jump In"** to queue a follow-up pitch after both mains finish.
+
+**Primary vote**
+- **Main screen:** Vote split visualization for the 10,000-point pot.
+- **Player phones:** Vote for favorite main presentation. Pot divides by vote percentage. **+100 bonus** to player with most audience votes.
+
+**Jump In vote (if 2+ jumped in)**
+- **Main screen:** Secondary vote with smaller pot.
+- **Player phones:** Vote for a Jump In presenter — or vote **"no one"**, which removes part of the pot from everyone (no one earns that slice).
+
+Repeat for a generated number of rounds. Final scoreboard sums all rounds.
+
+Tie-breaker for first place
+**Max Effort bonus — 69 points** to the tied player who used the most characters and drawing strokes across all their answers.
+
+Quick Mode (November update)
+
+**Batch draw phase**
+- **Main screen:** All prompts listed; long timer.
+- **Player phones:** All prompts appear at once. **180 seconds** total (240 with Extended Timers) to draw each answer sequentially. Pen plus **30-character text description** per drawing shown during presentation.
+
+**Per-prompt vote**
+- **Main screen:** One prompt with two players' drawing+text submissions side by side.
+- **Player phones:** Vote favorite. **No Jump In** option in Quick Mode.
+
+After all prompt matchups, scores tally and winner is declared.
+
+End of game
+Highest total wins in either mode. Credits roll.
+
+To be straight about the limits: Debate vs Quick structure, 10,000-point pot, Jump In/no-one vote, presentation timers (30/45s), Quick Mode batch timer (180/240s), 30-char captions, and 69-point tie bonus are documented on jackbox.wiki. Exact number of Debate rounds per game and Quick Mode matchup pairing logic are not published.

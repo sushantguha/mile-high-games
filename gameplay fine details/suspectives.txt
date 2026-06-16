@@ -1,0 +1,49 @@
+Here's the full turn-by-turn of Suspectives (stylized SUSPECTIVES; latest version in The Jackbox Party Pack 11), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Suspectives on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 4–8 (+ Audience). Hosted by The Host (voiced by Dana Quercioli) with Charlie (voiced by Charlie Bickett). Pick a dog detective avatar. Session length is roughly 15–20 minutes.
+
+Phase 1 — secret survey (before any crime)
+**Main screen:** Survey intro.
+**Player phones:** Answer an **8-question survey** — 7 multiple-choice and 1 fill-in-the-blank — on topics like favorite childhood toy or whether you wore a hat today. Answers are private and become evidence later. Audience answers separately and can vote during investigation.
+
+Phase 2 — crime revealed
+**Main screen:** A crime is announced, tied to one survey question. One player is secretly the criminal.
+**Player phones:** Check your device — you learn whether you are the criminal. Non-criminals do not know who it is. **One piece of evidence will be phony**, written by a non-criminal player.
+
+Evidence loop (7 pieces, one per remaining survey answer)
+Each piece plays out the same way:
+
+**Evidence reveal**
+- **Main screen:** One evidence item displays (a survey answer reframed as criminal evidence) plus how many players gave that same answer.
+- **Player phones:** See the evidence text. If the count is not everyone (e.g. 2 of 8 picked that answer), all players publicly pin guesses on who the evidence could describe. If **everyone** gave the same answer, no pinning is allowed.
+
+**Interrogation**
+- **Main screen:** One player is chosen to interrogate another of their choice.
+- **Player phones:** Interrogator asks questions; interrogated player responds. Everyone then votes whether the interrogated player seems innocent or suspicious. Audience votes in parallel.
+
+**Lie Detector (after 3rd and 6th evidence)**
+- **Main screen:** Lie detector sequence.
+- **Player phones:** Vote which evidence to inspect.
+  - If **real:** reveal one player's honest answer to that survey question. If their answer doesn't match the evidence, they are **cleared**.
+  - If **phony:** evidence is crossed out; play continues with the next piece.
+
+**Ready to Solve (any time)**
+- **Player phones:** Tap **READY TO SOLVE** if you're confident. A **majority** must agree to skip straight to the final verdict — irreversible once triggered.
+
+Final verdict
+**Main screen:** Accusation results and guilty/escaped outcome.
+**Player phones:**
+1. Cast **two votes** for top suspects.
+2. Players receiving **zero votes** are eliminated from consideration.
+3. Cast **one final vote** accusing the criminal.
+
+Outcomes
+- **Tie on final vote → no verdict → criminal escapes.**
+- **Majority accuses the real criminal → conviction.**
+- **Majority accuses an innocent → criminal escapes.**
+
+End of game
+Narrative resolution plays (conviction or escape). No traditional point leaderboard — win/loss is whether the room caught the criminal.
+
+To be straight about the limits: 8-question survey, phony evidence, lie detector timing (after evidence 3 and 6), interrogation flow, Ready to Solve majority gate, and two-vote-then-one-vote finale are documented. Exact number of interrogations per evidence and timer seconds are not published.

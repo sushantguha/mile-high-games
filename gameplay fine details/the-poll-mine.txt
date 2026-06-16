@@ -1,0 +1,40 @@
+Here's the full turn-by-turn of The Poll Mine (the version in The Jackbox Party Pack 8), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. This game benefits from out-loud team discussion; exact timer seconds aren't published on the wikis.
+
+Setup and lobby
+The host launches The Poll Mine on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 2–10, plus audience. Session length is roughly 15 minutes. Witch Laverne Caverne (voiced by Caitlyn Martin) welcomes you to a magic mine. Streamer Mode is available from the lobby—when audience is on, it activates settings designed for live streaming where audience opinions become part of gameplay.
+
+Team formation
+Main screen: Laverne explains you're trapped and must pick safe doors based on how players ranked survey answers.
+Phone: You write a team name, then see team name submissions from other players and vote for your three favorites—the most-voted name becomes your team's name. Players are split into two teams (Yellow/Blue). You can switch teams if desired. Each team member starts with one torch.
+
+Round 1 — find the top 3
+Main screen: A category prompt appears with eight possible answers shown as doors (e.g., "Which household device is least reliable?").
+Phone: All players rank the eight answers by tapping them in order (1st, 2nd, 3rd favorite). Your collective rankings determine which doors are "safe."
+
+Door selection (teams alternate)
+Main screen: One team's turn is announced. The chosen door opens or closes based on whether the answer ranked in the top 3.
+Phone: The team discusses out loud which door to pick. The player holding the torch makes the executive decision. Audience can also participate in door selection.
+- Correct door (answer is in top 3): team earns 1 torch.
+- Wrong door or no response in time: team loses 1 torch.
+Teams alternate until all top-3 answers are revealed.
+
+Round 2 — find ranks 2nd through 4th
+Main screen: New category, eight new doors.
+Phone: Players now rank four choices (1st through 4th). Teams must find doors matching the 2nd, 3rd, and 4th most popular answers.
+- Same torch rules: +1 for correct, -1 for wrong.
+- Teams that ran out of torches in Round 1 may earn a single torch back.
+
+Round 3 — Final Round (ranks 8th down to 1st)
+Main screen: Highest stakes. Laverne warns that torches are on the line.
+Phone: Players rank five choices. Teams must reveal answers in descending order (8th place first, then 7th, 6th... down to 1st).
+Three differences from earlier rounds:
+1. Correct answers do NOT award torches, but wrong answers still deduct 1 torch.
+2. If a team loses its last torch, they're still in the game—but if the other team then gets one correct answer in response to that wrong pick, the other team automatically wins.
+3. Winner declared when one team loses all torches OR all 8 answers are found (in the latter case, most torches wins). Tie after Final Round: both teams reach the exit but a monster takes the loser's place at the bottom.
+
+End of game
+Main screen: Winning team escapes the mine. Full results shown.
+Phone: Team result and personal contribution visible.
+A full game runs roughly 15 minutes.
+
+To be straight about the limits: team formation, torch economy (+1 correct / -1 wrong), the escalating rank targets per round (top 3 → ranks 2–4 → ranks 8–1), Final Round's no-reward-for-correct rule, elimination-by-torch-depletion, tiebreaker, and Streamer Mode are all documented. What isn't published is the exact discussion/selection timer per door pick.

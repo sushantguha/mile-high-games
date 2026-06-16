@@ -1,0 +1,44 @@
+Here's the full turn-by-turn of You Don't Know Jack: Full Stream (the version in The Jackbox Party Pack 5), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Full Stream on the shared/main screen. Players join at jackbox.tv — this is the first You Don't Know Jack game that requires the web controller exclusively (no gamepad for solo on PC). Up to 8 players plus an audience of up to 10,000. Cookie Masterson (Tom Gottlieb) hosts; the fiction is that episodes stream on Binjpipe. A full game is roughly 15 minutes across three rounds: Round 1 (five questions), Round 2 (five questions), then the Jack Attack.
+
+Latest version notes (Party Pack 5 — franchise reboot)
+First YDKJ with 8 players and audience integration. Audience is not scored on a leaderboard but affects player payouts: correct players get a bonus equal to $1,000 × the proportion of audience answers that were wrong. The phone controller shows full question text and answer options (unlike older YDKJ phone layouts that were just four buttons). Screws were redesigned for mobile: they scramble answer order and apply phone-screen interference instead of forcing an answer. New question types: Binjpipe Recommends, Player's Choice, Octopus/Coffee/Queen Elizabeth/Frankenstein, and Data Mining. Gibberish Questions returned to the main series for the first time since the Facebook version.
+
+Standard question — every round
+Main screen: Cookie reads the question with Binjpipe branding, fake thumbnails, and character banter. Question number bumpers have rare alternate segues.
+Phone: The question and all answer choices appear on your device. Tap one answer. You have 20 seconds per question whether or not Extended Timers is enabled — but unlike older YDKJ games, money gained or lost does not scale with how fast you answer.
+
+Scoring per question
+Correct: +$1,000 in Round 1, +$2,000 in Round 2.
+Wrong or no answer: −$1,000 in Round 1, −$2,000 in Round 2.
+Correct players also receive the audience bonus described above.
+
+Round 1 — questions 1–5
+Questions 1, 2, 4, and 5 are standard multiple-choice trivia with pop-culture framing.
+
+Question 3 — Dis Or Dat ($300 total)
+Main screen: Special Dis Or Dat segment; everyone answers simultaneously.
+Phone: Rapid-fire sorting prompts. Each sub-question has a 5-second timer (10 seconds with Extended Timers). Bottom scorer(s) receive a Screw — but only if they got 4 or fewer right.
+
+Screws (Round 1 and Round 2)
+Screws are earned, not chosen freely: bottom Dis Or Dat performer(s), plus lowest total scorers at the start of Round 2. When used, a screw hits every player who has not yet locked in an answer — shuffling choices and applying phone interference (Fine Print, Large Print, Mirror Mirror, Hashtagged, Shades of Grey, Disemvoweled, Flipped, Password, Name Changer, Fake Terms of Service, Screensaver, etc.). Round 2 screws are nastier than Dis Or Dat screws.
+
+Round 2 — questions 6–10
+Values double to ±$2,000. Special question types typically appear in the second half:
+Gibberish Question (starts at $3,000): a nonsense phrase rhymes with a common saying; three hints drip out over time; value ticks down until you submit and lock in your payout.
+Binjpipe Recommends: "Based on your past usage history, which option should Binjpipe recommend next?"
+Player's Choice: players vote between two next-question options; 50/50 or no picks means random.
+Octopus, Coffee, Queen Elizabeth, or Frankenstein?: which option matches the fun fact (Frankenstein may mean monster or doctor — bumper clarifies).
+Data Mining: whose search history matches these facts?
+
+Round 3 — Jack Attack
+Main screen: Cookie gives the clue; matching answers flash on screen.
+Phone: One large button — tap when you see an answer that fits the clue. REMEMBER THE CLUE. Multiple answers may be correct. Faster correct taps pay more ($1,000 → $500 → $100 descending); wrong taps lose money. Green on the controller means correct; pink means wrong (per jackbox.wiki gallery notes).
+
+End of game
+Main screen: Final money standings; Cookie reads the winner's name (including screw-forced name changes, which revert after the game).
+Phone: Your final bank balance. Most money wins.
+
+To be straight about the limits: round structure (5+5+Jack Attack), dollar values, 20-second question timer, audience bonus formula, Dis Or Dat screw threshold, Gibberish decay, and Jack Attack speed tiers are documented. Exact Gibberish decay rate per second and the precise Jack Attack wrong-answer penalty amounts are less clearly enumerated on the wikis — watch a playthrough or run one solo if you need frame-level timing.

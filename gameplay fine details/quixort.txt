@@ -1,0 +1,43 @@
+Here's the full turn-by-turn of Quixort (latest version in The Jackbox Party Pack 9), tracking the main screen and each player's phone separately. A few frame-level timing details aren't published on the wikis; those are flagged honestly at the end rather than invented. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Quixort on the shared/main screen (TV or stream). A four-letter room code appears; players join at jackbox.tv on phones or tablets with the code and a display name. As each person joins, their name appears in the lobby. Standard Quixort supports 2–10 players in teams; Quixort Forever supports 1–10 solo. Audience members can also sort blocks on their devices when Audience mode is on. Host Liz Anderson (voiced by Liz Anderson) introduces the trivia-sorting factory. Session length is roughly 20 minutes.
+
+Before play starts
+**Main screen:** Character selection, team assignment (standard mode), and the hold-up screen with the Quixort logo.
+**Player phones:** Pick a robot avatar (color variants like Red, with toy accessories). In standard mode, players are split into two teams. In Forever mode, everyone is on one team with no team split.
+
+Round structure (standard mode — three rounds)
+Each round, the active team first votes on a prompt. All players on that team see two choices on their phones: a game-selected category (the prompt and sort order are known — e.g. "Game Consoles: Oldest Console → Newest Console") or a "Mystery Prompt" (category and sort criteria are hidden). Whichever option gets the most votes is chosen. The main screen then shows the category and what order the falling answer blocks must be sorted into.
+
+Sorting phase — active team
+**Main screen:** Answer blocks fall from above toward a nine-slot sorting range on the factory floor. Each block relates to the chosen category. Players' robots shift left and right along the range, carrying blocks. When the first team finishes placing all blocks, the "Quixover" begins — blocks align into final positions and accuracy is scored.
+**Player phones (active team):** Each player may receive a block to place. Use left and right buttons to shift your character (and its block) along the range. Press the slam/down button to drop the block into a slot. If multiple players are on the team, everyone gets turns placing different blocks. A real-time map on the phone shows your block position — useful if you're on a stream and experiencing lag. The audience can drag blocks into one of the nine slots on their devices when blocks appear on-screen.
+
+Scoring after Quixover (active team)
+Points depend on how accurately blocks land:
+- **1,000 points** — block in the correct slot.
+- **500 points** — block one slot away from correct.
+- **250 points** — block two slots away.
+- **100 points** — block three slots away.
+- **0 points** — block four or more slots away.
+- **Streak bonus:** +250 points per block when blocks are in correct timeline order relative to each other, even if individual positions are slightly off.
+- **Perfect Quixort:** If every block is in the correct order, a "Quixort" cutscene plays and the team earns **14,000 points** total for that sort.
+
+Waiting team (during the other team's turn)
+**Main screen:** The inactive team sees the "Feed the Trash Monster" minigame.
+**Player phones:** Tap repeatedly to feed the Trash Monster on the left or right side of the range while the other team sorts.
+
+Round 2 — decoy blocks
+Same vote-and-sort flow, but decoy answer blocks are secretly mixed into the set. Trash Monsters sit at the far left and right of the range. If a player thinks a block is a decoy, they slam it into a Trash Monster to destroy it — but discarded answers cannot be retrieved. If a decoy ends up in the range, or a real answer is wrongly trashed, those blocks earn no points.
+
+Round 3 — second try
+Works like rounds 1 and 2 (including decoys), but adds a **second try** mechanic. If the team gets two or more answers in the correct order, those blocks stack and lock onto the range. Real answers that were wrongly discarded can be re-added; decoys that weren't trashed stay in play. After all attempts are used and all blocks are placed, the Quixover runs and scores are shown. Then the other team takes their turn with two new category choices.
+
+Between rounds and end of game
+After each team's Quixover, the main screen shows that round's combined team scores. After all three rounds, total scores are added up and the team with the most points wins. Forever mode has no teams: prompts are random, correctly sorted blocks disappear after each round, incorrect placements turn into crystal blockages that only clear when you earn a streak, falling speed increases over time, and the game ends when crystals fill the board (or at round 99, which triggers a Pac-Man-style kill screen and credits).
+
+End of game
+Winner is the team (or solo player in Forever) with the highest total. Credits roll with the Quixort credits song.
+
+To be straight about the limits: round structure, scoring tiers, decoy rules, second-try behavior, Trash Monster side game, Forever crystals, and audience sorting are well-documented. Exact per-second fall speed, slam timing, and TV-to-phone sync delays are not published to the second — in practice they are near-real-time with ordinary network lag.

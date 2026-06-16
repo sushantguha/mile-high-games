@@ -1,0 +1,58 @@
+Here's the full turn-by-turn of Legends of Trivia (stylized LEGENDS of TRIVIA; latest version in The Jackbox Party Pack 11), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Legends of Trivia on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 1–6 (+ Audience). The Bard (voiced by Austin Packard) narrates. Skippable intro cutscene before main menu (first Jackbox game with this). Session length is roughly 20 minutes.
+
+Character selection
+**Player phones:** Pick one of eight RPG-styled heroes with different Attack / Health / Gold stats:
+
+| Character | Class | Attack | Health | Gold |
+|-----------|-------|--------|--------|------|
+| Ragnar | Brawniac | ★★★ | ★★☆ | ★☆☆ |
+| Cass | Trivia Knight | ★☆☆ | ★★★ | ★★☆ |
+| Hektor | Quizard | ★★★ | ★☆☆ | ★★☆ |
+| Azura | Sage Mage | ★★☆ | ★☆☆ | ★★★ |
+| Iris | Smartcher | ★★☆ | ★★☆ | ★★☆ |
+| Bingo | Class Clown | ★☆☆ | ★★☆ | ★★★ |
+| Varrick | Enlightened | ★★☆ | ★★☆ | ★★☆ |
+| Olga | Factsmith | ★★☆ | ★★★ | ★☆☆ |
+
+Map selection
+After tutorial boss Preceptorus teaches questions and revival, choose a path:
+- **Guessing Grove** — 1-star difficulty
+- **Cerebral Sands** — 2-star difficulty
+- **Peak Knowledge** — 3-star difficulty
+
+Cooperative combat loop
+Players work **together** against monsters — not against each other. Wrong answers hurt the team; right answers hurt the enemy.
+
+**Question phase**
+- **Main screen:** Monster, health bars, question text, and riddle verses display.
+- **Player phones:** Answer using the question-type UI (see below). Correct answer → you attack the monster and earn coins. Wrong answer → you lose health. At set intervals the monster attacks everyone.
+
+**Death and revival**
+- **Player phones:** If health hits zero, roll a **d20** to revive — costs **250 coins**; higher roll = more health restored. Audience can also roll d20 to revive players or buff the enemy; highest die wins the effect.
+
+Question types (encountered along the path)
+1. **Multiple Choice** — 4 answers, one correct.
+2. **Hidden Question** — All players see an answer on-device; one player has the question and can reveal it aloud or via "Show Question."
+3. **Double Answer** — Two of four options are correct.
+4. **List It** — Type as many valid answers from a category as you can; each correct entry earns coins.
+5. **Riddle** — Verses appear on main screen; type the answer. Correct guess heals players.
+6. **Image Trivia** — Six images on TV; each player gets one image on-device and answers True/False whether it fits the prompt.
+
+Shop (some paths)
+Spend coins on potions:
+- Blitz Attack (75) — attack without answering correctly
+- Auto-Defend (100) — block monster's next team attack
+- Self-Healing Potion (125) — +300 HP
+- Hint Potion (125) — reveals a hint if available
+- Auto-Revive (200) — full revive without d20 roll (Peak Knowledge only)
+
+Boss fight and Flurry of Facts
+Each map ends with a high-HP boss using mixed question types. When boss health is low, **Flurry of Facts** begins: prompts appear with two categories; match each prompt to its category. After three prompts, one category swaps. **30-hit goal** — each correct answer reduces counter by 1; at zero the boss dies and the crew wins.
+
+End of game
+Final scoreboard shows coin count and standings. Credits roll with The Bard's song. Cooperative win — everyone shares victory if the boss falls.
+
+To be straight about the limits: character stats, maps, question types, shop items, d20 revival cost, and Flurry of Facts 30-hit goal are documented. Exact monster HP values, per-question timers, and coin-per-correct-answer amounts are not published on the wikis.

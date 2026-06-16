@@ -1,0 +1,40 @@
+Here's the full turn-by-turn of Zeeple Dome (the version in The Jackbox Party Pack 5), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Zeeple Dome on the shared/main screen. One to six players join at jackbox.tv. No audience — the fandom wiki notes audience support was planned but cut due to the game's rushed development. Glargan O'Toe (Edward Moses) hosts the alien game show. Sessions run roughly 10–15 minutes. This is a real-time cooperative action game, not a turn-based writing game; the wikis strongly recommend local/same-room play because streaming or remote play introduces lag that makes the slingshot controls miserable.
+
+Latest version notes (Party Pack 5)
+Zeeple Dome was the last Party Pack 5 game announced and shipped in a notably unfinished state (incorrect power-up names on phones, cut boss enemy, unused Hargon Hunter enemy except via mods). Currency is "Zubabucks" (§) earned from kills and spent to unlock gauntlets and prizes between runs. Playing three Patently Stupid games in a row triggers a Zeeple Dome cameo Easter egg. Touchscreen phones/tablets are strongly recommended; mouse/PC-as-controller is explicitly discouraged.
+
+Lobby and gauntlet selection
+Main screen: Glargan introduces Team Earth — abducted astronauts competing in a violent arena. Gauntlet difficulty picker shows unlocked tiers (Tutorial always available; Easy through Insane selectable once unlocked; Utter Madness and H E L L only appear by beating prior tiers in a run).
+Phone: Join, get assigned one of six colors at random (Cyan, Yellow, Pink, Purple, Orange, or Blue). Your slingshot controller is a big circle in your color with a figure on two strings.
+
+Core loop — every wave (all gauntlets)
+
+Slingshot controls
+Main screen: Arena with enemies, walls, bumpers, color barriers, portals (higher tiers), trajectory preview line showing where your fling will land.
+Phone: Drag the center figure away from the middle of the circle, aim opposite to where you want to fly, release to fling. You can chain a second mid-air fling after hitting a wall, object, enemy, another player, or power-up.
+
+Color combat
+Any player can chip damage into idle black-and-white enemies by colliding with them. Once an enemy's health is depleted, it becomes stunned and phases into a player's color — only the matching-color astronaut can finish the kill. Enemies also power up in a random player color before attacking; the matching player should hit them during the power-up window to disrupt the attack. Wrong-color contact agitates the enemy into attacking immediately. Attacking enemies turn red/black and are invincible until idle again. More players = slower enemy attack timing (more reaction time). Harder gauntlets = faster attacks.
+
+Power-ups
+Color-coded pickups appear; only the matching-color player can grab one, but the effect applies to the whole team. Weapons include Cluster Bomb, Health Field (heal by flinging through the green aura, not standing inside), Electro-Sphere, Shield Aura, Prism Cannon, and Devastator. Grabbing a new weapon cancels the previous one except Health Field.
+
+Scoring / progression (§ Zubabucks)
+This is cooperative, not a versus scoreboard. Each enemy kill awards § to the team (values documented per enemy — e.g., Tutorial Dummy §100, Space Squid §150, Space Brute §300, Yawg Bomber §200, Glurb Tracker §450, Stunley §300, Chu-Chon §400, Hargon Hunter §600). § unlocks gauntlets and prizes across sessions (Easy §4,500, Medium §80,000, Insane §200,000, Utter Madness §400,000, H E L L §600,000, plus individual enemy/weapon unlock prices). Achievements include surviving a gauntlet and surviving a full gauntlet series.
+
+Gauntlet tiers (waves per tier)
+Tutorial: 4 waves, teaches mechanics.
+Easy: 4 waves; introduces bumpers. Unlock §4,500.
+Medium: 5 waves; introduces color barriers. Unlock §80,000.
+Insane: 5 waves; highest selectable start difficulty; introduces portals. Unlock §200,000.
+Utter Madness: 6 waves; unlocked by beating Medium or Insane first in a run. Not directly selectable from the menu.
+H E L L: 5 waves; appears after completing Utter Madness when you started on Insane. Enemies may never stand idle.
+
+Between waves and end of run
+Main screen: Glargan commentary; wave clears; run ends in victory (surviving the gauntlet chain) or team failure. Grand Prize fictionally means death; surviving the hardest chain is the real win.
+Phone: Your color assignment persists through the run; slingshot stays active throughout.
+
+To be straight about the limits: slingshot controls, color-matching kill flow, gauntlet unlock chain, wave counts, enemy § values, power-up behavior, no-audience status, and local-play recommendation are documented. The wikis do not publish exact player health totals, respawn rules, or precise wave-to-wave team-wipe conditions — those are the main gaps. A playthrough is the surest way to nail those.

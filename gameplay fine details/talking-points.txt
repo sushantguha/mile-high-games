@@ -1,0 +1,48 @@
+Here's the full turn-by-turn of Talking Points (the version in The Jackbox Party Pack 7), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. This game involves improv-style public speaking; exact timer seconds aren't published on the wikis.
+
+Setup and lobby
+The host launches Talking Points on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8, plus audience. Session length is roughly 20 minutes. Host Kayla Pulley (voiced by Kayla Pulley) introduces the game. Free Play mode can be selected from the lobby instead of Standard Play—Free Play allows 1–8 players unlimited time to build and present a speech of their own choosing.
+
+Standard Play — title creation
+Main screen: Kayla explains that every player will create presentation titles.
+Phone: Each player fills in three fill-in-the-blank title prompts with a key talking point. Three of everyone's titles are then shown to other players, who pick which one they'd most want to present. Once all titles are chosen, a presentation queue is set pairing a Speaker with an Assistant for each speech.
+
+Each presentation — structure
+Presentations follow this fixed structure: Intro → Text → Photo → Text → Photo → Text → Photo → Closing.
+
+Speaker role
+Main screen: The Speaker's presentation plays out on the shared screen—slides appear as the speech progresses.
+Phone (Speaker): The Speaker talks out loud about their presentation. They can also use drawing and text tools on their device to annotate slides and try to make the presentation make sense. When a text slide appears, they read it aloud. When a photo slide appears, they say whatever comes to mind.
+
+Assistant role
+Phone (Assistant): The Assistant selects what the next text segues and pictures should be for the Speaker. The Assistant has no speaking role—they control what the Speaker must react to.
+
+Audience and other players — reactions
+Main screen: A voting pole tracks real-time audience engagement during the speech.
+Phone (everyone except Speaker/Assistant): Other players repeatedly tap up or down buttons on their device to react. These button presses contribute to the presentation score—250 points apiece on the point graph, plus qualitative scoring on a line graph based on up/down ratio.
+
+Extended voting pole
+If every player is at the top of the voting pole and spams the upvote button simultaneously, the pole extends further up, allowing votes even higher. Players are also pulled back down constantly; the pole returns to normal if people stop voting upward.
+
+After each presentation
+Main screen: Two graphs are shown—a point graph (button-press count) and a line graph (qualitative up/down ratio). These combine into a total presentation score.
+Phone: The Speaker earns the full score. The Assistant earns half. Other players can write a quote about the presentation for the recap. The Speaker can rate how well their Assistant performed. The Assistant picks one image from the presentation as its icon.
+
+Rotation
+This repeats until every player has given one speech.
+
+Awards Ceremony (end of Standard Play)
+Main screen: Near-final scores are shown, then presentation recaps play with the Assistant's chosen icon and player quotes.
+Phone: Each player (and audience members) names a custom award and gives it to the player whose speech they loved most. Each award grants the recipient 75,000 bonus points.
+Main screen: Awards Ceremony plays out—awards are shown on-screen with who gave them to whom.
+The player with the most total points wins.
+
+Free Play mode
+Instead of the structured rotation above, players get unlimited time to build and present a speech with text, pictures, and other elements of their own choosing. Presentation and reaction mechanics still apply.
+
+End of game
+Main screen: Winner highlighted with full leaderboard.
+Phone: Final score and placement shown.
+A full game runs roughly 20 minutes.
+
+To be straight about the limits: presentation structure (Intro/Text/Photo pattern), Speaker/Assistant roles, reaction scoring (250 points per button press, Assistant gets half), award bonus (75,000 points), and Free Play vs Standard are all documented. What isn't pinned down is the exact seconds allowed for title creation or presentation segments, or whether the phone shows a prominent countdown bar versus the main screen carrying most of the timer visuals.

@@ -1,0 +1,39 @@
+Here's the full turn-by-turn of Mad Verse City (the version in The Jackbox Party Pack 5 — meta: 3–8 players plus audience, ~15 minutes, Fill-In-The-Blank, family-friendly), tracking the main screen and each player's phone separately. Shadow Master MC (Simeon Norfleet) and DJ Raych (Rachel Jackson) host. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Mad Verse City on the shared/main screen. A four-letter room code appears; players join on phones and are randomly assigned one of eight retro-tech robot avatars (jackbox.wiki). Three to eight players plus audience. Because battles need pairs, if the room has an odd player count, Gene (CPU from Survive the Internet) joins automatically (Fandom; jackbox.wiki). Setting: alternate-universe 1990s where robots rap-battle to "set the city ablaze" (Fandom).
+
+Game structure — three rap rounds
+Each round: everyone writes a verse → paired battles play on the main screen with cheers and votes → cash (points) awarded. After round 3, highest cumulative cash wins (Fandom; jackbox.wiki). Rounds 1–2 pairings are random; round 3 pairs by standings — 8th vs 7th, 6th vs 5th, etc. (jackbox.wiki).
+
+Writing phase (each round, before battles)
+Main screen: Cityscape / waiting visuals; players who finish early can spam seven phone buttons to trigger main-screen gags (knock down buildings, tower news, etc.) (jackbox.wiki).
+Phone — pass 1: Prompt asks for a word or phrase by category (noun, verb, adjective, famous person, food, etc.) (Fandom; jackbox.wiki). Player types it or taps Suggestion for three auto-picks (jackbox.wiki). The word is inserted into a pre-made sentence; the full first line is then revealed on phone (Fandom: you don't see the full line until after filling the blank).
+Phone — pass 2: Write a second line that rhymes with line 1 (Fandom; jackbox.wiki). Optional "Rhyme For Me" generates a random line — jackbox.wiki warns it usually will not actually rhyme.
+Phone — passes 3–4: Repeat blank-fill + rhyming line to complete a four-line verse (Fandom: four-line verse total; jackbox.wiki calls it a "two-verse rap" after two blank-and-rhyme cycles).
+
+Battle phase (each matchup)
+Main screen: Matchups shown; left-side rapper always performs first. Text-to-speech voices read each four-line verse aloud (Fandom; jackbox.wiki). Cheer meter fills as players/Audience cheer or boo (Fandom: cheer meter; bonuses for most cheers).
+Phone (non-battlers + audience): During playback, cheer a verse up or down (jackbox.wiki). Fandom: other players cheer or boo, then vote best verse.
+Vote
+Main screen: Both verses have been performed.
+Phone: Vote for favorite rap in the matchup (jackbox.wiki).
+
+Scoring per battle (jackbox.wiki — primary numeric source)
+Round 1 base pot: 100,000 to winner by vote share; Round 2: 300,000; Round 3: 450,000.
+Cheer Bonus (at least one positive cheer on your verse): 10,000 (R1), 25,000 (R2), 30,000 (R3).
+Winner Bonus: same values as Cheer Bonus.
+Fandom: both battlers gain cash no matter who wins unless one gets zero votes; most cheers earns extra bonus. Tie-break: higher Cheer Bonus wins; if no cheers, random pick (jackbox.wiki).
+
+End of game
+Main screen: Cumulative cash leaderboard; winner declared (jackbox.wiki). Fandom: Millionaire achievement for $1,000,000 in one game.
+
+Scoring summary
+| Round | Win pot | Cheer/Winner bonus |
+|-------|---------|-------------------|
+| 1 | 100,000 | 10,000 |
+| 2 | 300,000 | 25,000 |
+| 3 | 450,000 | 30,000 |
+
+Limits
+Exact vote-share formula within the win pot is not published. Text-to-speech pronunciation of player entries is not controllable. "Rhyme For Me" quality is deliberately poor per jackbox.wiki. Fandom says three rounds; both sources agree. Per-writing-phase timer not documented.

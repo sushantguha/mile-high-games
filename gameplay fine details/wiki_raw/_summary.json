@@ -1,0 +1,371 @@
+{
+  "lie-swatter": {
+    "fandom": 3472,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Lie_Swatter",
+    "jackbox": 5537,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Lie_Swatter"
+    ]
+  },
+  "word-spud": {
+    "fandom": 4513,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Word_Spud",
+    "jackbox": 3326,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Word_Spud"
+    ]
+  },
+  "bidiots": {
+    "fandom": 5765,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Bidiots",
+    "jackbox": 3608,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Bidiots"
+    ]
+  },
+  "bomb-corp": {
+    "fandom": 19309,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Bomb_Corp.",
+    "jackbox": 0,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Bomb_Corp."
+    ]
+  },
+  "fakin-it": {
+    "fandom": 4926,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Fakin'_It",
+    "jackbox": 9479,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Fakin'_It"
+    ]
+  },
+  "guesspionage": {
+    "fandom": 3421,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Guesspionage",
+    "jackbox": 5016,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Guesspionage"
+    ]
+  },
+  "bracketeering": {
+    "fandom": 3442,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Bracketeering",
+    "jackbox": 3311,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Bracketeering"
+    ]
+  },
+  "civic-doodle": {
+    "fandom": 2591,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Civic_Doodle",
+    "jackbox": 3678,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Civic_Doodle"
+    ]
+  },
+  "monster-seeking-monster": {
+    "fandom": 20164,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Monster_Seeking_Monster",
+    "jackbox": 1918,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Monster_Seeking_Monster"
+    ]
+  },
+  "survive-the-internet": {
+    "fandom": 6634,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Survive_the_Internet",
+    "jackbox": 5745,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Survive_the_Internet"
+    ]
+  },
+  "mad-verse-city": {
+    "fandom": 5260,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Mad_Verse_City",
+    "jackbox": 4797,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Mad_Verse_City"
+    ]
+  },
+  "patently-stupid": {
+    "fandom": 6938,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Patently_Stupid",
+    "jackbox": 4232,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Patently_Stupid"
+    ]
+  },
+  "split-the-room": {
+    "fandom": 5181,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Split_the_Room",
+    "jackbox": 4577,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Split_the_Room"
+    ]
+  },
+  "you-don-t-know-jack-full-stream": {
+    "fandom": 22882,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/You_Don't_Know_Jack:_Full_Stream",
+    "jackbox": 4294,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/You_Don't_Know_Jack:_Full_Stream"
+    ]
+  },
+  "zeeple-dome": {
+    "fandom": 16791,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Zeeple_Dome",
+    "jackbox": 1436,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Zeeple_Dome"
+    ]
+  },
+  "dictionarium": {
+    "fandom": 4287,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Dictionarium",
+    "jackbox": 2551,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Dictionarium"
+    ]
+  },
+  "joke-boat": {
+    "fandom": 13625,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Joke_Boat",
+    "jackbox": 11695,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Joke_Boat"
+    ]
+  },
+  "push-the-button": {
+    "fandom": 8395,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Push_the_Button",
+    "jackbox": 5783,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Push_the_Button"
+    ]
+  },
+  "role-models": {
+    "fandom": 6229,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Role_Models",
+    "jackbox": 5796,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Role_Models"
+    ]
+  },
+  "trivia-murder-party-2": {
+    "fandom": 48964,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Trivia_Murder_Party_2",
+    "jackbox": 22217,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Trivia_Murder_Party_2"
+    ]
+  },
+  "blather-round": {
+    "fandom": 3456,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Blather_'Round",
+    "jackbox": 3186,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Blather_'Round"
+    ]
+  },
+  "champ-d-up": {
+    "fandom": 6853,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Champ'd_Up",
+    "jackbox": 2506,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Champ'd_Up"
+    ]
+  },
+  "quiplash-3": {
+    "fandom": 13785,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Quiplash_%28series%29",
+    "jackbox": 3979,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Quiplash"
+    ]
+  },
+  "talking-points": {
+    "fandom": 3419,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Talking_Points",
+    "jackbox": 4260,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Talking_Points"
+    ]
+  },
+  "the-devils-and-the-details": {
+    "fandom": 24571,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/The_Devils_and_the_Details",
+    "jackbox": 12427,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/The_Devils_and_the_Details"
+    ]
+  },
+  "drawful-animate": {
+    "fandom": 7920,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Drawful_%28series%29",
+    "jackbox": 3959,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Drawful"
+    ]
+  },
+  "job-job": {
+    "fandom": 8909,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Job_Job",
+    "jackbox": 5972,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Job_Job"
+    ]
+  },
+  "the-poll-mine": {
+    "fandom": 5147,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/The_Poll_Mine",
+    "jackbox": 3663,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/The_Poll_Mine"
+    ]
+  },
+  "the-wheel-of-enormous-proportions": {
+    "fandom": 10022,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/The_Wheel_of_Enormous_Proportions",
+    "jackbox": 9877,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/The_Wheel_of_Enormous_Proportions"
+    ]
+  },
+  "weapons-drawn": {
+    "fandom": 6705,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Weapons_Drawn",
+    "jackbox": 7685,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Weapons_Drawn"
+    ]
+  },
+  "fibbage-4": {
+    "fandom": 13720,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Fibbage_%28series%29",
+    "jackbox": 7527,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Fibbage",
+      "https://jackbox.wiki/wiki/Fibbage_(series)"
+    ]
+  },
+  "junktopia": {
+    "fandom": 3704,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Junktopia",
+    "jackbox": 4959,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Junktopia"
+    ]
+  },
+  "nonsensory": {
+    "fandom": 4875,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Nonsensory",
+    "jackbox": 5308,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Nonsensory"
+    ]
+  },
+  "quixort": {
+    "fandom": 6754,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Quixort",
+    "jackbox": 6048,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Quixort"
+    ]
+  },
+  "roomerang": {
+    "fandom": 6654,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Roomerang",
+    "jackbox": 8530,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Roomerang"
+    ]
+  },
+  "fixy-text": {
+    "fandom": 1943,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Fixy_Text",
+    "jackbox": 0,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Fixy_Text"
+    ]
+  },
+  "hypnotorious": {
+    "fandom": 2603,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Hypnotorious",
+    "jackbox": 3172,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Hypnotorious"
+    ]
+  },
+  "tee-k-o-2": {
+    "fandom": 4373,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Tee_K.O._2",
+    "jackbox": 10283,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Tee_K.O._2"
+    ]
+  },
+  "time-jinx": {
+    "fandom": 6326,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Time_Jinx",
+    "jackbox": 0,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Time_Jinx"
+    ]
+  },
+  "doominate": {
+    "fandom": 3072,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Doominate",
+    "jackbox": 6849,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Doominate"
+    ]
+  },
+  "cookie-haus": {
+    "fandom": 1921,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Cookie_Haus",
+    "jackbox": 11103,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Cookie_Haus"
+    ]
+  },
+  "suspectives": {
+    "fandom": 3511,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Suspectives",
+    "jackbox": 8856,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Suspectives"
+    ]
+  },
+  "legends-of-trivia": {
+    "fandom": 2978,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Legends_of_Trivia",
+    "jackbox": 12993,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Legends_of_Trivia"
+    ]
+  },
+  "fakin-it-all-night-long": {
+    "fandom": 8461,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Fakin'_It_All_Night_Long",
+    "jackbox": 7668,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Fakin'_It_All_Night_Long"
+    ]
+  },
+  "dirty-drawful": {
+    "fandom": 7920,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Drawful_%28series%29",
+    "jackbox": 3959,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Drawful"
+    ]
+  },
+  "let-me-finish": {
+    "fandom": 12,
+    "fandom_url": "https://jackboxgames.fandom.com/wiki/Let_Me_Finish",
+    "jackbox": 5107,
+    "jackbox_urls": [
+      "https://jackbox.wiki/wiki/Let_Me_Finish"
+    ]
+  }
+}

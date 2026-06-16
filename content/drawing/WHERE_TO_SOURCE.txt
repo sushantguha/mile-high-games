@@ -1,0 +1,72 @@
+DRAWING PROMPTS — WHERE TO GET BETTER CONTENT
+=============================================
+
+Current file: prompts.json
+  drawGuess[]    — Drawful, Champ'd Up, Dirty Drawful, etc.
+  shirtDesigns[] — Tee K.O. 2 style shirt slogans
+
+
+WHAT MAKES A GOOD DRAWING PROMPT
+--------------------------------
+- Absurd but drawable in 30 seconds on a phone
+- Concrete subject (not abstract concepts)
+- Funny juxtaposition ("a T-Rex at a job interview")
+- Avoid copyrighted characters (Mickey Mouse, Batman, etc.)
+
+
+RECOMMENDED SOURCES & INSPIRATION
+---------------------------------
+
+1. Drawful-style community lists (best quick win)
+   - Search Reddit: r/JackboxParties, r/Quiplash prompt threads
+   - BoardGameGeek Jackbox forums often share fan prompt packs
+   - Many players post 100+ draw prompts in Google Docs / Pastebin
+   - Rewrite in your own words; don't copy Jackbox's exact prompts
+
+2. AI generation (fast bulk creation)
+   - Use ChatGPT / Claude with prompt:
+     "Generate 100 absurd drawing prompts for a party game like Drawful.
+      Each must be drawable in 30 seconds. One sentence each. JSON array."
+   - Review for family-friendliness and copyright issues
+   - Store output as new entries in drawGuess[]
+
+3. Pictionary word lists (public domain style)
+   - Search: "pictionary word list PDF" — many teachers' lists are free
+   - URL example category lists on:
+     https://www.thegamegal.com/word-generator/ (browser game, use for inspiration)
+   - Adapt nouns into absurd scenes: "piano" → "a piano falling from the sky"
+
+4. Random word combiners (infinite prompts)
+   - Concept: adjective + noun + situation
+   - Sites like https://randomwordgenerator.com/ for building blocks
+   - Script: combine from word lists → "A [adjective] [animal] [verb] at the [place]"
+
+5. Tee K.O. shirt slogans (shirtDesigns[])
+   - Etsy "funny t-shirt sayings" — inspiration only, don't copy trademarked slogans
+   - Lists of viral shirt text memes (knowyourmeme.com)
+   - AI: "Generate 50 funny fake t-shirt slogans, max 6 words each"
+   - Good format: Design a shirt: "YOUR SLOGAN HERE"
+
+
+STOCK / REFERENCE IMAGES (optional, not prompts)
+------------------------------------------------
+Drawing games use PLAYER drawings, not pre-made art. But for host-screen flair:
+
+6. Undraw / Humaaans (open illustration libraries)
+   URL: https://undraw.co/  |  https://www.humaaans.com/
+   - CC0 / free for personal projects — host screen decorations only
+
+7. Openclipart
+   URL: https://openclipart.org/
+   - Public domain clip art if you want example icons on the host UI
+
+
+SUGGESTED FOLDER EXPANSION
+--------------------------
+  content/drawing/prompts.json          (general drawGuess)
+  content/drawing/drawful-animate.json  (animation-friendly scenes)
+  content/drawing/tee-ko.json           (shirtDesigns)
+  content/drawing/champd-up.json          (character prompts)
+  content/drawing/family-friendly.json  (filtered subset)
+
+Target: 300+ drawGuess prompts, 100+ shirt designs for variety.

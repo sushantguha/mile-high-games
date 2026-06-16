@@ -1,0 +1,48 @@
+Here's the full turn-by-turn of Survive the Internet (the version in The Jackbox Party Pack 4 — meta: 3–8 players plus audience, ~20 minutes, Fill-In-The-Blank, family-friendly), tracking the main screen and each player's phone separately. Todd hosts (voiced by Tom Haley). Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Survive the Internet on the shared/main screen — a Windows-XP-inspired desktop (jackbox.wiki trivia). A four-letter room code appears; players join on phones. Three to eight players plus audience. If only three human players join, Gene (voiced by Spencer Ham) is added as a CPU opponent (Fandom; jackbox.wiki). Lobby desktop folder names and background apps rotate as gags (Fandom trivia; includes Word Spud 2 pop-up).
+
+Game structure — four rounds
+Three rotating site-types, then a fixed final (Fandom: three rounds + final; jackbox.wiki agrees). Each round is: everyone answers a prompt → paired players twist each other's answers out of context → group votes on the most ridiculous result → points.
+
+A standard round (rounds 1–3), step by step
+Answer phase ("victim")
+Main screen: Round site branding (Check-In Site, Crowdfunding Site, Job Network, News Site, Photo Sharing prep, Social Media, Social Network, Store, Video Site, Web Forum — Fandom Rounds section; jackbox.wiki lists Check-In, Crowdfunding, E-Commerce, Job Networking, News, Social Media, Video, Web Forum).
+Phone: Each player writes a sincere answer to the round's prompt on their device — an opinion, description, comment, etc. (jackbox.wiki).
+
+Twist phase ("twister")
+Main screen: Waiting / assignment visuals.
+Phone: Each player receives another player's answer and must reframe it out of context — attaching a place, product, headline, hashtag, video title, campaign name, forum question, etc., depending on site type (Fandom; jackbox.wiki). Fandom Web Forum note: twister's framing may be shown first for that site type.
+
+Reveal and vote
+Main screen: Paired answers and twists shown one-by-one in the site's visual template (jackbox.wiki gallery).
+Phone (all players + audience): Vote for the most absurd/ridiculous combined post (jackbox.wiki).
+
+Scoring (rounds 1–3)
+Per vote for your twist: +100 points to the twister (Fandom; jackbox.wiki).
+Pity to original author: +20 points per vote cast on the twisted entry (jackbox.wiki: "20 pity points for every vote"). Fandom states one-fifth of the vote value to the answerer — equivalent to 20 when votes are 100.
+Best Burn bonus: If a twisted entry wins a clear majority of votes, the twister gets +150 extra (Fandom; jackbox.wiki). Original author gets +30 pity if their answer was the one twisted into the Best Burn (Fandom; jackbox.wiki).
+
+Final round — Photo Sharing Site (always)
+Main screen: Photo-sharing layout; points doubled (Fandom; jackbox.wiki).
+Phone (victim): Choose one of two photo descriptions for your scenario (Fandom).
+Phone (twister): Write a caption that ridicules the chosen photo out of context (Fandom; jackbox.wiki).
+Vote and scoring: Same as above but doubled — 200 per vote to twister, 40 pity per vote to victim, 300 Best Burn bonus, 60 pity bonus to victim (derived from Fandom's double rule; jackbox.wiki confirms final-round doubling).
+
+End of game
+Main screen: Highest total score wins and "survives" the internet — cutscene of hills opening to send the winner to Hell (Fandom; jackbox.wiki). Todd's framing treats survival ironically.
+
+Round-type reference (victim writes → twister adds context)
+- Check-In Site: comment + place
+- Crowdfunding Site: comment + fundraiser title
+- Job Network / Job Networking: description + recommended person/name
+- News Site: comment + headline
+- Social Media / Social Network: post + hashtags or life-context text
+- Store / E-Commerce: object comment + product listing
+- Video Site: comment + video title
+- Web Forum: response + hypothetical question asked
+- Photo Sharing Site (final only): pick image description + caption
+
+Limits
+Exact round-type rotation order is random/unpublished. Gene's lines are "seemingly at random" (Fandom). Whether pity is exactly 20 vs strictly one-fifth is consistent at 100-point votes but unspecified if vote-splitting rules change. Per-round timers not documented.

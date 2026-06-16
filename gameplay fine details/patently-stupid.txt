@@ -1,0 +1,54 @@
+Here's the full turn-by-turn of Patently Stupid (the version in The Jackbox Party Pack 5), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Patently Stupid on the shared/main screen (TV or stream). A four-letter room code appears; players go to jackbox.tv on a phone or tablet, type the code and a name. As each person joins, their mug-themed avatar pops into the lobby on the main screen. Player count is 3–8, with audience support. If only three players join, Gene (a recurring CPU character) fills the fourth slot. Toby and Lena — the divorced co-hosts voiced by Phil Ridarelli and Alex Frenkel — banter through the rules. A full game runs roughly 20–25 minutes.
+
+Latest version notes (Party Pack 5)
+This is the only shipped version of Patently Stupid. It is a drawing-and-pitch game: everyone writes ridiculous problems, then invents solutions on cocktail napkins, titles them, and pitches for fake investor cash. Toby and Lena can present your invention on the main screen if you pick that option (handy for streams); in the same room, the wikis recommend presenting it yourself for the full comedy effect. Playing three consecutive Patently Stupid sessions triggers an Easter-egg tease for Zeeple Dome.
+
+Round 1 — problems, inventions, and funding
+
+Writing the problems
+Main screen: Toby and Lena intro, waiting state, or hold-up logo while everyone submits.
+Phone: Each player gets two fill-in-the-blank problem prompts revolving around a theme. You type whatever ridiculous problem you want and submit both.
+
+Problem selection
+Main screen: Once submissions are in, the game distributes player-written problems around the room.
+Phone: You receive two problems from other players and must pick one to solve. Everyone is solving someone else's problem in parallel.
+
+Drawing phase
+Main screen: Round progress and timer; inventions appear when done.
+Phone: You illustrate your solution on a cocktail napkin with a black pen and a marker in your mug color. Tap the "i" button to re-read your problem. No eraser — commit to the scribble.
+
+Title and tagline
+Main screen: Waits for all players to finish writing.
+Phone: After the drawing locks in, you type an invention title, then a tagline.
+
+Presentations
+Main screen: Each invention is shown large — the problem, drawing, title, and tagline — while hosts or the inventor narrate.
+Phone: After your invention is ready, you choose "I'll present it" or "Have Toby and Lena present it." If you don't press either button for a couple of seconds, the hosts take over automatically.
+
+Investment / voting
+Main screen: After all pitches, inventions pop up one by one revealing cash totals from each investor.
+Phone: You distribute three money tokens — a $500 chip, a $300 chip, and a $100 chip — each to a different invention you liked. You cannot stack multiple chips on one invention. The audience also votes favorites; audience 1st, 2nd, and 3rd place add $500, $300, and $100 respectively to those inventions.
+
+Scoring (Round 1)
+Inventors keep every dollar invested in their invention. An invention that hits the funding threshold — at least $1,000 per the fandom wiki (jackbox.wiki notes $1,200; the fandom page says the value may differ by player count) — is "funded." A funded inventor earns a $500 funding bonus. Everyone who invested in that funded invention gets double their token back as return on investment. Unfunded inventions: only the inventor keeps whatever cash was raised; investors get nothing back.
+
+Between rounds
+Main screen: Scoreboard / cash standings after Round 1.
+
+Round 2 — higher stakes, leader picks the problem
+Main screen: The current first-place player is highlighted as the problem-picker.
+Phone: The leader chooses one remaining unpicked problem from Round 1. That same problem is assigned to every player (including the leader) for a second invention cycle.
+
+Round 2 repeats drawing, title, tagline, presentation, and investment — same flow, bigger numbers:
+Funding chips are worth $800, $500, and $300.
+Funding goal rises to $1,500.
+Funding bonus rises to $1,000.
+
+End of game
+Main screen: Winner declared; trophy animation cycles through various topper gags (sports, Drawful references, the Utah teapot, etc.).
+Phone: Final standings. Highest total cash after both rounds wins.
+
+To be straight about the limits: the two-round structure, token values, ROI doubling, presentation options, and Round 2 escalation are all well-documented. The one fuzzy number is the exact Round 1 funding threshold by player count — sources disagree between $1,000 and $1,200 — and no public wiki pins down per-phase timer seconds. Frame-count a playthrough if you need those exact.

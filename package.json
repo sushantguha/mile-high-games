@@ -1,0 +1,20 @@
+{
+  "name": "mile-high-games",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "restart": "node scripts/restart-dev.mjs",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "test:games": "npm run test:games --prefix server",
+    "test:games:7p": "npm run test:games:7p --prefix server",
+    "test:chrome": "npm run build && npm run test:chrome --prefix server",
+    "test:all": "npm run test:games && npm run test:games:7p && npm run test:chrome"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

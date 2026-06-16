@@ -1,0 +1,59 @@
+============================================================
+TEE K.O. 2
+============================================================
+
+Pack:          Jackbox Party Pack 10
+Players:       3 - 8
+Length:        20 minutes
+Game Type:     Drawing
+Family Safe:   Yes
+Audience Mode: Yes
+
+IMAGE: images/tee-k-o-2.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Draw t-shirt designs, battle in a bracket, and build a winning wardrobe.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Draw slogans and images for t-shirt prompts on your phone.
+Designs are paired in a tournament bracket on the host screen.
+Vote on which shirt you'd actually wear. Winners advance until one champion remains.
+Collect shirts you voted for into your wardrobe.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Runs the bracket tournament and displays designs.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Draw shirt designs and vote in head-to-head matchups.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Drawing phase then elimination bracket.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Bracket advancement; most wins takes the crown.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Bold simple designs read better on a phone host screen.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: tee-k-o-2
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

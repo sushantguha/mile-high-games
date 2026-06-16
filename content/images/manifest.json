@@ -1,0 +1,6 @@
+{
+  "description": "Maps game IDs to icon files. Placeholder icons live in games-info/images/ until replaced.",
+  "iconDir": "games-info/images",
+  "pattern": "{game-id}.svg",
+  "note": "Copy improved artwork into content/images/ and update iconDir when ready."
+}

@@ -1,0 +1,47 @@
+Here's the full turn-by-turn of Civic Doodle (the version in The Jackbox Party Pack 4 — meta: 3–8 players plus audience, ~20 minutes, Drawing, family-friendly), tracking the main screen and each player's phone separately. Alyssa Davis hosts; Mr. Mayor ("Old Man") is voiced by Andy Poland. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Civic Doodle on the shared/main screen. A four-letter room code appears; players join on phones. Three to eight players plus audience. Fandom: 2 or 3 rounds depending on player count. jackbox.wiki: players can draw their name tags in the lobby on their phones. You are beautifying Doodle Valley (Fandom).
+
+Non-final rounds (one or two of these, depending on player count)
+Each non-final round builds one mural from a seed scribble through successive head-to-head additions, then names it.
+
+Seed and first matchup
+Main screen: An unfinished drawing — a short brush stroke on the community "wall" canvas (jackbox.wiki; Fandom: minimalistic starting art).
+Phone (two randomly selected players): Drawing tools — adjustable brush thickness and color. They extend the scribble into a fuller doodle and submit. Others wait.
+Phone (everyone else): Six emoji reaction buttons; tap to judge/react while drawings are in progress (Fandom; jackbox.wiki). Audience may react too, but only once per section of the round (Fandom).
+
+Vote
+Main screen: Both doodles displayed side by side.
+Phone (players + audience): Vote for the preferred drawing.
+Scoring: Winner's doodle advances as the new base canvas for the next pair of artists (Fandom; jackbox.wiki). Winner earns the larger share of the round's point pool (jackbox.wiki). Emote tiebreaker: The Mayor randomly selects one emoji type; whoever received the most taps of that emoji gets +10 points (Fandom: 10 points; jackbox.wiki agrees). If vote ties on emotes, emotes decide; if still tied or no emotes, Mayor picks randomly (jackbox.wiki). Fandom achievement note: getting both of your additions accepted in one non-final round is "Reelection."
+
+Chain continues until every player has had a turn adding to the mural (jackbox.wiki; Fandom: two players at a time, winner's art carries forward).
+
+Title phase
+Main screen: Finished community canvas shown.
+Phone: Everyone submits a title. Titles appear on-screen; players vote for favorite (Fandom; jackbox.wiki). Winning title earns its author points and is printed on a Doodle Valley postcard (jackbox.wiki).
+
+Final round — committee portrait (always last)
+Setup
+Main screen: Final-round instructions from the Mayor.
+Phone: Each player gets their own canvas with a starter shape — circular/oval face outline or three circles (for triple faces) — plus a Doodle Valley citizen name to portray (jackbox.wiki; Fandom: person, alien, dog, etc.).
+
+Four feature stages
+Fandom: four drawing stages with votes between them. jackbox.wiki: three specific facial features (eyes, nose, mouth, plus optional details) with votes between prompts; three-circle canvases get one face per circle.
+Each stage, step by step:
+Phone (all players): Draw the prompted feature on your canvas, then submit.
+Main screen: Submissions shown.
+Phone (all players): Vote for exactly one other player's drawing to carry forward (jackbox.wiki). Winning drawing is distributed to everyone as the base for the next feature (Fandom: winning drawing handed out to all; each stage adds a feature — four times total per Fandom). jackbox.wiki achievement parallel: "Design by Committee" if each portrait segment comes from a different player.
+
+End of game
+Main screen: Final scores and winner declared (jackbox.wiki). Credits include a free-for-all doodle canvas in each player's color (jackbox.wiki). Game length roughly 20–25 minutes (Fandom) vs 20 minutes (jackbox.wiki meta).
+
+Scoring summary
+- Head-to-head votes → larger/smaller shares of round point pool
+- Randomly selected emoji majority → +10
+- Title vote → points to winning namer
+- Final round → vote winners between feature stages (exact point splits per vote not published)
+
+Limits
+Exact point pool sizes per matchup are not documented. Fandom says four feature passes; jackbox.wiki details three named facial prompts plus optional details — both agree on staged draw-then-vote loop. Audience emoji rate limit (once per section) is Fandom-only detail.

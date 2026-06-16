@@ -1,0 +1,52 @@
+Here's the full turn-by-turn of Monster Seeking Monster (the version in The Jackbox Party Pack 4 — meta: 3–7 players plus audience, ~15 minutes, Roleplay / Hidden Identity, not family-friendly), tracking the main screen and each player's phone separately. Felicia Shadowlurker hosts (voiced by Erica Elam). Sourced from jackboxgames.fandom.com and jackbox.wiki only. jackbox.wiki gameplay page is under construction — most turn detail is from Fandom.
+
+Setup and lobby
+The host launches Monster Seeking Monster on the shared/main screen. A four-letter room code appears; players join on phones. Three to seven players plus audience. Each player receives a secret Monster Power on their phone — bonuses may help the holder, hurt rivals, or both (Fandom). Human disguises mask monsters until reveal. If four or fewer players with audience off, a Robot CPU may fill the room (Fandom Robot section).
+
+Game structure — six "nights"
+Each night has two phases: (1) messaging, like a dating app, then (2) date requests. Scoring currency is hearts, not points. Most hearts at game end wins — unless the Zombie apocalypse condition triggers (see below).
+
+A single night, step by step
+Messaging phase
+Main screen: Dating-app framing; from night two onward, one of 99 possible secret words is displayed on screen (Fandom Secret Words list — e.g. Totally, Creepy, Jackbox, Moist, etc.). If any message contains the active secret word, the screen flashes with lightning and a sound effect (Fandom).
+Phone: Each player may send up to four messages per night to other players (Fandom). Audience-as-eighth-player: when audience joins, they occupy a collective globe-disguise slot. Audience gets mad-lib prompts sent via main screen or as replies; audience votes on fill-ins; majority answer is used. Only players who messaged the Audience can be dated by them (Fandom).
+
+Date-request phase
+Main screen: Date selection results and match animations.
+Phone: Each player chooses one other player to ask on a date (Fandom).
+Outcomes (Fandom):
+- Mutual pick → successful date; both gain a heart.
+- One-sided pick → rejection; rejected player loses nothing.
+- No pick → penalty: lose a heart.
+Monster powers may add or steal hearts when their conditions trigger (listed below).
+
+Monster reveals (progressive)
+After night 2: the current first-place player's monster power is revealed to everyone (Fandom).
+Each following night: the next highest-ranked still-unrevealed player is revealed (Fandom). Powers should stay secret until reveal — except Vengeful Ghost is sometimes acknowledged as benefiting others too (Fandom tips still recommend secrecy).
+
+Monster powers (end-of-game or conditional hearts — Fandom)
+- Mummy: dates curse partners; curse spreads through their dates; at end steals half a heart from each cursed player unless everyone is cursed (then no steal). Marked with ankh.
+- Vampire: dates turn others vampire (does not overwrite original power); original Vampire gets +½ bonus heart per vampire at end. Marked with bat.
+- Vengeful Ghost: starts with +1 heart; if rejected when asking someone out, that player loses a heart.
+- Serial Killer: steals two hearts from partners on the second night they date the same person.
+- Leprechaun: unrevealed dates grant partners two fake hearts; fake hearts vanish on reveal; Leprechaun gains +1 heart per player who drops in rankings when revealed.
+- Zombie: dates infect others; infections spread next night; if everyone is infected at end, only original Zombie wins regardless of hearts. Marked with zombie hand.
+- Monster Hunter: +1 bonus heart per date with the secretly assigned target monster type, applied at end when hunt target is revealed.
+- Glob: every time three different players are successfully dated, heart count doubles.
+- Two-Faced Creep: +1 heart per rejection they issue; lose those bonus hearts if they fail to get a date themselves that night.
+- Witch: collects one hair per new partner dated; on reveal, +1 heart per hair.
+- Body Swapper: on full-moon nights, swaps all hearts with dated partner.
+- Ventriloquist Puppet: +1 heart when dating someone who was rejected the previous night.
+- Werewolf: on full-moon nights, +1 heart for dating; partners become werewolves (spread only on full moons); −½ heart when rejected on full moon. Marked with wolf icon.
+- Invisible Person: starts with +2 hearts; appears in last place on scoreboard until final reveal.
+- Mother: +1 heart whenever their randomly assigned child fails to get a date. Reveal text: "[PLAYER1] is [PLAYER2]'s Mother."
+- Robot (CPU): loses one heart each night automatically; gains +1 heart when messaged and asked out even if rejected; if last at end, becomes evil and everyone loses.
+
+Full moon
+Some powers reference full-moon nights (Body Swapper, Werewolf — Fandom tips section). Exact night schedule is not published in the wikis.
+
+End of game
+Main screen: Monster identities, infection/curse markers, final heart counts, winner declared. Zombie universal-infection overrides normal victory (Fandom). Game length roughly 20–25 minutes (Fandom) vs 15 minutes (jackbox.wiki meta).
+
+Limits
+jackbox.wiki gameplay section is explicitly incomplete — all phase timing, phone UI layout, and full-moon calendar are undocumented. Secret-word list is partial in the stored wiki extract (99 total per Fandom). Exact heart math for half-hearts is stated but tie-breaking is not. Audience mad-lib prompt flow is summarized on Fandom only.

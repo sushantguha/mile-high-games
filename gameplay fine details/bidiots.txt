@@ -1,0 +1,37 @@
+Here's the full turn-by-turn of Bidiots (the version in The Jackbox Party Pack 2 — meta: 3–6 players, ~15 minutes, Drawing, no audience, family-friendly), tracking the main screen and each player's phone separately. The unnamed auction host is voiced by Tim Sniffen. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Bidiots on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Three to six players can join; there is no audience mode. The host explains the rules — you draw art, then bid on art (yours and others') trying to buy low and profit at the reveal. Everyone starts with $3,000 cash (Fandom; jackbox.wiki).
+
+Drawing phase (once, before any auction)
+Main screen: Drawing timer and round visuals; the title screen shows players currently drawing (jackbox.wiki gallery).
+Phone: Each player receives two separate but vague drawing prompts on their device — Fandom example: "Toga party." Players have 90 seconds per drawing (jackbox.wiki). Both drawings from a given prompt group will be very similar across the room (Fandom). Each player submits two pieces of art.
+Hidden values (known only to the game): One drawing per player is designated "high value" (~$3,000–$5,000) and the other "low value" (~$500–$2,500). Values are unknown to everyone, including the artists (Fandom). Throughout the entire game, each player's phone also shows the titles and values of three drawings — different players receive different hints (Fandom).
+
+Auction count
+The number of auctions equals twice the number of players plus two, except in 6-player games where exactly 12 auctions take place (Fandom). Auctions include all player drawings plus house drawings supplied by the game as needed (Fandom).
+
+A single auction, step by step
+Main screen: The current drawing is displayed. The host opens bidding at $400 (Fandom; jackbox.wiki). He may talk between bids; the auction always ends with "Going once... Going twice... Sold!" (Fandom). When bidding stalls, the host runs a three-second timer — if nobody jumps in, the last bidder wins (jackbox.wiki).
+Phone (all players): At the start of each auction, each player receives a private hint on their device. Hints may indicate that a specific player knows the current drawing's value, give meta info (who is leading, who is short on cash), or be idle chatter with no useful information (Fandom). Players bid in $100 increments from the opening $400 bid; they may also bid $100 or $200 over the current high bid if desired (Fandom). jackbox.wiki describes optional +$100, +$200, or +$300 jumps as long as the player can afford it.
+Phone (Predatory Loans): If any player pressed "Call bank" during the round, after that auction the Predatory Loans logo appears on the main screen for a few seconds. Each player then gets a button on their device to take a loan — $1,000 cash immediately, up to 3 loans per player per game, repaid at end with 50% interest ($1,500 per loan) (Fandom; jackbox.wiki).
+
+After the hammer falls
+Main screen: Winner and price are announced. If the drawing was made by another player, the artist receives half the sale price as commission in cash immediately (Fandom; jackbox.wiki). If the winner bought their own art, they do not get commission back (jackbox.wiki). The drawing's true hidden value is then revealed on screen — this value is not added to cash yet; it counts toward final score only at game end (Fandom).
+Phone: Players see their updated cash internally, but the main screen does not show live cash/score totals during play — only end-game (Fandom). Transactions must be tracked mentally during the session.
+
+Screws (mid-game)
+After half the auctions are complete, each player receives one screw, usable once to force another player to bid (Fandom; jackbox.wiki). The screw is wasted if the forced player cannot afford the next bid (Fandom). A player forced to bid cannot screw someone else until another player places a normal bid (Fandom). Warning from Fandom trivia: attempting to screw someone just as a lot is about to sell can softlock the game.
+
+End of game
+Main screen: After all drawings are auctioned, everyone's remaining cash is shown. Each purchased drawing's value is revealed one by one and added to that player's total (jackbox.wiki). Predatory Loans are cashed out (50% interest deducted). The player with the most money wins (Fandom; jackbox.wiki). Credits roll (jackbox.wiki gallery).
+
+Scoring summary
+- Starting cash: $3,000
+- Cash out when winning auctions; earn half the hammer price as artist commission when someone else buys your art
+- True drawing value is latent until final tally — profit = value minus price paid
+- Loans: +$1,000 each (max 3), −$1,500 each at settlement
+- Winner: highest final cash after values and loan repayment
+
+Limits
+Exact pause length before the host's three-second countdown is described only as "significant amount of time" on jackbox.wiki. Per-auction hint text is randomized and not fully catalogued. Current cash is intentionally hidden on the main screen mid-game.

@@ -1,0 +1,42 @@
+Here's the full turn-by-turn of Joke Boat (the version in The Jackbox Party Pack 6), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Joke Boat on the shared/main screen. Three to eight players join at jackbox.tv, plus audience. Captain Chuck Hull (Kevin Sciretta) hosts aboard the cruise ship Sea Minus. You are amateur ventriloquists with dummies. Game length is roughly 15 minutes (fandom says 20–25; jackbox.wiki lists 15). On joining, you immediately submit catchphrase options.
+
+Latest version notes (Party Pack 6)
+Captain's Logs appear on the main screen during writing phases, timestamped to your device's real date/time. If you choke (fail to submit), the opponent wins automatically. VIP censoring during a live performance also auto-wins the opponent. "Joke for Me" generates a premade punchline but deducts half the points. The ship always hits a rubber duck before the final round, capsizes, and sinks — recycled jokes only for the finale.
+
+Pre-round — catchphrase and topic brainstorm
+Phone (on join): Fill in one of three catchphrase templates (e.g., "That's a spicy baby!") — used after every joke you perform.
+Main rounds begin with a brainstorming phase: write as many topics as you can (animals, objects, names, places, food, brands, plural nouns) until time expires. These become selectable fodder later.
+
+Each comedy matchup — step by step (Rounds 1–2)
+
+Writing the joke
+Main screen: Captain's Log entries cycle while players write.
+Phone: Pick one of two joke setups ("My sex life is like…" style). Choose one of three topics — including player-submitted topics from the brainstorm — or reroll your topic choices once. Type a punchline up to 80 characters, or tap "Joke for Me" (half points). Select your catchphrase.
+
+Performance
+Main screen: Chuck introduces the comics; dummy animates; joke text types on screen; catchphrase follows.
+Phone: "I'll Perform the Joke" (you read aloud; Chuck reminds you to say the catchphrase the first time) or "Perform the Joke for Me" (dummy speaks gibberish voiced by the dev team). VIP censor can strike a joke mid-performance.
+
+Voting
+Main screen: Both jokes shown; vote tally.
+Phone: Pick your favorite (with audience). The 1,000-point pot splits by vote percentage between the two comics. Winner gets +100 bonus; a sweep (100% of votes) earns +250 "Crushed It" instead. If your submitted topic was used in either joke, you get +100 topic bonus. Choking or censorship gives the opponent the full win.
+
+Between matchups
+Main screen: Scoreboard after all head-to-head pairings in the round complete.
+
+Round count and point multipliers
+3–5 players: three rounds. Round 2 doubles point values. Final round triples.
+6–8 players: two rounds. Final round doubles.
+
+Final round — sinking ship, recycled jokes
+Main screen: Sea Minus strikes a rubber duck, stops, capsizes. Chuck declares you're sinking again.
+Phone: Pick one of two existing jokes to recycle (one normal value, one higher value). Write a new punchline for it. If you choked earlier in the game, a Captain Chuck puppet may perform for you. Same performance and voting flow, but voters decide if the recycled version beats the original.
+
+End of game
+Main screen: Winner gets a life vest aboard the Wee Minus lifeboat; ship sinks in credits.
+Phone: Final scores. Most points wins the life vest.
+
+To be straight about the limits: matchup structure, 1,000-point split, +100/+250 bonuses, topic bonus, choke/censor auto-loss, round multipliers by player count, and sinking-ship finale are documented. Exact writing timers and the precise "half points" math for "Joke for Me" are not published to the second on the wikis.

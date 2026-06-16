@@ -1,0 +1,34 @@
+Here's the full turn-by-turn of Dictionarium (the version in The Jackbox Party Pack 6), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Dictionarium on the shared/main screen. Three to eight players join at jackbox.tv, plus audience. The Keeper (Olivia Nielsen) hosts from her fugitive lexicography lair. Game length is roughly 10–15 minutes across three rounds. There is also a secondary "slang terms" mode using the same three-round structure with a different word pool.
+
+Latest version notes (Party Pack 6)
+Words you help define are saved to The Archive / an in-game dictionary browsable after sessions (the fandom wiki warns of a bug that can randomly erase saved words). With six or more players, two parallel made-up words are in play per round instead of one. Audience can vote and give hearts after casting their vote.
+
+Round 1 — definitions
+
+Prompt distribution
+Main screen: The Keeper intro; made-up word displayed.
+Phone: A random nonsense word appears on your device. You write a definition and submit before time runs out. (Six-plus players: two word tracks run in parallel.)
+
+Voting
+Main screen: All definitions for the word(s) appear; players and audience pick favorites.
+Phone: Vote for your favorite definition (standard Jackbox self-vote rules apply). After voting, you can give hearts to answers you liked. The definition with the most votes is "established" as the official entry for that word. The round winner earns points toward the overall score (exact per-vote point values are not published on either wiki — only that most votes overall wins the game).
+
+Round 2 — synonyms
+Main screen: Established definition from Round 1 is shown as canon.
+Phone: Write a synonym for the now-official word. Same vote-and-heart flow as Round 1; winning synonym gets established.
+
+Round 3 — example sentence
+Main screen: Word, definition, and synonym displayed as the growing entry.
+Phone: Write a quote/sentence using the word (character limit exists — maxing it earns the "Run-On" achievement). Same voting flow.
+
+End of game
+Main screen: The completed entry(es) are shelved into The Archive animation; final scoreboard; labels for most-liked players.
+Phone: Your point total. Most points across all three rounds wins. You can browse The Archive from the post-game flow.
+
+Slang mode (alternate word list)
+Identical three-round flow (definition → synonym → sentence) but prompts use made-up slang terms instead of nonsense words.
+
+To be straight about the limits: the three-round dictionary-building structure, six-plus dual-word split, Archive persistence, audience hearts, and slang alternate mode are documented. Neither wiki publishes exact point awards per vote won or per heart — only that vote winners advance the canon and the highest total score wins. Timer seconds per writing phase are also not pinned down publicly.

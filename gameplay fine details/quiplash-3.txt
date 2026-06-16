@@ -1,0 +1,48 @@
+Here's the full turn-by-turn of Quiplash 3 (the version in The Jackbox Party Pack 7), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis; I'll flag that honestly at the end.
+
+Setup and lobby
+The host launches Quiplash 3 on the shared/main screen. A four-letter room code appears; players join at jackbox.tv on phones with the code and a display name. As each person connects, their name and Quip avatar appear in the lobby. Player count: 3–8, plus up to 10,000 audience members who can vote. Session length is roughly 15 minutes. Host Josh "Schmitty" Schmitstenstein (voiced by Phil Ridarelli) explains the rules before Round 1. Quiplash 3 introduces character selection, security/moderation tools, and a reworked Safety Quip option that inserts a decently related answer (still at half points).
+
+Rounds 1 and 2 — head-to-head quips
+Each of the first two rounds works the same way, with Round 2 worth double the points.
+
+Prompt assignment
+Main screen: Schmitty introduces the round and shows prompts as they come up for voting.
+Phone: Each player receives two fill-in-the-blank prompts on their device and must write a funny answer ("quip") to each within the allotted time. Another player is secretly assigned the same prompt for a head-to-head battle. If you don't answer in time, or your answer is censored by moderation, your opponent wins all the points for that battle by default. You can also use Safety Quip, which auto-fills a related answer at half points.
+
+Reveal and vote
+Main screen: Once all answers are in (or the timer expires), one selected prompt is shown with both competing quips popping up side by side.
+Phone: Players and audience members choose which of the two answers is funnier, or they may abstain. You cannot vote for your own quip.
+
+Scoring per battle
+Main screen: Vote tallies appear, then points are awarded.
+Phone: Your personal score updates.
+- Round 1 formula: 1% of voters = 10 points, plus a 100-point winner bonus.
+- Round 2: same formula but doubled (1% = 20 points, 200-point winner bonus).
+- Quiplash: if you sweep all player votes AND more than half the audience, you earn 250 bonus points instead of 100.
+- Super Quiplash: if you sweep all player votes AND more than 90% of the audience.
+- JINX: if both players wrote exactly the same answer, neither gets points.
+- Tie: players split the points.
+
+Between battles
+The process repeats for all prompt matchups in the round, then a scoreboard is shown on the main screen.
+
+Round 3 — Thrip Lash (final round)
+This round replaces the classic "everyone answers one prompt" Last Lash from earlier Quiplash games.
+
+Main screen: Schmitty introduces Thrip Lash. In odd-numbered games (3, 5, 7 players), the player ranked last after Round 2 is chosen to quip against Schmitty himself, who answers with a pre-written response (even on player-made prompts).
+Phone: Each player receives one prompt and must write three answers to it—not just one. All players' sets of three are then shown.
+
+Voting
+Main screen: All answer sets are displayed.
+Phone: Players and audience vote on which set of three is funniest (same voting rules as earlier rounds).
+
+Scoring
+Points follow the same percentage-based formula as earlier rounds, applied to the winning set.
+
+End of game
+Main screen: After three rounds, the player(s) with the highest total score (ties for first are all declared winners) are crowned. Full leaderboard displayed.
+Phone: Final placement and score shown.
+A full game runs roughly 15 minutes.
+
+To be straight about the limits: round structure, scoring formulas, Quiplash/Super Quiplash/JINX rules, Thrip Lash mechanics, and the Schmitty battle in odd-player games are all well-documented on the wikis. What no public source pins down is the exact seconds on the writing timer or the precise TV-to-phone sync delay—in practice the prompt and input fields appear on your phone essentially as they show on the main screen, give or take ordinary network lag.

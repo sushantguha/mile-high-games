@@ -1,0 +1,53 @@
+Here's the full turn-by-turn of Fakin' It All Night Long (stylized Fakin' It! All Night Long; latest version in The Jackbox Naughty Pack), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Fakin' It All Night Long on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Cookie Masterson (voiced by Tom Gottlieb) hosts. Choose from ten swimwear avatars (returning colors Red/Orange/Yellow/Green/Blue/Purple plus Teal, Pink Dog, Robot, Gray Cat/Mayonnaise). Pick **Same Room** or **Remote Play** from the main menu. Session length is roughly 20–30 minutes. Mature content — family-friendly filter available via post-launch update.
+
+Game structure — four rounds
+Rounds 1–3: players vote a category from a pool of five. Round 4 is always **Text You Up** (no category vote).
+
+Each category round — three tasks
+One random player is the **Faker** each round (except Text You Up twist below). Non-Fakers get a secret task; the Faker is told they are the Faker and must blend in. After each task (except Thumb Shot and Text You Up — see below), players vote for who they think is the Faker. **Majority vote** catches the Faker — not unanimous (e.g. 5 of 8). First-time players: Cookie auto-picks **Hands of Truth** for Round 1.
+
+Categories (Rounds 1–3)
+
+**Hands of Truth** (returning)
+- **Main screen:** Prompt displayed; avatars raise hands.
+- **Player phones:** Prompt or "blend in" text if Faker. Two buttons: raise hand / don't. Remote: character raises hand on-screen.
+
+**You Gotta Point** (returning)
+- **Player phones:** Prompt or blend-in text. Tap a player name (including yourself) who best fits.
+
+**Finger Blast** (was "Number Pressure")
+- **Player phones:** Prompt or blend-in text. Buttons for 0–5 fingers raised. Small bird button bottom-right flips the bird (remote play). Vote after each of three tasks.
+
+**Emojional Damage** (was "Face Value")
+- **Player phones:** Prompt or blend-in text. Searchable emoji board by category.
+
+**Thumb Shot** (new)
+- **Player phones:** Three quick prompts in a row with two answers each (e.g. "SEXY or NOT SEXY"). Thumbs-up = first option, thumbs-down = second. **One vote total** after all three prompts.
+
+Voting after tasks
+- **Main screen:** Vote tallies; Faker revealed if majority agrees.
+- **Player phones:** Tap the player you suspect. Can vote after tasks 1, 2, and 3 in most categories.
+
+Round 4 — Text You Up (always final)
+- **Player phones:** Three text prompts answered one by one. **The Faker does not know they are the Faker** until all answers are submitted — they receive vaguer prompts. After each question, players may informally suspect someone, but official voting happens only after all three answers are shown together.
+- **Main screen:** All three Q&A sets display; one final Faker vote.
+
+Scoring
+| Bonus | Points |
+|-------|--------|
+| Sleuth Bonus (correct Faker pick, per task) | 100 → 125 → 150 (escalating per correct guess in round) |
+| Caught Bonus (majority catches Faker, task 1) | 375 to all correct voters |
+| Caught Bonus (task 2) | 250 first-time correct; 275 second-time |
+| Caught Bonus (task 3) | 105 / 130 / 155 (Sleuth + 5) |
+| Faker Bonus (avoid majority, per task) | 100 → 125 → 150 |
+| Thumb Shot Faker escape | 150 Faker Bonus |
+| Thumb Shot caught | 150 Caught Bonus |
+| Thumb Shot sleuth when Faker escaped | 100 Sleuth Bonus |
+
+End of game
+Highest points wins. **Best Faker** and **Best Sleuth** honorable mentions also display.
+
+To be straight about the limits: Remote Play inputs, majority-not-unanimous rule, Text You Up hidden-Faker twist, category behaviors, and scoring table are documented on Fandom and jackbox.wiki. Same Room physical gestures are less detailed on wiki — Remote Play is the fully documented path.

@@ -1,0 +1,54 @@
+Here's the full turn-by-turn of The Wheel of Enormous Proportions (the version in The Jackbox Party Pack 8), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis.
+
+Setup and lobby
+The host launches the game on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 2–8, plus audience. Session length is roughly 15 minutes. The Wheel himself (voiced by Joe Bianco) greets you from atop a mountain.
+
+Opening question
+Main screen: The enormous Wheel is revealed.
+Phone: Each player types a question they want the Wheel to answer at the end of the game—anything at all. If you don't input in time, or if "Allow Player-Written Responses" is turned off, the game generates one for you. This question persists until you win and spin the Wisdom Wheel.
+
+Each round — trivia phase (3 questions)
+Main screen: The Wheel asks a question with its unique format displayed.
+Phone: You answer on your device. Each round starts with 2 slices (used later for wheel placement). After 3 questions, bonus slices are awarded.
+
+Question types (wikis document seven):
+- Regular/Picking: 12 answers shown; tap all that fit the category. +1 point per correct pick, -1 per incorrect.
+- Please Enumerate: type a number from 0 to 99,999; closest to the real answer wins.
+- Counterparts: match items from left column to right column; wrong matches freeze your device ~3 seconds.
+- That or This (from You Don't Know Jack's DisOrDat): two answers swap; pick the correct one per prompt; wrong picks freeze device ~3 seconds. Answers not shown at the end.
+- Don't Forget to Write: type as many correct answers as possible; unique answers nobody else typed earn bonus points.
+- Subjectively Yours, The Wheel: same as above but answers match the Wheel's personal preferences.
+- What Am I Thinking?: type the one correct answer; the Wheel gives up to five clues.
+
+Slice awards after trivia
+- Most points in the round: 2 bonus slices.
+- Runner-ups: 1 slice each.
+- Tie for first: everyone gets only 1 slice.
+- Final question of each round awards a Power Slice to the round's top scorer (random pick on tie).
+- Audience can guess who will score highest; correct hivemind guess earns the audience a slice.
+
+Each round — wheel spinning phase
+Main screen: The Wheel's face is shown with slice slots. The Spin Meter fills with each spin.
+Phone: Place your earned slices on the Wheel's face. Double-tap a slice to add a multiplier. Take turns spinning by tapping/swiping your device. Points in the pool increase with spin power.
+
+Slice types when the wheel stops:
+- Player Slots: points to whoever placed slices there. Solo occupant gets full pot; multiple occupants split equally.
+- Multiplier Slots: multiply placed slices' points (pot diminishes if shared).
+- Pot Share Slice: adjacent player slices earn a percentage of total points, including the spinner.
+- Audience Slice: spinner gets full pot; audience votes on a way to mess with players.
+- Power Slice: Slice Owner gets points plus a bonus minigame—Choose a Winner, Hide and Seek, Point Swap, Steal Points, Duplicate Slice, or Rainbow Wheel (+1,000 to a random player per mini-spin).
+- Skull Slice: appears after a Power Slice activates; spinner loses points equal to the round's starting pool, distributed to others.
+
+Winning — the Winner Wheel
+Main screen: Once a player reaches 20,000 points, they spin the Winner Wheel.
+Phone: ~25% chance of winning on first spin.
+- Land on your name slice: you win! Your opening question is answered via the Wisdom Wheel (one final spin).
+- Land on Skull Slice: no winner yet; game continues. Skull slices decrease on subsequent spins to prevent endless play.
+- Multiple eligible players appear as name slices on the Winner Wheel.
+
+End of game
+Main screen: Winner's question is answered. Credits roll. Other players' unanswered questions are shown without answers. Post-game, a cardboard Wheel cutout gives vague/dismissive answers to remaining questions.
+Phone: Final score and whether your question was answered.
+A full game runs roughly 15 minutes.
+
+To be straight about the limits: all seven question types, slice economy (2 base + bonuses + Power Slice), wheel slice behaviors, 20,000-point win threshold, Winner Wheel/Skull Slice mechanics, Power Slice minigames, and Wisdom Wheel payoff are documented. What isn't published is the exact seconds per trivia question or per slice-placement phase.

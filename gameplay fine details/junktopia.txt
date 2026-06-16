@@ -1,0 +1,53 @@
+Here's the full turn-by-turn of Junktopia (the version in The Jackbox Party Pack 9), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. This game has optional out-loud presentation; exact timer seconds aren't published on the wikis.
+
+Setup and lobby
+The host launches Junktopia on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8, plus audience. Session length is roughly 20 minutes. Wizard Nikolas Knackalus (voiced by Brandon Paul Eells) has turned all players into frogs and promises to restore the winner to human form—if they can make the most money selling antiques for him. Before starting, you choose a cute hat as your frog identifier. Presentation mode is set in the lobby: Auto-Presentation (game reads items automatically—recommended for streams) or Manual Presentation (you read your own facts aloud—recommended for voice-chat calls). Auto-Present remains available as an in-game toggle even in Manual mode.
+
+Rounds 1 and 2 — shop, write, present, vote
+
+Shopping phase
+Main screen: Nikolas takes the frogs to a store.
+Phone: Three antiques appear with price tags. Pick one and press "Checkout," or attempt to haggle:
+- Round 1: haggle for 10% or 20% discount. Success = discount applied. Failure = price increases by the same percentage.
+- Round 2: haggle for 20% or 30% discount (higher stakes). The cheapest item slot is replaced by a Mystery Item—risk buying it for a random antique somewhat related to Round 1 items.
+Audience can contribute a small discount to a player of their choice.
+
+Writing phase
+Main screen: Waiting for all players to craft their stories.
+Phone: Give your item a funny custom name, then write two facts about it. You can pick a pre-written starter sentence or write your own description from scratch.
+
+Presentation phase
+Main screen: Items are presented one by one. In 3–5 player games, all present together. In 6–8 player games, split into two batches (3/3, 3/4, or 4/4).
+Phone (Manual mode): Read your item's name and two facts aloud using presentation buttons.
+Phone (Auto mode): The game presents automatically.
+
+Voting phase
+Main screen: After each batch, voting begins.
+Phone: Vote on which items made you laugh the most (pairwise comparisons between shown items, rotating through the batch).
+
+Scoring per vote
+Main screen: Vote tallies and earnings shown per item.
+Phone: Score updates.
+- 1,000 points per player vote received.
+- Audience: 10 points per 1% of audience vote.
+- Item purchase price is subtracted from earnings; the remainder adds to your total score.
+- Round 2 batch: audience can split a 1,000-point bonus among all players in the batch.
+
+Round 3 — collection finale
+Main screen: Final round intro.
+Phone: Combine your two purchased items into a named set/collection.
+
+Presentation and voting
+Main screen: All sets presented in batches.
+Phone: Cast one single vote for your favorite collection in each group.
+
+Scoring
+- 1,000 points per vote for the collection's owner.
+- After all votes, the winner is declared and turned back into a human.
+
+End of game
+Main screen: Winner revealed as a restored human. Full standings shown.
+Phone: Final earnings and placement.
+A full game runs roughly 20 minutes.
+
+To be straight about the limits: frog/hat identity, shopping with haggle risk (10/20% R1, 20/30% R2), Mystery Item in Round 2, name + two facts writing, batch presentation by player count, 1,000 points per vote minus item cost, audience 10-per-1%, Auto vs Manual presentation, and the Round 3 collection merge are all documented. What isn't published is the exact shopping or writing timer.

@@ -1,0 +1,43 @@
+Here's the full turn-by-turn of Bracketeering (the version in The Jackbox Party Pack 4 — meta: 3–16 players plus audience, ~15 minutes, Fill-In-The-Blank, family-friendly), tracking the main screen and each player's phone separately. Host Dandelion is voiced by Phil Ridarelli. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Bracketeering on the shared/main screen. A four-letter room code appears; players join on phones. Three to sixteen players plus audience — second-highest player cap in the Party Packs after Lie Swatter (Fandom). Dandelion frames the game as strong opinions about stupid things; interstellar bracketeers bet on outcomes (Fandom).
+
+Game structure — three rounds
+Round 1: Normal prompt — everyone sees the real question (Fandom example: "Best Grandma Name").
+Round 2: First "Blind Bracket" — players answer a decoy/vague prompt that later flips to the real one (Fandom example: write for "Best Kitchen Tool," revealed later as "Best Thing to Kill a Goblin With").
+Round 3: Blind Bracket again, but the prompt changes after every bracket matchup ends (Fandom). Points are doubled this round (jackbox.wiki).
+
+Round 1 or 2 — a full bracket pass, step by step
+Prompt / write phase
+Main screen: Prompt displayed (real in R1; false/vague in R2 until reveal).
+Phone: Each player types an answer. If too few players exist or there is an odd count, all answers are used; staff-curated wrong answers credited to "Arn" may fill gaps (Fandom trivia).
+
+Prediction phase (before each matchup group)
+Main screen: "Prediction table" — players bet on which answer will win upcoming brackets (Fandom). jackbox.wiki: board shows four answers including your own; pick which will win the matchup.
+Phone: Submit prediction for the current four-way group.
+
+First voting layer — four-way groups
+Main screen: Four submitted answers shown, separated into groups. Players and audience vote for the best in each group (jackbox.wiki). If time runs out or votes stall, majority wins; on a tie, players tap their chosen answer repeatedly and highest tap count wins the tiebreaker (jackbox.wiki).
+Scoring: Players earn points based on vote percentage received in that matchup (jackbox.wiki). Correct prediction → +500 bonus (jackbox.wiki). Fandom describes correct predictions as earning coins — jackbox.wiki uses points; same mechanic.
+
+Semifinal prediction and 2v2 vote
+Main screen: Another prediction asks which of the four group winners will take the 2v2 (jackbox.wiki). Voting works the same as above.
+
+Final matchup
+Main screen: The two surviving answers face off. Winner earns a 1,000-point bonus (jackbox.wiki). Fandom: player with the most coins/points from brackets plus prediction table wins the game.
+
+Round 3 differences
+Blind prompts rotate every matchup (Fandom). All point awards are doubled (jackbox.wiki) — including the 500 prediction bonus and 1,000 finals bonus at double value.
+
+End of game
+Main screen: All points tallied; highest total wins (jackbox.wiki; Fandom). Game length roughly 20–25 minutes (Fandom) vs 15 minutes (jackbox.wiki meta).
+
+Scoring summary (jackbox.wiki, primary)
+- Match votes → points proportional to vote share
+- Correct pre-matchup prediction → +500 (+1000 in round 3)
+- Winning the bracket final → +1,000 (+2,000 in round 3)
+- Fandom additionally frames prediction-table earnings as "coins" bet alongside bracket performance
+
+Limits
+Exact number of four-way groups per round depends on player/answer count and is not fixed in the wikis. Overtime tap tiebreaker duration is unspecified. Fandom's coin language vs jackbox.wiki points may be flavor text for the same currency.

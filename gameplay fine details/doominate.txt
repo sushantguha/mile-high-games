@@ -1,0 +1,41 @@
+Here's the full turn-by-turn of Doominate (stylized DOOMINATE; latest version in The Jackbox Party Pack 11), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Doominate on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Jim Reaper (voiced by Brandon Paul Eells) hosts. Pick one of eight colored flame avatars. Session length is roughly 15–20 minutes.
+
+Game premise
+Head-to-head joke writing: take something nice and "ruin" it with a follow-up that makes opponents laugh. Round 3 flips the script — "un-ruin" previously ruined scenarios. Most points wins.
+
+Round 1 — ruin two prompts
+**Writing phase**
+- **Main screen:** Jim introduces the round; angel imagery accompanies prompts.
+- **Player phones:** Receive two subjects — pick one to ruin yourself; the game assigns the other. Complete each scenario with text that ruins the pleasant setup (e.g. "A Big Bowl of Spaghetti" → "Made from the finest human hair"). Tap **"Ruin it For Me"** for a game-generated answer if stuck.
+
+**Voting phase**
+- **Main screen:** One prompt appears with two players' answers shown Quiplash-style (two angels motif). Vote results display.
+- **Player phones:** Vote for the answer that best ruined the scenario. The two featured players earn a **percentage of points** based on vote share. If **all** players and audience vote for the same answer, the winner gets a **"Doomination."**
+
+**Between rounds:** Scoreboard on main screen.
+
+Round 2 — ruin someone else's favorite thing (double points)
+**Favorite-things phase**
+- **Player phones:** Answer two prompts about your favorite thing in a category (TV show, movie, etc.). **"Gimme One"** submits a random subject for you.
+
+**Ruin phase**
+- **Player phones:** Choose another player's submitted favorite and write a ruination of it. Also ruin a second assigned prompt.
+
+**Voting phase**
+- Same head-to-head voting as Round 1, but points are **doubled**.
+- **Judgement Vote bonus:** If the player whose favorite was ruined votes for your ruination, you earn extra credit.
+
+Round 3 — un-ruin (triple points)
+**Player phones:** Pick two pairings from previously ruined scenarios across Rounds 1–2. Each pairing shows the original prompt, the ruining answer, and your new "un-ruin" text.
+
+**Voting phase**
+- Same voting structure; points **tripled**.
+- Unanimous all-player-plus-audience vote for one answer awards **"Redoomption"** (parallel to Round 1's Doomination).
+
+End of game
+All round scores tally; highest total wins. Jim Reaper presides over final standings.
+
+To be straight about the limits: three-round structure, Ruin/Gimme One buttons, percentage-based voting points, double/triple multipliers, Doomination/Redoomption, and Judgement Vote are documented. Exact percentage tables per player count are not published on the wikis.

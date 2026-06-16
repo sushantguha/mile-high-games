@@ -1,0 +1,37 @@
+Here's the full turn-by-turn of Hypnotorious (latest version in The Jackbox Party Pack 10), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Hypnotorious on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 4–8 (+ Audience). Session length is roughly 20 minutes.
+
+Premise
+Master Mentalist (voiced by Phil Ridarelli) runs a virtual stage hypnosis show. Players are secretly assigned characters (people, objects, shows, etc.) that fit into hidden categories — as simple as "Dogs, Cats, or Mice" or harder like "Popular in the 80s, 90s, or 2000s." One player is the **Outlier**: they belong to a category that has only one member, and they do not know they are the Outlier. Everyone else tries to deduce categories, group correctly, and catch the Outlier before time runs out. With only four players, there are two categories instead of three.
+
+Role assignment
+**Main screen:** Hypnotist intro and stage visuals.
+**Player phones:** You receive a secret subject to role-play. You may **re-roll your subject once per game** for a different one. You do not see other players' roles.
+
+Each round (game has two rounds with different category sets)
+Three prompts per round, each following the same loop:
+
+Prompt / answer phase
+**Main screen:** The hypnotist reads a question. After submissions, answers reveal on-screen.
+**Player phones:** Type an answer as your secret character would. Read the prompt on-device; the TV mirrors key moments but your phone is the controller.
+
+Grouping phase (after each prompt's answers are revealed)
+**Main screen:** Players' chosen groups display; correct groupings are scored.
+**Player phones:** Based on answers so far, assign yourself to a group you think matches your hidden category. Between prompts, a **hint** appears on every player's device nudging toward what the categories might be.
+
+Scoring during the round
+- **+1,000 points** if you successfully grouped yourself with the correct category.
+- After grouping resolves, all roles, groups, and answers are shown on the main screen. Other players can press a **clap button** on their device to give small **+5 point** bonuses.
+
+Final accusation (end of each round)
+**Main screen:** Accusation results and role reveals.
+**Player phones:** Pick the player you think is the Outlier. Unlike most Jackbox games, **you may accuse yourself**.
+- If a **majority** correctly identifies the Outlier: **3,000 points** to every non-Outlier player (per jackbox.wiki).
+- If players accuse the wrong person: the real Outlier earns **5,000 points**.
+
+Between rounds and end of game
+Round 2 uses a completely new set of categories with the same structure. After both rounds, the player with the highest total wins.
+
+To be straight about the limits: two-round structure, Outlier mechanic, hint timing, grouping points, accusation scoring, one re-roll, and self-accusation are documented. Exact seconds per answer window and whether the phone shows a prominent timer bar vs. the main screen are not pinned down publicly.

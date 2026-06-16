@@ -1,0 +1,59 @@
+============================================================
+DRAWFUL ANIMATE
+============================================================
+
+Pack:          Jackbox Party Pack 8
+Players:       3 - 10
+Length:        15 minutes
+Game Type:     Drawing
+Family Safe:   Yes
+Audience Mode: Yes
+
+IMAGE: images/drawful-animate.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Draw silly prompts, guess titles, then animate your favorite drawings.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Everyone gets a weird drawing prompt. Draw it on your phone.
+Others type what they think the drawing is called (fake titles).
+Everyone votes on the real title among fakes. Then animate a drawing frame-by-frame.
+Points for fooling others and guessing correctly.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Shows drawings, title guesses, vote results, and animations.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Draw, submit fake titles, vote, and create short animations.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Drawing rounds plus an animation finale.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Points for votes on fake titles and correct guesses.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Simple clear drawings work best on small phone screens.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: drawful-animate
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

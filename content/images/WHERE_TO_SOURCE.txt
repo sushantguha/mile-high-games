@@ -1,0 +1,97 @@
+GAME IMAGES & ICONS — WHERE TO GET BETTER CONTENT
+=================================================
+
+Current state:
+  games-info/images/*.svg  — auto-generated letter icons (placeholder)
+  content/images/          — canonical folder for future game artwork
+
+The app does not yet show per-game art in the live game UI, but icons are
+referenced in games-info/*.txt docs and can be added to the game picker later.
+
+
+GAME PICKER ICONS (one image per game, ~128–256px)
+--------------------------------------------------
+
+1. Undraw (free, no attribution required for most uses)
+   URL: https://undraw.co/illustrations
+   - Flat SVG illustrations — pick one per game theme
+   - License: open license for personal/commercial (check current terms)
+
+2. Lucide / Heroicons (UI icons, not game art)
+   URL: https://lucide.dev/  |  https://heroicons.com/
+   - MIT licensed — good for type badges (trivia, drawing, writing)
+   - Use as category icons if not per-game art
+
+3. Game-icons.net (best for party game vibe)
+   URL: https://game-icons.net/
+   - Thousands of free SVG game icons (CC BY 3.0 — credit required)
+   - Search: dice, pencil, brain, microphone, mask, bomb, etc.
+   - Map icon to game type: Drawful→pencil, Fibbage→speech-bubble, etc.
+
+4. Openclipart
+   URL: https://openclipart.org/
+   - Public domain — no attribution required
+   - Quality varies; good for quick placeholders
+
+5. Phosphor Icons / Tabler Icons
+   URL: https://phosphoricons.com/  |  https://tabler.io/icons
+   - MIT — consistent icon set for the game grid
+
+
+HOST SCREEN / DECORATION ART
+----------------------------
+
+6. unDraw + Blush.design
+   URL: https://blush.design/
+   - Illustration collections, customizable colors to match your app theme
+
+7. Freepik / Flaticon (free tier with attribution)
+   URL: https://www.flaticon.com/
+   - Read license per icon; many require attribution link in app credits
+
+
+AUDIO GAME ASSETS (when you re-enable Earwax, Hear Say, Dodo Re Mi)
+--------------------------------------------------------------------
+Store future files in: content/audio/ (suggested)
+
+8. Freesound.org
+   URL: https://freesound.org/
+   - Community sound effects, various CC licenses
+   - Search: "cartoon boing", "crowd laugh", "wrong answer", "ding correct"
+   - Filter by CC0 for simplest licensing
+
+9. Pixabay Sound Effects
+   URL: https://pixabay.com/sound-effects/
+   - Royalty-free, no attribution required
+   - Good for short UI stings and silly effects
+
+10. OpenGameArt.org
+    URL: https://opengameart.org/
+    - Game-ready SFX packs, check license per pack
+
+11. BBC Sound Effects (personal/educational use)
+    URL: https://sound-effects.bbcrewind.co.uk/
+    - Large archive; read remit — not for commercial products without license
+
+
+NAMING CONVENTION
+-----------------
+Save icons as:  content/images/{game-id}.svg  or .png
+Examples:       content/images/quiplash-3.svg
+                content/images/fibbage-4.svg
+                content/images/drawful-animate.svg
+
+Match game-id from data/games_filtered.json.
+
+
+IMPLEMENTATION NOTE
+-------------------
+To use in the React app:
+  1. Place files in content/images/ or client/public/images/games/
+  2. Serve via client/public/ for static access, OR
+  3. Add GET /api/images/:gameId in server
+
+Update client/src/pages/GameSelect.tsx to show:
+  <img src={`/images/games/${g.id}.svg`} alt="" />
+
+Do NOT use official Jackbox game logos or artwork — trademark/copyright risk.

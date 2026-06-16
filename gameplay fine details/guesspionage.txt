@@ -1,0 +1,44 @@
+Here's the full turn-by-turn of Guesspionage (the version in The Jackbox Party Pack 3 — meta: 2–8 players plus audience, ~15 minutes, Trivia, family-friendly), tracking the main screen and each player's phone separately. The host is voiced by Adal Rifai. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Guesspionage on the shared/main screen. A four-letter room code appears; players join on phones and pick avatars (jackbox.wiki controller gallery). Two to eight players plus audience. Game length roughly 10–15 minutes (Fandom) or 15 minutes (jackbox.wiki meta / games.json).
+
+Round structure overview
+Fandom: For six or fewer players, the percentage-guessing loop runs twice (two full cycles). For seven or more players, it runs once before the final. jackbox.wiki describes the cycle as repeating after every player has been the guesser once — equivalent framing.
+
+A percentage question, step by step (standard rounds)
+Picker phase
+Main screen: One player is selected and shown preparing to receive a prompt (jackbox.wiki gallery).
+Phone (selected player): A survey question appears — e.g. how many people leave keys in their car (jackbox.wiki). They see a graph from 0%–100% and drag to pin their estimate of how many surveyed people answered yes/no to the scenario (Fandom: guess 0%–100% of people who answered a certain way). If more than five audience members are present, audience members answer the survey live and the active player must guess the audience percentage instead (jackbox.wiki).
+Prediction phase
+Main screen: Selected player's pinned percentage is shown.
+Phone (everyone else): Each other player predicts whether the true answer is higher or lower than the pinned guess (Fandom; jackbox.wiki). With five or fewer total players, round two adds "much higher" and "much lower" buttons — used when the guess is believed to be at least 15% off (jackbox.wiki). Fandom's six-or-less note implies the extended buttons appear in the second cycle for larger rooms; jackbox.wiki ties them to ≤5 players — both agree they exist for later passes.
+Reveal and scoring
+Main screen: True survey percentage is revealed on the graph; scoring animations play (jackbox.wiki gallery).
+Scoring (active guesser — jackbox.wiki):
+- Within 30% of the actual answer → earns a portion of up to 3,000 points (closer = larger share).
+- More than 30% off → 0 points.
+Scoring (predictors — jackbox.wiki):
+- Correct higher/lower → 1,000 points.
+- Correct much higher/much lower (when available) → 2,000 points, but only if the active guess was indeed 15%+ off; otherwise 0.
+- If the active player hits the exact percentage, predictors earn nothing (jackbox.wiki).
+Fandom compresses this as: closer guess = more points; others can guess higher/lower for points even when not their turn.
+
+Cycle continues until each player has been the selected guesser once (jackbox.wiki), then the final round begins (or immediately, if already one full cycle in a 7–8 player game per Fandom).
+
+Final round — top three answers
+Main screen: Final-round board — nine answers in a 3×3 grid (jackbox.wiki gallery).
+Phone (all players): A final survey prompt appears. Everyone picks three different answers they believe were most popular in the original survey (Fandom; jackbox.wiki).
+Reveal and scoring
+Main screen: All nine answers shown with their true popularity ranks.
+Scoring (jackbox.wiki):
+- Third-most popular picked → 1,000 points
+- Second-most → 2,000 points
+- Most popular → 4,000 points
+Fandom: most popular answers gain the most points; Top Agent achievement is for picking the top three correctly.
+
+End of game
+Main screen: Final scores tallied, winner revealed (jackbox.wiki). Total points across all rounds determine the winner (Fandom).
+
+Limits
+Exact point interpolation within the 30% band for the active guesser is not published as a formula. Whether "much higher/lower" appears in round 1 for 3–5 player games vs only round 2 is slightly ambiguous between Fandom and jackbox.wiki — jackbox.wiki is more specific (≤5 players). Per-question timer seconds are not documented.

@@ -1,0 +1,59 @@
+============================================================
+WORD SPUD
+============================================================
+
+Pack:          Jackbox Party Pack 1
+Players:       2 - 8
+Length:        10 minutes
+Game Type:     Writing
+Family Safe:   No
+Audience Mode: No
+
+IMAGE: images/word-spud.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Collaborative word association chain with secret constraints.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Players take turns adding a word related to the previous word.
+Each player secretly receives a constraint (e.g., must include a certain letter, can't use a category).
+Others vote on whether the word satisfies the hidden rule.
+Fool the group without breaking your constraint.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Shows the word chain, reveals constraints after voting.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Submit one word per turn; vote on others' submissions.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Multiple chains across the session.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Points for fooling players and satisfying your constraint.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Pick words that seem natural but sneakily meet your secret rule.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: word-spud
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

@@ -1,0 +1,59 @@
+============================================================
+FIBBAGE 4
+============================================================
+
+Pack:          Jackbox Party Pack 9
+Players:       2 - 8
+Length:        20 minutes
+Game Type:     Fill-In-The-Blank / Trivia
+Family Safe:   Yes
+Audience Mode: Yes
+
+IMAGE: images/fibbage-4.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+The ultimate bluffing trivia game — write convincing lies for real trivia.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+A bizarre but true fact is shown with a blank. Everyone fills in the missing answer.
+All submissions (including the truth) are shuffled and displayed.
+Vote for what you think is the REAL answer. Fool others to steal their votes.
+Includes Fibbage Fan Favorites and Fibbage Enough About You modes.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Shows the prompt, collects lies, reveals truth and scores.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Type a convincing lie, then vote for the real answer.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Typically 9 rounds.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Points for votes on your lie + points for finding the truth.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Match the tone of real answers. Obscure facts make the best lies.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: fibbage-4
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

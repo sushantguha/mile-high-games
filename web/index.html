@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jackbox Party Picker • Mile High Games</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+    :root { --primary: #6366f1; }
+    body { font-family: 'Inter', system_ui, sans-serif; }
+    .title-font { font-family: 'Space Grotesk', 'Inter', sans-serif; }
+    .game-card { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+    .game-card:hover { transform: translateY(-2px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+    .filter-chip { transition: all .1s ease; }
+    .stat { font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <div class="flex items-center gap-x-3">
+          <div class="w-11 h-11 bg-indigo-600 rounded-2xl flex items-center justify-center">
+            <i class="fa-solid fa-dice text-white text-3xl"></i>
+          </div>
+          <div>
+            <h1 class="title-font text-4xl font-semibold tracking-tighter">Jackbox Party Picker</h1>
+            <p class="text-zinc-400 text-sm -mt-1">Mile High Games Project</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-x-3">
+        <div class="px-4 py-1.5 bg-zinc-900 rounded-3xl text-sm flex items-center gap-x-2 border border-zinc-800">
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          <span id="game-count">61 games</span>
+        </div>
+        <button onclick="showHelp()" 
+                class="px-4 py-2 text-sm bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-3xl flex items-center gap-x-2">
+          <i class="fa-solid fa-question-circle"></i>
+          <span>Help</span>
+        </button>
+        <a href="https://www.jackboxgames.com/" target="_blank"
+           class="px-4 py-2 text-sm bg-white text-black hover:bg-zinc-100 font-medium rounded-3xl flex items-center gap-x-2">
+          <span>Official Site</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 mb-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
+        <!-- Players -->
+        <div>
+          <label class="block text-xs font-medium text-zinc-400 mb-1.5">PLAYERS IN GROUP</label>
+          <div class="flex items-center gap-x-2">
+            <input type="number" id="players" value="5" min="1" max="20"
+                   class="w-full bg-zinc-950 border border-zinc-700 focus:border-indigo-500 rounded-2xl px-4 py-2.5 text-sm outline-none"
+                   oninput="applyFilters()">
+            <button onclick="quickPlayers(4)" class="px-3 py-2 text-xs bg-zinc-800 hover:bg-zinc-700 rounded-2xl">4</button>
+            <button onclick="quickPlayers(6)" class="px-3 py-2 text-xs bg-zinc-800 hover:bg-zinc-700 rounded-2xl">6</button>
+            <button onclick="quickPlayers(8)" class="px-3 py-2 text-xs bg-zinc-800 hover:bg-zinc-700 rounded-2xl">8</button>
+          </div>
+        </div>
+
+        <!-- Max Length -->
+        <div>
+          <label class="block text-xs font-medium text-zinc-400 mb-1.5">MAX LENGTH (MIN)</label>
+          <input type="number" id="maxLength" value="25" min="5" max="60" step="5"
+                 class="w-full bg-zinc-950 border border-zinc-700 focus:border-indigo-500 rounded-2xl px-4 py-2.5 text-sm outline-none"
+                 oninput="applyFilters()">
+        </div>
+
+        <!-- Type -->
+        <div>
+          <label class="block text-xs font-medium text-zinc-400 mb-1.5">GAME TYPE</label>
+          <select id="gameType" onchange="applyFilters()"
+                  class="w-full bg-zinc-950 border border-zinc-700 focus:border-indigo-500 rounded-2xl px-4 py-2.5 text-sm outline-none">
+            <option value="">Any type</option>
+            <option>Drawing</option>
+            <option>Fill-In-The-Blank</option>
+            <option>Trivia</option>
+            <option>Hidden Identity</option>
+            <option>Teamwork</option>
+            <option>Writing</option>
+            <option>Audio</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <!-- Pack -->
+        <div>
+          <label class="block text-xs font-medium text-zinc-400 mb-1.5">PACK</label>
+          <select id="pack" onchange="applyFilters()"
+                  class="w-full bg-zinc-950 border border-zinc-700 focus:border-indigo-500 rounded-2xl px-4 py-2.5 text-sm outline-none">
+            <option value="">All packs</option>
+          </select>
+        </div>
+
+        <!-- Toggles -->
+        <div class="lg:col-span-2 flex items-end gap-x-4">
+          <label class="flex items-center gap-x-2 cursor-pointer select-none">
+            <input type="checkbox" id="familyOnly" onchange="applyFilters()" class="w-4 h-4 accent-indigo-600">
+            <span class="text-sm">Family friendly only</span>
+          </label>
+          <label class="flex items-center gap-x-2 cursor-pointer select-none">
+            <input type="checkbox" id="audienceOnly" onchange="applyFilters()" class="w-4 h-4 accent-indigo-600">
+            <span class="text-sm">Supports audience</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="flex flex-wrap items-center gap-3 mt-6">
+        <button onclick="pickRandom(1)"
+                class="flex-1 md:flex-none px-6 py-3 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 transition-colors rounded-3xl font-semibold flex items-center justify-center gap-x-2 text-white">
+          <i class="fa-solid fa-dice"></i>
+          <span>Pick Random Game</span>
+        </button>
+        
+        <button onclick="generatePlan(5)"
+                class="flex-1 md:flex-none px-6 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-3xl font-medium flex items-center justify-center gap-x-2">
+          <i class="fa-solid fa-list-check"></i>
+          <span>Suggest 5-Game Plan</span>
+        </button>
+
+        <button onclick="resetFilters()"
+                class="px-5 py-3 text-sm bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-3xl">
+          Reset Filters
+        </button>
+
+        <div class="flex-1"></div>
+
+        <div class="text-xs text-zinc-500 px-3">
+          <span id="results-count">61 games match</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="mb-4 flex items-center justify-between">
+      <h2 class="font-semibold text-lg">Matching Games</h2>
+      <button onclick="pickRandom(3)" 
+              class="text-xs px-4 py-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-2xl flex items-center gap-x-1.5">
+        <i class="fa-solid fa-random text-xs"></i>
+        <span>Pick 3 Random</span>
+      </button>
+    </div>
+
+    <div id="results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <!-- Populated by JS -->
+    </div>
+
+    <div class="mt-10 text-center text-xs text-zinc-500">
+      Data sourced from official Jackbox releases and community resources (2026). 
+      Open <code class="font-mono bg-zinc-900 px-1.5 py-0.5 rounded">cli/jackbox_picker.py</code> for powerful terminal usage.
+    </div>
+  </div>
+
+  <script src="games_data.js"></script>
+  <script>
+    // Fallback if games_data.js not loaded (for direct file open)
+    if (typeof GAMES === 'undefined') {
+      console.warn('games_data.js not found — using minimal fallback. For full data, open via a local server or use the Python CLI.');
+      window.GAMES = [
+        {"Game Pack":"Jackbox Party Pack 1","Game Title":"Drawful","Min. Players":3,"Max. Players":8,"Length":"15 minutes","Audience":"No","Family Friendly?":"No","Game Type":"Drawing","Secondary Type":""},
+        {"Game Pack":"Jackbox Party Pack 11","Game Title":"Legends of Trivia","Min. Players":1,"Max. Players":6,"Length":"20 minutes","Audience":"Yes","Family Friendly?":"Yes","Game Type":"Trivia","Secondary Type":""}
+      ];
+    }
+
+    let currentFilters = {};
+
+    function populatePackFilter() {
+      const select = document.getElementById('pack');
+      const packs = [...new Set(GAMES.map(g => g['Game Pack']))].sort();
+      packs.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        select.appendChild(opt);
+      });
+    }
+
+    function applyFilters() {
+      const players = parseInt(document.getElementById('players').value) || null;
+      const maxLength = parseInt(document.getElementById('maxLength').value) || null;
+      const gameType = document.getElementById('gameType').value;
+      const pack = document.getElementById('pack').value;
+      const familyOnly = document.getElementById('familyOnly').checked;
+      const audienceOnly = document.getElementById('audienceOnly').checked;
+
+      currentFilters = { players, maxLength, gameType, pack, familyOnly, audienceOnly };
+
+      const filtered = filterGames(GAMES, currentFilters);
+      renderResults(filtered);
+      document.getElementById('results-count').textContent = `${filtered.length} games match`;
+    }
+
+    function filterGames(games, f) {
+      return games.filter(g => {
+        if (f.players != null) {
+          if (g['Min. Players'] > f.players || g['Max. Players'] < f.players) return false;
+        }
+        if (f.familyOnly && g['Family Friendly?'] !== 'Yes') return false;
+        if (f.maxLength != null) {
+          const mins = parseInt((g.Length || '').match(/\d+/)?.[0] || 999);
+          if (mins > f.maxLength) return false;
+        }
+        if (f.gameType) {
+          const blob = (g['Game Type'] || '') + ' ' + (g['Secondary Type'] || '');
+          if (!blob.toLowerCase().includes(f.gameType.toLowerCase())) return false;
+        }
+        if (f.pack && g['Game Pack'] !== f.pack) return false;
+        if (f.audienceOnly && g.Audience !== 'Yes') return false;
+        return true;
+      });
+    }
+
+    function renderResults(games) {
+      const container = document.getElementById('results');
+      container.innerHTML = '';
+
+      if (games.length === 0) {
+        container.innerHTML = `<div class="col-span-full text-center py-10 text-zinc-400">No games match your filters. Try loosening them.</div>`;
+        return;
+      }
+
+      games.forEach(g => {
+        const fam = g['Family Friendly?'] === 'Yes' 
+          ? '<span class="text-emerald-400"><i class="fa-solid fa-child"></i> Family</span>' 
+          : '<span class="text-amber-400"><i class="fa-solid fa-exclamation-triangle"></i> Mature</span>';
+        
+        const aud = g.Audience === 'Yes' 
+          ? '<span class="px-2 py-0.5 text-[10px] bg-sky-900 text-sky-300 rounded">AUDIENCE</span>' : '';
+
+        const div = document.createElement('div');
+        div.className = `game-card bg-zinc-900 border border-zinc-800 rounded-3xl p-5 flex flex-col`;
+        div.innerHTML = `
+          <div class="flex justify-between items-start">
+            <div>
+              <div class="font-semibold text-lg leading-tight">${g['Game Title']}</div>
+              <div class="text-xs text-zinc-400 mt-0.5">${g['Game Pack']}</div>
+            </div>
+            <div class="text-right text-xs">
+              <div class="font-mono">${g['Min. Players']}–${g['Max. Players']}p</div>
+              <div class="text-zinc-500">${g.Length}</div>
+            </div>
+          </div>
+          
+          <div class="mt-auto pt-4 flex items-center justify-between text-xs">
+            <div class="flex items-center gap-x-2">
+              ${fam}
+              ${aud}
+            </div>
+            <div class="text-right">
+              <span class="px-2.5 py-px bg-zinc-800 rounded-2xl text-[10px]">${g['Game Type']}</span>
+              ${g['Secondary Type'] ? `<span class="ml-1 text-[10px] text-zinc-500">${g['Secondary Type']}</span>` : ''}
+            </div>
+          </div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function quickPlayers(n) {
+      document.getElementById('players').value = n;
+      applyFilters();
+    }
+
+    function pickRandom(count = 1) {
+      const filtered = filterGames(GAMES, getCurrentFilters());
+      if (filtered.length === 0) {
+        alert('No games match the current filters!');
+        return;
+      }
+      const picks = [];
+      const copy = [...filtered];
+      for (let i = 0; i < Math.min(count, copy.length); i++) {
+        const idx = Math.floor(Math.random() * copy.length);
+        picks.push(copy.splice(idx, 1)[0]);
+      }
+      
+      const container = document.getElementById('results');
+      container.innerHTML = `<div class="col-span-full mb-3 text-emerald-400 font-medium flex items-center gap-x-2"><i class="fa-solid fa-dice"></i> Random pick${picks.length > 1 ? 's' : ''}:</div>`;
+      
+      picks.forEach(g => {
+        const el = document.createElement('div');
+        el.className = `col-span-1 game-card bg-emerald-950/30 border border-emerald-800 rounded-3xl p-5`;
+        el.innerHTML = `
+          <div class="font-semibold">${g['Game Title']}</div>
+          <div class="text-xs text-emerald-300/80">${g['Game Pack']} • ${g['Min. Players']}-${g['Max. Players']} players • ${g.Length}</div>
+          <div class="mt-3 text-sm">${g['Game Type']}${g['Secondary Type'] ? ' / ' + g['Secondary Type'] : ''}</div>
+        `;
+        container.appendChild(el);
+      });
+    }
+
+    function generatePlan(num = 5) {
+      const players = parseInt(document.getElementById('players').value) || null;
+      const maxL = parseInt(document.getElementById('maxLength').value) || 25;
+      const family = document.getElementById('familyOnly').checked;
+
+      let pool = filterGames(GAMES, { players, maxLength: maxL, familyOnly: family });
+
+      // Group by primary type for variety
+      const byType = {};
+      pool.forEach(g => {
+        const t = g['Game Type'] || 'Other';
+        (byType[t] = byType[t] || []).push(g);
+      });
+
+      const plan = [];
+      const used = new Set();
+      const types = Object.keys(byType);
+      
+      // Pick one from different types first
+      types.sort(() => Math.random() - 0.5);
+      for (let t of types) {
+        if (plan.length >= num) break;
+        const avail = byType[t].filter(x => !used.has(x['Game Title']));
+        if (avail.length) {
+          const pick = avail[Math.floor(Math.random()*avail.length)];
+          plan.push(pick);
+          used.add(pick['Game Title']);
+        }
+      }
+      
+      // Fill rest randomly
+      while (plan.length < num && pool.length > plan.length) {
+        const rem = pool.filter(x => !used.has(x['Game Title']));
+        if (!rem.length) break;
+        const pick = rem[Math.floor(Math.random()*rem.length)];
+        plan.push(pick);
+        used.add(pick['Game Title']);
+      }
+
+      const container = document.getElementById('results');
+      container.innerHTML = `<div class="col-span-full mb-3"><span class="font-semibold text-amber-300">Recommended ${plan.length}-game session plan</span> (good variety)</div>`;
+      
+      plan.forEach((g, i) => {
+        const div = document.createElement('div');
+        div.className = `game-card bg-amber-950/20 border border-amber-900/60 rounded-3xl p-4`;
+        div.innerHTML = `
+          <div class="flex justify-between">
+            <div class="font-medium">${i+1}. ${g['Game Title']}</div>
+            <div class="text-xs text-amber-300/70">${g['Min. Players']}-${g['Max. Players']}p</div>
+          </div>
+          <div class="text-xs mt-1 text-amber-200/70">${g['Game Pack']} • ${g.Length}</div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function getCurrentFilters() {
+      return {
+        players: parseInt(document.getElementById('players').value) || null,
+        maxLength: parseInt(document.getElementById('maxLength').value) || null,
+        gameType: document.getElementById('gameType').value || null,
+        pack: document.getElementById('pack').value || null,
+        familyOnly: document.getElementById('familyOnly').checked,
+        audienceOnly: document.getElementById('audienceOnly').checked,
+      };
+    }
+
+    function resetFilters() {
+      document.getElementById('players').value = 5;
+      document.getElementById('maxLength').value = 25;
+      document.getElementById('gameType').value = '';
+      document.getElementById('pack').value = '';
+      document.getElementById('familyOnly').checked = false;
+      document.getElementById('audienceOnly').checked = false;
+      applyFilters();
+    }
+
+    function showHelp() {
+      alert(`Jackbox Party Picker Web UI
+
+• Use the filters at the top to narrow down games
+• "Pick Random Game" gives you one (or more) surprise
+• "Suggest 5-Game Plan" builds a balanced evening
+• Works great on phones too
+
+For more power (interactive CLI, better planning), use:
+  python cli/jackbox_picker.py -i
+
+Data is kept in sync via data/games.json (regenerated from info.txt).`);
+    }
+
+    // Boot
+    function init() {
+      document.getElementById('game-count').textContent = `${GAMES.length} games`;
+      populatePackFilter();
+      
+      // Initial filters (reasonable defaults for a typical friend group)
+      document.getElementById('players').value = 5;
+      document.getElementById('maxLength').value = 25;
+      
+      // Bind live updates
+      ['players','maxLength','gameType','pack','familyOnly','audienceOnly'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('input', applyFilters);
+        if (el && el.tagName === 'SELECT') el.addEventListener('change', applyFilters);
+      });
+
+      applyFilters();
+      
+      // Keyboard shortcut
+      document.addEventListener('keydown', (e) => {
+        if (e.key.toLowerCase() === '/' && document.activeElement.tagName === 'BODY') {
+          e.preventDefault();
+          document.getElementById('players').focus();
+          document.getElementById('players').select();
+        }
+      });
+      
+      // Welcome toast
+      setTimeout(() => {
+        console.log('%c[Jackbox Picker] Web app ready. Open via file:// or a local server for best experience.', 'color:#3f3f46');
+      }, 1200);
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
+

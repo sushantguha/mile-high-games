@@ -1,0 +1,59 @@
+============================================================
+QUIPLASH 3
+============================================================
+
+Pack:          Jackbox Party Pack 7
+Players:       3 - 8
+Length:        15 minutes
+Game Type:     Fill-In-The-Blank
+Family Safe:   Yes
+Audience Mode: Yes
+
+IMAGE: images/quiplash-3.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+Write funny answers to prompts and vote on the best.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Each round gives an open-ended prompt (e.g., 'A terrible name for a coffee shop').
+Everyone writes a funny response. Responses are paired head-to-head on the host screen.
+All players and audience vote on the funnier answer. Winner gets points.
+Includes Quiplash Kidding (kid-friendly) and Thriplash (three answers) modes.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+Displays prompts, head-to-head matchups, and vote results.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Write witty answers and vote between two choices.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Two writing rounds plus a final round.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Votes earn points; audience votes count too.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Specific beats generic. Puns and surprise twists win votes.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: quiplash-3
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

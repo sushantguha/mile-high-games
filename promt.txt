@@ -1,0 +1,21 @@
+C:\Users\Sushant\.grok\bin\grok.exe
+Create a folder called gameplay fine details and create a file for each game with the gameplay details. Look at example_game_detail.txt for an example of how to structure the game details - it must be incredibly detailed including information from each turn from both the host and each players' perspectives. 
+The details must cover EVERY SINGLE aspect of the user experience and must be as detailed as possible to provide the best user experience.
+
+Fetch data from:
+https://jackboxgames.fandom.com/wiki/Jackbox_Games_Wiki
+https://jackbox.wiki/wiki/The_Jackbox_Party_Pack_(series)
+
+These pages are the homepages of the wiki, and they have sublinks for each of the games. You need to fetch the data from each of the sublinks and store it in the respective game files. For games with a 'series', i.e there are multiple versions, remember you are trying to implement the LATEST version, so make notes as appropriate. 
+
+NEXT STEP:
+Then, look at the current codebase and implement the gameplay details for each game in the respective game files - each game must be EXACTLY as described in the gameplay files. 
+
+Use chrome-devtools to test the game from both the host and client perspectives. If there is anything broken, fix it, and retest. Keep retesting each individual game until the entire game is working as expected, then move onto the next game. 
+Additionally, each game should be tested with 7 players (Where that is permitted by the game rules) to make sure it scales. 
+
+Additional features to add:
+- When the user reloads the page, they should be able to continue from where they left off, if they were in a game.
+- Right now, if I click on the copy link, it says "copy join link (name only)" - remove the "(name only)" part.
+
+Only when all games and all pages are working as expected can you end the session. Keep iteratively designing and fixing bugs until then.

@@ -1,0 +1,45 @@
+Here's the full turn-by-turn of Fibbage 4 (the version in The Jackbox Party Pack 9), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki. Exact per-second timer values aren't published on the wikis.
+
+Setup and lobby
+The host launches Fibbage 4 on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 2–8, plus audience (up to 10,000; audience votes now provide points). Session length is roughly 20 minutes. Cookie Masterson (voiced by Tom Gottlieb) hosts. Fibbage 4 features a postmodern visual style, thematic episodes, updated moderation tools, new audience features, and localization in English, French, Italian, German, and Spanish. A separate mode, Fibbage 4: Enough About You, is also available.
+
+Rounds 1 and 2 — standard Fibbage
+Each round has several questions. One player is randomly selected to pick the category.
+
+Category pick
+Main screen: Cookie introduces the round.
+Phone (selected player): Choose one of five categories. Special categories can appear randomly instead of the picker:
+- Cookie's VHS Vault: a clip from an old movie; the correct answer appears in the clip.
+- Fibbage Fan Fact: a recorded video question from a fan; the fan announces the real answer.
+- Very Interesting Person / Very Interesting DEAD Person: questions about famous (living or dead) people.
+- Hyperbolic Headlines: a crazy real newspaper headline with a blank to fill.
+
+Lie writing
+Main screen: An unusual fact with a missing word/phrase is shown.
+Phone: Type a fake answer (lie) to fool others. You can tap "Lie for me!" to get two generated lies to choose from (half points if your lie fools anyone). If you type something too similar to the truth, the game rejects it. If you don't submit, a game-provided lie is used (players no longer lose points for picking game lies, per Fibbage 3+ rules).
+
+Guess and like
+Main screen: The truth and all lies appear randomly on screen.
+Phone: Pick which answer you think is the truth. After choosing, thumbs-up any lies you liked (likes give 5–15 points depending on the round, and the most-liked player earns the Thumbs Cup at game end). Audience members vote on a lie to fill the blank, then try to guess the truth; the audience collectively dishes out 500 points per round based on vote percentages.
+
+Reveal and scoring
+Main screen: Answers revealed one by one showing who wrote each.
+Phone: Score updates.
+- Round 1: 1,000 points for finding the truth; 500 per player fooled by your lie (250 with Lie for me!).
+- Round 2: doubled (2,000 truth / 1,000 per fool).
+
+Round 3 — Final Fibbage (changed in Fibbage 4)
+Main screen: Cookie introduces the final round with triple point values.
+Phone: You receive 2 questions, each with a different answer blank. Write one lie that could work as the answer to both questions. Then players take turns choosing which answer goes with which question—first answering question 1, then question 2.
+- 3,000 points for finding the truth; 1,500 per player fooled (triple normal values).
+- If your single lie is chosen as the answer to both questions, you earn an additional 1,000 bonus points.
+
+End of game
+Main screen: Final scoreboard. Thumbs Cup awarded to most-liked player. Winner declared.
+Phone: Final score, Thumbs Cup status, placement.
+A full game runs roughly 20 minutes.
+
+Fibbage 4: Enough About You (alternate mode)
+Acts as one round. Players immediately answer 2 questions truthfully (1 question in 3–4 player games). Each question is then posed to others who write lies and guess the truth. Scoring: 1,000 for truth, 500 per fool, plus 1,000 Reputation Bonus to the question's author for each person who finds the truth. Score shown after each player's question.
+
+To be straight about the limits: three-round structure, point values (1000/500 → 2000/1000 → 3000/1500), Lie for me half-points, special categories, audience 500-point pool, likes scoring (5–15), Thumbs Cup, the changed Final Fibbage (one lie for two questions, +1000 dual-match bonus), and Enough About You mode are all documented. What isn't published is the exact lie-writing timer per question.

@@ -1,0 +1,332 @@
+================================================================================
+MILE HIGH GAMES — MASTER CONTENT SOURCING GUIDE
+================================================================================
+Read this file first. It tells you where to find better gameplay content on the
+internet and which local folders to put it in.
+
+Quick index:
+  1. How content flows in this project
+  2. Trivia questions
+  3. Drawing prompts
+  4. Write-vote & creative prompts
+  5. Images & icons
+  6. Audio (disabled games — future)
+  7. Legal reminders
+  8. Detailed sub-guides (same info, per-folder)
+
+Last updated: June 2026
+
+
+================================================================================
+1. HOW CONTENT FLOWS IN THIS PROJECT
+================================================================================
+
+  content/trivia/multiple-choice.json  ─┐
+  content/trivia/true-or-lie.json      ─┤
+  content/drawing/prompts.json         ─┼─► server/src/games/loadContent.ts ─► games
+  content/write-vote/prompts.json      ─┤
+  content/images/  (icons, future)     ─┘
+
+  Placeholder icons today:  games-info/images/*.svg
+  Target icons folder:      content/images/{game-id}.svg
+
+  To apply changes: edit JSON → restart server (npm run dev)
+
+  Disabled until audio files exist:
+    Earwax, Hear Say, Dodo Re Mi  (see section 6)
+
+
+================================================================================
+2. TRIVIA QUESTIONS
+================================================================================
+Local files:  content/trivia/multiple-choice.json
+              content/trivia/true-or-lie.json
+
+Used by: Lie Swatter, Guesspionage, YDKJ Full Stream, TMP2, Time Jinx,
+         Legends of Trivia, Wheel of Enormous Proportions, etc.
+
+JSON format (multiple-choice):
+  { "questions": [
+      { "question": "...", "answer": "...", "distractors": ["...", "...", "..."] }
+  ]}
+
+JSON format (true-or-lie):
+  { "statements": [
+      { "text": "...", "isTrue": true }
+  ]}
+
+
+BEST SOURCES (start here)
+-------------------------
+
+  ★ Open Trivia Database
+    https://opentdb.com/
+    Free API. Thousands of questions by category and difficulty.
+    API example: https://opentdb.com/api.php?amount=50&type=multiple
+    License: mostly Creative Commons BY-SA — check per question.
+    Action: write a script to fetch 500+, map to our JSON schema, dedupe.
+
+  ★ The Trivia API
+    https://the-trivia-api.com/
+    Free tier, no API key for basic use. Returns question + correct + wrong answers.
+    Good for: geography, history, science, sport packs.
+
+  ★ Open Trivia DB offline mirror
+    https://github.com/ubikry/opentdb-full
+    Full dump for offline/road-trip use (no internet once bundled).
+
+  Wikidata
+    https://www.wikidata.org/
+    Structured facts (capitals, dates, inventors). CC0 / CC BY-SA.
+    Good for themed packs and Time Jinx-style ordering.
+
+  JService / Jeopardy archives
+    Community JSON mirrors of Jeopardy Q&A exist online.
+    Great vibe for YDKJ / TMP2. Verify licensing before any public release.
+
+
+TRUE-OR-LIE SOURCES (Lie Swatter)
+---------------------------------
+
+  Wikipedia — List of common misconceptions
+    https://en.wikipedia.org/wiki/List_of_common_misconceptions
+
+  Snopes.com
+    https://www.snopes.com/
+    Urban legends and viral myths. Hand-pick facts; don't scrape.
+
+
+TARGET VOLUME
+  200+ multiple-choice per category minimum for a long road trip.
+  Tag entries: category, difficulty, familyFriendly when you expand.
+
+
+Detailed guide: content/trivia/WHERE_TO_SOURCE.txt
+
+
+================================================================================
+3. DRAWING PROMPTS
+================================================================================
+Local file:  content/drawing/prompts.json
+
+  drawGuess[]     — Drawful, Champ'd Up, Dirty Drawful, Cookie Haus, etc.
+  shirtDesigns[]  — Tee K.O. 2
+
+Good prompt rules:
+  - Absurd but drawable in ~30 seconds on a phone
+  - Concrete subject, funny juxtaposition
+  - No copyrighted characters (Mickey, Batman, etc.)
+
+
+BEST SOURCES
+------------
+
+  ★ AI bulk generation (fastest)
+    Prompt: "Generate 100 absurd drawing prompts for a party game like Drawful.
+             Each drawable in 30 seconds. One sentence each. JSON array."
+    Don't worry abnout family friendliness.
+
+  Reddit r/JackboxParties
+    Fan prompt threads and shared Google Docs / Pastebins.
+    Rewrite in your own words — never copy Jackbox exact prompts.
+
+  The Game Gal (word-generator inspiration)
+    https://www.thegamegal.com/word-generator/
+    Pictionary-style seeds → turn nouns into absurd scenes.
+
+  Random word combiners
+    https://randomwordgenerator.com/
+    Script pattern: "A [adjective] [animal] [verb] at the [place]"
+
+  Tee K.O. slogans
+    AI: "50 funny fake t-shirt slogans, max 6 words each"
+    Inspiration: Etsy funny shirt lists, knowyourmeme.com (original wording only)
+
+
+OPTIONAL HOST-SCREEN ART (not player drawings)
+  Undraw:        https://undraw.co/
+  Openclipart:   https://openclipart.org/
+
+
+TARGET VOLUME
+  300+ drawGuess prompts, 100+ shirt designs.
+
+
+Detailed guide: content/drawing/WHERE_TO_SOURCE.txt
+
+
+================================================================================
+4. WRITE-VOTE & CREATIVE PROMPTS
+================================================================================
+Local file:  content/write-vote/prompts.json
+
+Sections inside the file:
+  quiplash[]       — Quiplash, Joke Boat, Mad Verse City, Doominate, etc.
+  fibbage[]        — { prompt, truth } for Fibbage 4
+  finishSentence[] — Let Me Finish
+  pitch[]          — Junktopia, Roomerang
+  textTransform[]  — Survive the Internet, Fixy Text
+  debate[]         — Talking Points, Split the Room
+  rank[] / sort[]  — Poll Mine, Quixort
+  bracket[]        — Bracketeering
+  roleLabel[]      — Role Models
+  teamwork[]       — Bomb Corp, Devils and the Details
+  hiddenTask[]     — Fakin' It, Push the Button, Hypnotorious
+  wordChain[]      — Word Spud, Blather 'Round
+
+
+BEST SOURCES BY TYPE
+--------------------
+
+  QUIplash-style (quiplash[])
+    ★ AI: "100 Jackbox Quiplash-style family-friendly prompts, JSON array"
+    Reddit r/AskReddit — top weekly threads, rewrite as prompts
+    https://www.reddit.com/r/AskReddit/
+
+  Fibbage-style (fibbage[] with prompt + truth)
+    ★ The Fact Site:     https://www.thefactsite.com/random-facts/
+    ★ Reddit TIL:        https://www.reddit.com/r/todayilearned/
+    Wikipedia misconceptions (see trivia section)
+    Reverse Open Trivia DB answers into fill-in-the-blank lies
+
+  Finish sentence / mad libs
+    Search "mad libs word lists" — educational templates
+    Pattern: sentence ending with _____
+
+  Debate topics
+    Harmless food takes, silly hypotheticals
+    r/changemyview for structure inspiration (keep road-trip safe)
+
+  Rank / sort
+    Tier-list style lists with 4 comparable items
+    Wikipedia ordered lists (buildings by height, events by date)
+
+  Pitch games
+    AI: "50 ridiculous one-sentence startup pitches"
+    Shark Tank / Kickstarter parody (original wording)
+
+  Hidden task / teamwork
+    Write 30–50 variants yourself or via AI
+    Must work on a phone without physical props
+
+
+TARGET VOLUME
+  500+ quiplash prompts, 200+ fibbage entries.
+
+
+Detailed guide: content/write-vote/WHERE_TO_SOURCE.txt
+
+
+================================================================================
+5. IMAGES & ICONS
+================================================================================
+Canonical folder:  content/images/
+Placeholders today: games-info/images/{game-id}.svg  (auto-generated letters)
+
+Naming:  content/images/{game-id}.svg  — match ids in data/games_filtered.json
+
+
+BEST SOURCES
+------------
+
+  ★ Game-icons.net
+    https://game-icons.net/
+    Free SVG game icons. CC BY 3.0 — credit required in app.
+    Search: dice, pencil, brain, microphone, mask, bomb.
+
+  Undraw
+    https://undraw.co/illustrations
+    Flat illustrations for game picker tiles.
+
+  Openclipart
+    https://openclipart.org/
+    Public domain. Quality varies.
+
+  Phosphor / Tabler / Lucide (category badges)
+    https://phosphoricons.com/
+    https://tabler.io/icons
+    https://lucide.dev/
+    MIT licensed UI icons.
+
+  Blush.design
+    https://blush.design/
+    Customizable illustration collections for host screen flair.
+
+  Flaticon (free tier, attribution)
+    https://www.flaticon.com/
+
+
+TO WIRE INTO THE APP LATER
+  1. Save icons to client/public/images/games/{game-id}.svg
+  2. Show in GameSelect.tsx: <img src={`/images/games/${g.id}.svg`} />
+
+Do NOT use official Jackbox logos or artwork.
+
+
+Detailed guide: content/images/WHERE_TO_SOURCE.txt
+
+
+================================================================================
+6. AUDIO — DISABLED GAMES (FUTURE)
+================================================================================
+Games waiting on real sound files:
+  Earwax, Hear Say, Dodo Re Mi
+
+Suggested future folder:  content/audio/
+
+BEST SOURCES WHEN READY
+-----------------------
+
+  ★ Freesound.org
+    https://freesound.org/
+    Cartoon boings, crowd reactions, dings. Filter CC0 for simplest license.
+
+  Pixabay Sound Effects
+    https://pixabay.com/sound-effects/
+    Royalty-free, no attribution required.
+
+  OpenGameArt.org
+    https://opengameart.org/
+    Game SFX packs — check license per pack.
+
+  BBC Sound Effects
+    https://sound-effects.bbcrewind.co.uk/
+    Large archive; read remit for commercial vs personal use.
+
+
+================================================================================
+7. LEGAL REMINDERS
+================================================================================
+
+  ✗ Do NOT copy Jackbox game prompts from videos, wikis, or gameplay dumps.
+  ✗ Do NOT use official Jackbox logos, characters, or UI artwork.
+  ✓ Write original prompts inspired by public sources.
+  ✓ Use CC0 / MIT / properly attributed CC BY content for icons and audio.
+  ✓ Private friends road-trip use is lower risk; public deployment needs clean licenses.
+
+
+================================================================================
+8. DETAILED SUB-GUIDES (per-folder deep dives)
+================================================================================
+
+  content/trivia/WHERE_TO_SOURCE.txt
+  content/drawing/WHERE_TO_SOURCE.txt
+  content/write-vote/WHERE_TO_SOURCE.txt
+  content/images/WHERE_TO_SOURCE.txt
+
+  Folder overview & JSON schemas:  content/README.txt
+
+
+================================================================================
+QUICK START CHECKLIST
+================================================================================
+
+  [ ] Fetch 500 trivia Qs from Open Trivia DB → multiple-choice.json
+  [ ] Add 50 true/false facts from Wikipedia misconceptions → true-or-lie.json
+  [ ] AI-generate 200 Quiplash prompts → write-vote/prompts.json quiplash[]
+  [ ] AI-generate 100 Fibbage facts → write-vote/prompts.json fibbage[]
+  [ ] AI-generate 200 drawing prompts → drawing/prompts.json drawGuess[]
+  [ ] Download 46 icons from game-icons.net → content/images/
+  [ ] (Later) Bundle CC0 sound effects → content/audio/ → re-enable audio games
+
+================================================================================

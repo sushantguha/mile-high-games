@@ -1,0 +1,35 @@
+Here's the full turn-by-turn of Fixy Text (latest version in The Jackbox Party Pack 10), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki (Fandom page; jackbox.wiki had no dedicated page at fetch time).
+
+Setup and lobby
+The host launches Fixy Text on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Host Surena Marie (voiced by Surena Marie) introduces the chat-typing rampage. Session length is roughly 15 minutes.
+
+Conversation type selection
+**Main screen:** The host presents four conversation flavors.
+**Player phones / group:** The room picks one of four conversation types, which sets the chat partners and request prompts for the session:
+- Flirty
+- Serious Business
+- Friends & Fam
+- Unknown Number
+
+Round loop — groups take turns
+Groups of players rotate through writing and voting on replies to chat messages shown on their phones. The player whose words create the biggest laughs and earn the most votes wins overall.
+
+Writing phase
+**Main screen:** Timer runs; host narration and chat context display. Submission progress may show how many players are typing.
+**Player phones:** When the timer starts, everyone in your group jumps into the **same shared text field** and types simultaneously. You read the incoming chat on-device and contribute a reply. Core rule: **you cannot backspace or delete** — every keystroke stays forever, so typos and overtyping are permanent and part of the comedy. Players interfere with each other's text in real time, changing each other's words to stand out.
+
+Extra mechanics during writing
+- **Collab bonuses** for multiple players working on the same word.
+- **Wacky suggestions** pop up to push texts in stranger directions.
+- **Doubling down on votes** — players can amplify their voting weight (per Fandom feature list).
+- **No-timer mode** is available as a setting for sessions without countdown pressure.
+- **Customizable characters** — avatar faces change each time you play.
+
+Voting phase
+**Main screen:** Submitted group texts are shown; vote tallies reveal the funniest or most popular reply.
+**Player phones:** Vote for the reply you liked best. You cannot vote for your own contribution where standard Jackbox self-vote rules apply. Points go to whoever earns the most votes for making their words "create the biggest waves."
+
+Between rounds and end of game
+Groups rotate through additional chat scenarios. Scoreboard updates after voting. The player with the most votes/points across the session wins. A full game runs roughly 15 minutes.
+
+To be straight about the limits: shared text field, no-delete rule, conversation types, collab bonuses, wacky suggestions, vote doubling, and no-timer mode are documented on Fandom. Exact group sizes per rotation, per-round timer seconds, and precise collab bonus point values are not published — treat those as implementation details to observe in play.

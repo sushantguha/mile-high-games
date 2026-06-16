@@ -1,0 +1,66 @@
+============================================================
+CIVIC DOODLE
+============================================================
+
+Pack:          Jackbox Party Pack 4
+Players:       3 - 8
+Length:        20 minutes
+Game Type:     Drawing
+Family Safe:   Yes
+Audience Mode: Yes
+
+IMAGE: images/civic-doodle.svg
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+A drawing party game from Jackbox Party Pack 4.
+
+────────────────────────────────────────────────────────────
+HOW TO PLAY
+────────────────────────────────────────────────────────────
+Civic Doodle is a Jackbox-style drawing game for 3-8 players.
+Typical session length: 20 minutes.
+
+GAME FLOW:
+1. Join the room on your phone with the room code shown on the host screen.
+2. The host phone displays prompts, drawings, votes, and scores for everyone to see.
+3. Follow on-screen instructions each round — write, draw, vote, or choose on your device.
+4. Earn points by being funny, convincing, correct, or creative depending on the round.
+5. Player with the most points at the end wins.
+
+This recreation captures the core drawing mechanics for road-trip play on mobile devices.
+
+────────────────────────────────────────────────────────────
+HOST SCREEN (TV PHONE)
+────────────────────────────────────────────────────────────
+The host phone is the 'TV' — it shows room code, game state, prompts, submissions, and winners.
+
+────────────────────────────────────────────────────────────
+PLAYER PHONES
+────────────────────────────────────────────────────────────
+Each player uses their own phone to input answers, drawings, and votes privately.
+
+────────────────────────────────────────────────────────────
+ROUNDS & STRUCTURE
+────────────────────────────────────────────────────────────
+Varies; typical Jackbox session runs about 20 minutes.
+
+────────────────────────────────────────────────────────────
+SCORING
+────────────────────────────────────────────────────────────
+Points awarded per round based on votes, correctness, or survival depending on game type.
+
+────────────────────────────────────────────────────────────
+TIPS FOR ROAD TRIP PLAY
+────────────────────────────────────────────────────────────
+Keep the host phone visible to everyone. Make sure all players are on the same WiFi/hotspot.
+
+────────────────────────────────────────────────────────────
+TECHNICAL NOTES (THIS APP)
+────────────────────────────────────────────────────────────
+- Game ID: civic-doodle
+- Implemented in the Mile High Games React app
+- Join via room code; one phone hosts the shared screen
+- Works on mobile browsers (iOS Safari, Android Chrome)
+- Requires all devices on the same local network / hotspot

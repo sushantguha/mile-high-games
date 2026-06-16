@@ -1,0 +1,47 @@
+Here's the full turn-by-turn of Bomb Corp. (the version in The Jackbox Party Pack 2 — meta: 1–4 players, ~15 minutes, Teamwork, no audience, family-friendly), tracking the main screen and each player's phone separately. There is no jackbox.wiki gameplay page for this title — detail is from jackboxgames.fandom.com only, including the February 24, 2023 quality-of-life patch.
+
+Setup and lobby
+The host launches Bomb Corp. on the shared/main screen. A four-letter room code appears; one to four players join on phones. No audience mode. Choose mode on the main screen:
+- The Job — story mode; 15 workdays, mixed tasks, narrative hosts (Greg early, Robot boss later).
+- The Grind — skip story; defuse bomb after bomb for high score. Linda hosts/voices The Grind (Fandom host list). Achievement "Grinders Keepers": defuse 10 bombs in The Grind.
+
+Core task loop (both modes)
+Main screen: Office scene — bomb on desk, filing cabinet, copier, coffee maker, or keypad lock. Host dialogue advances the day (The Job) or bomb counter/score (The Grind).
+Phone: Each player receives a different instruction sheet for the current task. Instructions usually contradict each other; the group must decide which rules are real and which are decoys (Fandom). Four task families: defuse bombs, sort files, fix copier, make coffee. Security keypads also appear — wrong code detonates (Fandom Day 5+). Bomb defusal steps are randomized every time — memory of prior solutions does not carry over (Fandom).
+Failure: Wrong action explodes everything — death/fail state. Post-2023 patch: on death, main screen offers Retry to replay the exact same puzzle sequence from where you died; success continues the run (Fandom Patch).
+
+The Job — day-by-day structure (15 days, Fandom)
+Day 1 — Monday: Greg (Matt Young) trains interns. Tutorial: smash one desk item per contradictory instructions — always ends up being the photo of Trevor (the predecessor who died). Then defuse a bomb, another bomb, break, then Linda (Sarah Maher) assigns three bombs in a row. Greg congratulates first day.
+Day 2 — Tuesday: Bomb, then filing intro (cabinet explodes on mistake), break, three bombs, then Meegan's harder bomb.
+Day 3 — Wednesday: Greg hates Wednesdays. Bombs including a "written by children" adjective puzzle (relocated post-patch — was too hard stacked with filing). Break: Gavin covers while Greg is away (reason varies); three bombs. End: last-minute filing. Patch: slightly longer timers and easier puzzles on days 1–5; adjective puzzle moved off this day.
+Day 4 — Thursday: Bomb marathon — six bombs backlog; Trevor's name removed from "Most Bombs Defused" plaque.
+Day 5 — Friday: Casual Friday Greg (jeans/Hawaiian shirt). Locked out → keypad tutorial (wrong code explodes). Two bombs, break, three bombs, then two bombs behind keypad.
+Day 6 — Monday Again: Filing, Kent the bomb-sniffing dog arrives, bombs, Kent talks (Steve Heinrich), break, three bombs, another keypad-locked bomb.
+Day 7 — Meegan's Birthday: Whispered birthday bomb, more bombs, coffee-making task introduced (wrong recipe explodes machine), break, five simultaneous bombs, Meegan birthday chatter.
+Day 8 — Humpday: Wednesday again — bomb, coffee for Greg, break, four bombs, filing while Greg cries under desk (demotion email mid-day).
+Day 9 — Half-Day: Thursday half-day (Trevor remembrance). Two bombs, two bombs, break, filing, then Linda overrides half-day with more bombs.
+Day 10 — Greg's Last Day: Friday — two bombs, copier-fixing introduced (explodes on mistake), break, more bombs. Greg demoted to edible arrangements.
+Day 11 — Monday Again: Robot boss (Arnie Niekamp) replaces Greg. Bombs, keypad instead of coffee break, filing.
+Day 12 — Sick Day: Everyone sick except players and Kent. Bombs, keypad bombs, temps hired (Ben Jacobs, Shama Jacover, Mike Zuba), coffee for temps, break, triple-keypad bomb.
+Day 13 — Snurbsday: Meegan reveals she is an alien; copier repair; robot assigns bombs blaming "Snurbsday"; Meegan announces pregnancy (due in two days).
+Day 14 — Retirement Day: Old Man's retirement — bombs, copier, coffee; Old Man dies of heart attack; four bombs; robot learns his name was Trevor.
+Day 15 — Birth Day: Alien variants of all tasks for Meegan's labor — baby-name filing, tentacle "massage" (bomb rules), medication (coffee rules), Greg returns to keypad-disable the robot, copier-book guides delivery. Baby named Trevor. Greg is boss again; Old Man resurrects; credits with baby photos.
+
+The Grind
+Main screen: Linda presents endless bomb defusal with score tracking.
+Phone: Same contradictory multi-player instruction sheets per bomb.
+Goal: highest score; 10+ defuses earns achievement (Fandom).
+
+Scoring / stars
+The Grind uses a high-score model (Fandom). The Job tracks survival through 15 days; patch notes mention lowered thresholds for star ratings across all days (Fandom Patch) — exact star breakpoints are not published in the wiki extract.
+
+Post-2023 patch changes (Fandom)
+- Retry after death on same puzzle sequence
+- Easier filing — fewer names per difficulty tier
+- Adjective ("Written By Kids") puzzle moved off Day 3
+- Days 1–5: increased timers, reduced difficulty
+- Days 6–10: very slight difficulty decrease
+- Lower star thresholds globally
+
+Limits
+No jackbox.wiki page exists for Bomb Corp. — phone UI specifics (exact button labels per bomb wire puzzle) are not in Fandom prose. Per-puzzle timer seconds are not published; patch only says days 1–5 timers "slightly increased." The Grind scoring formula beyond "highest score" is undocumented. Contradictory instruction resolution is the entire puzzle — individual rule texts are procedural/random and not catalogued on the wiki.

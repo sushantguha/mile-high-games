@@ -1,0 +1,79 @@
+TRIVIA QUESTIONS — WHERE TO GET BETTER CONTENT
+==============================================
+
+Current files in this folder:
+  multiple-choice.json  — standard trivia (Guesspionage, YDKJ, TMP2, etc.)
+  true-or-lie.json      — Lie Swatter style fact-or-fiction statements
+
+Each multiple-choice entry should have: question, answer, distractors[] (3 wrong answers).
+Each true-or-lie entry should have: text, isTrue (boolean).
+
+
+RECOMMENDED FREE / OPEN SOURCES
+-----------------------------
+
+1. Open Trivia Database (best starting point)
+   URL: https://opentdb.com/
+   - Free API, thousands of questions by category & difficulty
+   - Export via API: https://opentdb.com/api.php?amount=50&type=multiple
+   - License: Creative Commons (check per-question; most are CC BY-SA)
+   - Tip: Use URL encoding, avoid "entertainment: board games" (too on-the-nose)
+   - Script idea: fetch 500 questions, map to our JSON schema, dedupe
+
+2. The Trivia API
+   URL: https://the-trivia-api.com/
+   - Free tier, REST API, no API key for basic use
+   - Returns question + correct answer + incorrect answers already formatted
+   - Good categories: geography, history, science, sport
+
+3. Open Trivia DB (GitHub mirror / offline)
+   URL: https://github.com/ubikry/opentdb-full
+   - Full offline dump you can convert to multiple-choice.json
+   - Better for road trips (no internet needed once bundled)
+
+4. Wikidata + Wikipedia (for custom packs)
+   URL: https://www.wikidata.org/
+   - Query structured facts (capitals, dates, inventors)
+   - License: CC0 / CC BY-SA — fine for a personal/friends project
+   - Best for: Legends of Trivia themed packs, Time Jinx date ordering
+
+5. JService! (Jeopardy archive)
+   URL: http://joaopedro.dev/jeopardy-all.json (community mirrors exist)
+   - Classic quiz-show style Q&A
+   - Great vibe for You Don't Know Jack / Trivia Murder Party
+   - Verify licensing before public release
+
+
+TRUE-OR-LIE / FIB FACTS (Lie Swatter)
+-------------------------------------
+
+6. Snopes.com
+   URL: https://www.snopes.com/
+   - Urban legends, viral myths — perfect Lie Swatter material
+   - Read their fact-checks, write your own statement + isTrue field
+   - Do NOT scrape aggressively; hand-pick or use for inspiration
+
+7. Wikipedia "List of common misconceptions"
+   URL: https://en.wikipedia.org/wiki/List_of_common_misconceptions
+   - Gold mine for true-or-lie.json
+   - Example: "Humans have five senses" → isTrue: false (we have more)
+
+
+QUALITY TIPS
+------------
+- Aim for 200+ questions per category minimum for a road trip
+- Tag questions: { "category": "science", "difficulty": "medium", "familyFriendly": true }
+- Pre-shuffle distractors so wrong answers are plausible (not random planets for every Q)
+- Avoid US-only questions unless your group is US-based
+- For TMP2 "survival" mode: mark hard questions with higher stakes in your game logic
+
+
+SUGGESTED FOLDER EXPANSION
+--------------------------
+  content/trivia/multiple-choice.json     (general)
+  content/trivia/history.json
+  content/trivia/science.json
+  content/trivia/pop-culture.json
+  content/trivia/true-or-lie.json
+
+Then update server/src/games/loadContent.ts to pick by game ID or category.

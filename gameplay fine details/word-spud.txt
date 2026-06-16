@@ -1,0 +1,40 @@
+Here's the full turn-by-turn of Word Spud (the version in The Jackbox Party Pack 1 — meta: 2–8 players, ~10 minutes, Writing, no audience, not family-friendly), tracking the main screen and each player's phone separately. Word Spud has no host and no in-game credits sequence. Sourced from jackboxgames.fandom.com and jackbox.wiki only.
+
+Setup and lobby
+The host launches Word Spud on the shared/main screen. A four-letter room code appears; players join at jackbox.tv on a phone or tablet with the code and a display name. As each person joins, their name appears in the lobby on the main screen. Two to eight players can join; there is no audience mode. There is no voiced host — the game is UI-driven. Once the room is ready, a round begins.
+
+Round structure and turn count
+A full game is one or more rounds; after each round the group can choose to play another, and the game tracks how many rounds each player has won. Within a single round, turns continue until the timer at the top of the main screen runs out (jackbox.wiki). How many turns each player gets per round depends on player count (Fandom):
+- 2 players: 11 turns each
+- 3 players: 7 turns each
+- 4 players: 6 turns each
+- 5 players: 5 turns each
+- 6 players: 4 turns each
+- 7 or 8 players: 3 turns each
+
+A single turn, step by step
+Main screen: One player is randomly selected as the active writer. That player is given a starting word or prefix — Fandom examples include simple words like "real" or "life"; jackbox.wiki describes these as prefixes such as "light-" or "super-" that must be turned into a full word or sentence (e.g. "lighthouse" or "super great"). The active word/prefix is shown on the main screen. Non-active players' names/icons are visible; as they type suggestions, those ideas pop up above their icons on the main screen (Fandom).
+Phone (active writer): The same prompt appears on the writer's device. They type a fitting or witty word or phrase to follow the prompt, then submit.
+Phone (everyone else): While the writer works, other players may type their own ideas on their phones. Those suggestions surface above their icons on the main screen — they are visible to the room but are not the official submission.
+The vote (after the writer submits)
+Main screen: The writer's entry is displayed for the group. Other players' suggestion bubbles may still be visible from the input phase.
+Phone (non-writer players): Each other player votes on the quality of the entry with two options — YES (check) or NO (X). Fandom describes these as a check or an X; jackbox.wiki labels them YES and NO.
+Scoring for this turn: Every YES/check is worth +1 point to the writer; every NO/X is worth −1 point (Fandom; jackbox.wiki agrees on add/subtract logic). The writer's net score for the entry is the sum of those votes.
+
+Chain rule — what happens next
+If a majority vote YES (jackbox.wiki: majority votes "YES"):
+- The writer keeps the points earned.
+- The addition becomes the next link in the chain: the last word of a phrase, or the completed word, is passed to the next randomly selected player as their new prompt (Fandom; jackbox.wiki).
+- The accepted input appears in the background on the main screen in the writer's color (Fandom).
+If the majority votes NO:
+- The writer still keeps whatever net points they earned (including negatives).
+- The chain breaks: the next randomly selected player receives a fresh random prefix/word instead of the rejected entry (jackbox.wiki; Fandom).
+
+Between turns and end of round
+The cycle repeats — new random writer, new or chained prompt, suggestions, vote — until the top-of-screen timer expires (jackbox.wiki). When the timer ends, the round scoreboard appears on the main screen. The player with the most points wins the round and earns a star (jackbox.wiki). Players may then vote to play another round or end the game; round-win counts are tracked across multiple rounds (Fandom).
+
+End of game
+After the final chosen round, standings reflect round wins and per-round scores. There is no voiced credits roll with music — Word Spud is the only Party Pack game that does not display credits at the end (Fandom; jackbox.wiki), though credits exist in the game files.
+
+Limits (honest gaps)
+The wikis document the timer's existence (top of main screen) but do not publish its exact duration in seconds, nor precise TV-to-phone sync timing. The early Party Pack 1 phone UI is minimal — mostly text entry and YES/NO buttons — so treat any dedicated countdown bar on phones as unconfirmed. Prefix-vs-single-word wording differs slightly between Fandom and jackbox.wiki but the mechanic is the same: one active writer, group vote, chain continues on majority YES.

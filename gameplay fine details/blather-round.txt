@@ -1,0 +1,37 @@
+Here's the full turn-by-turn of Blather 'Round (the version in The Jackbox Party Pack 7), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Blather 'Round on the shared/main screen. Two to six players join at jackbox.tv, plus audience. Symphony Sanders narrates. Abstract-shape avatars (mouse, bird, house, record player, etc.) represent players. Game length is roughly 15 minutes across two rounds; Round 2 doubles all point values.
+
+Latest version notes (Party Pack 7)
+You describe a secret pop-culture prompt using only a limited word bank — never the exact answer words. Categories are Thing, Person, Place, or Story. The "Easy" prompt option is deliberately weaker scoring. If nobody guesses your prompt before time expires, other players can award you a 50-point pity bonus.
+
+Round 1 and Round 2 share the same structure (Round 2 = 2× points)
+
+Prompt selection (everyone at once)
+Main screen: Waiting / hold-up screens while selections lock in.
+Phone: Three prompts — top one labeled Easy (fewer points if chosen), two harder below. Reroll once for three new options if you do not like the set. If you fail to pick before time expires, the game auto-picks for you.
+
+Sentence building — first hint
+Main screen: Word-bank phase progress.
+Phone: Build a sentence from provided adjectives and nouns using templates like "It's a story about a BLANKY BLANK." This becomes your opening hint before guessing begins.
+
+Guessing phase — each presenter in turn
+Main screen: Presenter's category and first sentence appear. Two-minute guessing timer runs. Presenter keeps feeding new limited-word sentences; correct guesses flash; wrong guesses can be woven into later hints ("It has the same vibe as BLANK" / "It is nothing like BLANK").
+Phone (presenter): Keep assembling hint sentences from the word bank; incorporate incoming guesses if useful.
+Phone (guessers): Type guesses. Faster correct guesses earn more points for both guesser and presenter.
+
+Scoring per solved prompt (Round 1 base values; double in Round 2)
+Guesser who gets it right: 500 points (250 if the prompt was Easy).
+Presenter: 750 points plus a time bonus capped at double the base presenter score.
+Players whose word-bank words get used in the presenter's sentences: 100 points each, increasing individually based on how many of their guesses were incorporated.
+Nobody guesses in time: prompt revealed on main screen; guessers can grant presenter +50 pity each if they think it was guessable.
+
+Between presenters
+Main screen: Leaderboard updates.
+
+End of game
+Main screen: Final scoreboard after all players have presented in both rounds.
+Phone: Your total. Highest points wins.
+
+To be straight about the limits: two-round structure, Easy-vs-hard prompt split, word-bank sentence building, two-minute cap per presentation, 500/750 base scoring, time-bonus doubling cap, 100-word-contribution bonus, and 50-point pity are documented. The exact time-bonus decay curve (how many points per second remaining) is not published on either wiki.

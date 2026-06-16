@@ -1,0 +1,45 @@
+Here's the full turn-by-turn of Cookie Haus (stylized COOKIE Haus; latest version in The Jackbox Party Pack 11), tracking the main screen and each player's phone separately. Sourced exclusively from jackboxgames.fandom.com and jackbox.wiki.
+
+Setup and lobby
+The host launches Cookie Haus on the shared/main screen. A four-letter room code appears; players join on phones with the code and a display name. Player count: 3–8 (+ Audience). Moonique (voiced by Olivia Nielsen) runs the bakery. Everyone decorates a round cookie on-device to set their profile picture. Session length is roughly 20 minutes.
+
+Four rounds — structure overview
+| Round | Task |
+|-------|------|
+| 1 | Customer prompt → pick shape → decorate → name cookie → vote |
+| 2 | New customer prompt → same decorate/name/vote flow |
+| 3 | Fill-in-the-blank prompt → name must complete the blank → vote |
+| 4 | Returning Round 1 customer asks you to modify your top-scoring cookie from Round 1 |
+
+Rounds 1 and 2 — standard bake
+**Prompt phase**
+- **Main screen:** A customer walks in (kangaroo, claw-themed fashionista, etc.) and requests cookies matching a topic (e.g. "things found in your dreams").
+- **Player phones:** Select a cookie shape. Top two shapes are labelled **"challenge cookies."** Decorate with icing (color, brush size), sprinkles, and cookie base color. Name the finished cookie.
+
+**Voting phase**
+- **Main screen:** Cookies pair off head-to-head (three-way matchups possible in 5- or 7-player games). Vote tallies and bonus awards display.
+- **Player phones:** Vote for your favorite in each matchup. Optionally give a **like/kudos** to the other cookie.
+
+Bonuses after each matchup (ascending value)
+- **Good Sport Bonus — 10 pts** per kudos you give another player (+50 Kudos Bonus to them)
+- **Speedbaker Bonus — 25 pts** if submitted in ≤90 seconds; **Super-Speedbaker — 50 pts** (double) if ≤60 seconds
+- **Like Bonus — 25 pts** per like received
+- **Challenge Shape Bonus — 50 pts** for picking a challenge cookie shape
+- **Baker's Duo Bonus — 50 pts** if your cookie appears in a three-way matchup (5- or 7-player only)
+- **Weekly Special Bonus — 100 pts** for using the seasonal weekly sprinkle (e.g. Tasteful Stretch Denim Week)
+- **Most Votes Bonus — 100 pts** for winning the matchup
+- **Audience Bonus — 100 pts** for most audience votes
+- **U-NOM-imous Bonus — 250 pts** if every voting player picks your cookie
+
+Round 3 — fill-in-the-blank
+Same decorate flow, but the customer prompt has a blank your cookie **name** must fill in. Voting and bonuses work the same.
+
+Round 4 — modify your best work
+A returning customer from Round 1 asks players to skew prior cookies a certain way ("more dangerous," "more normal," etc.).
+- **Player phones:** See your **three top-scoring cookies from Round 1** and re-ice one to fit the new prompt. The original cookie appears beside your updated design (post-update feature).
+- Voting and bonuses proceed as before.
+
+End of game
+Final scores tally; top 3 winners revealed. Moonique quips on unanimous votes (e.g. "Total cookie knockout!"). Customer reactions scale with points earned.
+
+To be straight about the limits: four-round arc, challenge shapes, bonus table, Speedbaker thresholds (90s/60s), Round 4 remix, and weekly sprinkles are documented. Exact drawing timer duration and like-vs-vote distinction timing are not published to the second.
