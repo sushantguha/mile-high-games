@@ -69,11 +69,21 @@ Game prompts and trivia live in `content/`. They ship with the repo and load whe
 
 Railway will not automatically build the React client. Open your service → **Settings** and set:
 
-**Build command:**
+**Build command** (must include dev deps — `tsc` and `vite` live there):
 
 ```bash
-npm install --prefix client && npm install --prefix server && npm run build --prefix client
+npm run railway:build
 ```
+
+Or explicitly:
+
+```bash
+npm install --include=dev && npm install --include=dev --prefix client && npm install --include=dev --prefix server && npm run build --prefix client
+```
+
+> **Do not** rely on bare `npm run build` alone on Railway. Production installs skip `devDependencies`, which causes `tsc: not found`.
+>
+> This repo includes `nixpacks.toml` so Railway installs correctly automatically. If you override the build command in the dashboard, use `npm run railway:build`.
 
 **Start command:**
 
@@ -193,7 +203,7 @@ You still need to set the **same build and start commands** in the Railway dashb
 
 ### “Client not built” or blank page
 
-Build step failed or was skipped. Confirm the **build command** includes `npm run build --prefix client` and check deploy logs for errors.
+Build step failed or was skipped. Common error: `tsc: not found` — Railway omitted devDependencies. Use **`npm run railway:build`** or ensure installs use `--include=dev`. Check deploy logs for other errors.
 
 ### Cannot connect / socket errors
 
@@ -230,7 +240,7 @@ On your machine only — stop other dev servers or run `npm run restart` once. R
 
 ```bash
 # Build + start locally (same as Railway production shape)
-npm install --prefix client && npm install --prefix server && npm run build --prefix client
+npm run railway:build
 npm run start --prefix server
 
 # Dev (two ports — not for friends joining)
